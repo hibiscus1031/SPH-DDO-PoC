@@ -10,7 +10,7 @@ Because the frozen numerical inputs under `data/` are intentionally external to 
 
 ## Tables
 
-The main table content is recorded in `publication/p3_main_tables.md`. Row-level evidence and claim boundaries are mapped in `publication/p3_table_claim_map.csv`; the earlier source-plan mapping is `publication/table_to_claim_map.csv`. `08_scripts/publication_p1_assemble.py` generates the plan-level mapping, while the final Markdown table assembly is not represented by one verified end-to-end command. Current status: **MANUAL_OR_PARTIALLY_REPRODUCIBLE**.
+The main table content is recorded in `publication/p3_main_tables.md`. Row-level evidence and claim boundaries are mapped in `publication/p3_table_claim_map.csv`; the earlier source-plan mapping is `publication/table_to_claim_map.csv`. `publication/TABLE_REPRODUCIBILITY.md` records the scientific role, frozen sources and hashes, generation gap, manual processing, and status for each formal table. All three tables have traceable frozen inputs but no verified end-to-end presentation builder. Current status: **PARTIALLY_REPRODUCIBLE**.
 
 ## Inputs, outputs, and prohibited actions
 

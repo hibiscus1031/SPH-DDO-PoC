@@ -80,8 +80,14 @@ Do not use `--public`, force push, or overwrite an existing remote repository.
 
 # 11 Remaining actions
 
-1. Configure and verify `user.name` and `user.email`; the baseline used Git's host-derived identity `谢槿博 <xiejinbo@Jinbo-Mac.local>`.
-2. Establish a reviewed dependency definition/lockfile without inferring the historical execution environment.
-3. Document external data retrieval and integrity verification for the ignored `data/` tree.
-4. Close the table-generation reproducibility gap.
-5. Create a private GitHub remote only after authentication and pre-push re-audit.
+1. Repeat the pre-push audit and create a private remote only if every gate remains satisfied.
+
+# 12 Remote and reproducibility closure update
+
+`requirements.txt` now records the minimal exact versions used by the current baseline. The environment is **PARTIAL**: `CURRENT_REPRODUCIBLE_ENVIRONMENT` is specified and 52/52 bounded tests pass, while `HISTORICAL_ENVIRONMENT_UNKNOWN` remains explicit.
+
+`publication/TABLE_REPRODUCIBILITY.md` closes the table audit at **PARTIALLY_REPRODUCIBLE** for all three formal tables. Each table has frozen sources, full SHA256 references, manual-processing disclosure, and row-to-claim provenance, but no verified presentation-only end-to-end builder. No builder or scientific result was fabricated.
+
+External-data handling and the read-only checker are documented in `DATA_RETRIEVAL_AND_INTEGRITY.md`. The final checksum ledger passed quick verification for 42/42 entries and the inherited checksum ledger passed full SHA256 verification for 5/5 entries. The intended index has zero secret signatures, zero files over 100 MiB, zero numerical binaries, zero literature PDFs, zero cache paths, and no executable/configuration host-path dependency.
+
+The publishing identity is resolved from authenticated GitHub account `hibiscus1031` and its primary verified email. The pre-closure local HEAD is `56e2a45d81972d1472c0526a15e36213ec072307`; no history was amended. Remote creation, push, and audited-state tag are pending the final commit and pre-push gate. Current status: **REPRODUCIBILITY_CLOSURE_PARTIAL** and **PRIVATE_REMOTE_CLOSURE_IN_PROGRESS**.
