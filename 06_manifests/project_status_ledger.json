@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "project": "SPH-DDO-PoC",
+  "stage": "DDO-00",
+  "as_of_date": "2026-08-10",
+  "terminal_status": "DDO_SPATIAL_DEFECT_AND_IDENTIFIABILITY_CONTRACT_FROZEN",
+  "reference_in_model_input": false,
+  "high_resolution_sph_is_truth": false,
+  "historical_repository_read_only": true,
+  "historical_head_observed": "ff86f5e0b99966ad6fa5896fe3d9a0c3f001cd57",
+  "historical_worktree_observation": "contained pre-existing untracked project directories; no historical artifact was modified",
+  "historical_stage01_full_v2_restored": false,
+  "historical_terminal_boundary": "V2_QUALIFICATION_FAIL",
+  "hypotheses": {
+    "H1_SIGNAL": "NOT_EVALUATED_DDO00",
+    "H2_SCALING": "NOT_EVALUATED_DDO00",
+    "H3_IDENTIFIABILITY": "NOT_EVALUATED_DDO00",
+    "H4_LOCALITY": "NOT_EVALUATED_DDO00",
+    "H5_STRUCTURE": "NOT_EVALUATED_DDO00",
+    "H6_GENERALIZATION": "NOT_EVALUATED_DDO00"
+  },
+  "representation_hypotheses": {
+    "R0": "PROSPECTIVE_NOT_EVALUATED",
+    "R1": "PROSPECTIVE_NOT_EVALUATED",
+    "R2": "PROSPECTIVE_NOT_EVALUATED",
+    "R3": "PROSPECTIVE_NOT_EVALUATED",
+    "R4": "PROSPECTIVE_NOT_EVALUATED"
+  },
+  "ddo00_actions": {
+    "neural_training": false,
+    "optimizer_created": false,
+    "diagnostic_model_fit": false,
+    "dynamic_rollout": false,
+    "time_integration": false,
+    "large_parameter_sweep": false,
+    "sealed_test_reuse": false,
+    "lcdf_03_decoded": false,
+    "lcdf_10_decoded": false,
+    "stage09_created": false
+  },
+  "authorized_next_stage": "DDO-01_ANALYTICAL_SPATIAL_DEFECT_ATLAS",
+  "architecture_selection_authorized": false,
+  "neural_training_authorized": false
+}

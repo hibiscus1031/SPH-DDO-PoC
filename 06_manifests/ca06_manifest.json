@@ -1,0 +1,47 @@
+{
+  "bound_files": [
+    {
+      "path": "06_manifests/ddo02a_manifest.json",
+      "sha256": "fa56de94e709149d81b895423c22d8550496017ed7b9be3f7ce2a1171aec193e"
+    },
+    {
+      "path": "data/ddo02a/deployment_observability_ledger.csv",
+      "sha256": "d2b80a2ae350e62afbcac7e1a6e037915ccd78240461548c3dd931fac5dd298b"
+    },
+    {
+      "path": "data/ddo02a/candidate_descriptor_dictionary.csv",
+      "sha256": "f062b6b3a9f0563e1cf5f05682e348902d20d8126545b1c935d383d905a1c913"
+    },
+    {
+      "path": "00_project_contract/amendments/ca06_expanded_observable_contract.md",
+      "sha256": "3591222d22bcc1c6a47f151961bcd7cd15710f96ad50e8cd5692de278d97b0e9"
+    },
+    {
+      "path": "00_project_contract/amendments/ca06_change_record.md",
+      "sha256": "2c0bb6820627ab880d046295af81af333543cac780fef393c98c15eb7e7c8a2c"
+    },
+    {
+      "path": "06_manifests/ca06_descriptor_dictionary.json",
+      "sha256": "591a9826b7560b5a8865b3b4b7d540efd7791deeba80cff9751e357b3908c262"
+    },
+    {
+      "path": "07_reports/ca06_final_report.md",
+      "sha256": "545036b2b94a5b332486ab079ac099a2963633d30a007cb645ef76a6f6905450"
+    }
+  ],
+  "ddo02a_manifest_sha256": "fa56de94e709149d81b895423c22d8550496017ed7b9be3f7ce2a1171aec193e",
+  "descriptor_count": 30,
+  "frozen_before_ddo02b_target_evaluation": true,
+  "h3_h4_thresholds": "UNCHANGED_CA05",
+  "h5_authorized": false,
+  "neural_architecture_selected": false,
+  "prohibited_design_only_fields": [
+    "obs__jitter_fraction",
+    "obs__kh_max",
+    "obs__kh_rms",
+    "obs__mode_count"
+  ],
+  "schema_version": "1.0",
+  "stage": "CA-06",
+  "terminal_status": "DDO_CA06_EXPANDED_OBSERVABLE_CONTRACT_FROZEN"
+}

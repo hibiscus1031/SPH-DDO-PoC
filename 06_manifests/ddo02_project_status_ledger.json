@@ -1,0 +1,12 @@
+{
+  "canonical_role_labels": [
+    "DEVELOPMENT_ATLAS",
+    "CONSUMED_OBSERVABLE_DESIGN_EVIDENCE"
+  ],
+  "case_count": 512,
+  "future_formal_h3_eligibility": false,
+  "permanent_terminal_status": "DDO01E_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+  "schema_version": "1.0",
+  "source_registry_sha256": "b4365cd02cd56d917282a490712247a3a287ce405261c4e80c474cc09739d1df",
+  "stage": "DDO-02A"
+}

@@ -1,0 +1,64 @@
+{
+  "bound_files": [
+    {
+      "path": "data/ddo02a/deployment_observability_ledger.csv",
+      "sha256": "d2b80a2ae350e62afbcac7e1a6e037915ccd78240461548c3dd931fac5dd298b"
+    },
+    {
+      "path": "data/ddo02a/candidate_descriptor_dictionary.csv",
+      "sha256": "f062b6b3a9f0563e1cf5f05682e348902d20d8126545b1c935d383d905a1c913"
+    },
+    {
+      "path": "data/ddo02a/attribution_metrics.json",
+      "sha256": "f2dca85e6c0e1db38aed3f32eca90a12375bc60af21a8dd544acc07b2d4c1a10"
+    },
+    {
+      "path": "data/ddo02a/attribution_descriptor_cache.npz",
+      "sha256": "3d2d200007528901f52d27565ca07b751a4710c3065f5eb4f7be1e154828c87d"
+    },
+    {
+      "path": "06_manifests/ddo02_project_status_ledger.json",
+      "sha256": "edef80dbd02b82f4a93aea04a11bfa3dbb0fc25cb1c2714e2a4a3075b22fe64d"
+    },
+    {
+      "path": "07_reports/ddo02a_failure_attribution_report.md",
+      "sha256": "16251fe5a4a6da48c83df90d2db78a93031abf89d6e1ef84dc129a72bab07754"
+    },
+    {
+      "path": "07_reports/ddo02a_deployment_observability_report.md",
+      "sha256": "4dbde960efe82add4c918a93562ab2e51a6c717fb9e6d3fcd3524ae80f3a65b2"
+    },
+    {
+      "path": "07_reports/ddo02a_directional_attribution_report.md",
+      "sha256": "91bad3273754dc100dc4416165e24402154e446d25d9b29cb99c47f7104869dc"
+    },
+    {
+      "path": "07_reports/ddo02a_moment_attribution_report.md",
+      "sha256": "fafa6b4d75c4d4812bd96f2d4542d669bf89d23657b7eb9355add74c1b9a042c"
+    },
+    {
+      "path": "07_reports/ddo02a_derivative_proxy_report.md",
+      "sha256": "abc99b5853d4e9ee10621da9e6750bc096d042173b31a0c3fb356c953e6a2679"
+    },
+    {
+      "path": "07_reports/ddo02a_tail_attribution_report.md",
+      "sha256": "0c2174cf51638b42a13e916966244bc635b9b29f3179eb81254209e760cea6aa"
+    },
+    {
+      "path": "07_reports/ddo02a_next_stage_decision.md",
+      "sha256": "a1401aacbe5987c8bd008154be56a027a9cdde357be54516278e6271ec3f6a6c"
+    }
+  ],
+  "controls": {
+    "formal_h3_evaluated": false,
+    "h5_authorized": false,
+    "neural_training": false
+  },
+  "permanent_prior_status": "DDO01E_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+  "prior_verdict_sha256_after": "478e51ea8a9b407a0181c9bb7789590a76e7dc8b6aa3301beb5084e8dbd1dd0e",
+  "prior_verdict_sha256_before": "478e51ea8a9b407a0181c9bb7789590a76e7dc8b6aa3301beb5084e8dbd1dd0e",
+  "prior_verdict_unchanged": true,
+  "schema_version": "1.0",
+  "stage": "DDO-02A",
+  "terminal_status": "DDO02A_FAILURE_ATTRIBUTION_FROZEN"
+}

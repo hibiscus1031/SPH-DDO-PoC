@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="382.677165pt" viewBox="0 0 518.740157 382.677165" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-11T15:18:21.876326</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 382.677165 
+L 518.740157 382.677165 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 19.976309 173.338482 
+L 468.641019 173.338482 
+L 468.641019 15.078213 
+L 19.976309 15.078213 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 32.538921 118.263908 
+L 115.093228 118.263908 
+Q 124.066522 118.263908 124.066522 115.098703 
+L 124.066522 63.822376 
+Q 124.066522 60.657171 115.093228 60.657171 
+L 32.538921 60.657171 
+Q 23.565627 60.657171 23.565627 63.822376 
+L 23.565627 115.098703 
+Q 23.565627 118.263908 32.538921 118.263908 
+z
+" clip-path="url(#p08b264c75f)" style="fill: #f5e2d3; stroke: #d9782d; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 144.705099 118.263908 
+L 227.259405 118.263908 
+Q 236.232699 118.263908 236.232699 115.098703 
+L 236.232699 63.822376 
+Q 236.232699 60.657171 227.259405 60.657171 
+L 144.705099 60.657171 
+Q 135.731805 60.657171 135.731805 63.822376 
+L 135.731805 115.098703 
+Q 135.731805 118.263908 144.705099 118.263908 
+z
+" clip-path="url(#p08b264c75f)" style="fill: #e9e2f0; stroke: #745c97; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 261.357923 118.263908 
+L 343.91223 118.263908 
+Q 352.885524 118.263908 352.885524 115.098703 
+L 352.885524 63.822376 
+Q 352.885524 60.657171 343.91223 60.657171 
+L 261.357923 60.657171 
+Q 252.384629 60.657171 252.384629 63.822376 
+L 252.384629 115.098703 
+Q 252.384629 118.263908 261.357923 118.263908 
+z
+" clip-path="url(#p08b264c75f)" style="fill: #dceaf3; stroke: #356e9c; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 373.524101 118.263908 
+L 456.078407 118.263908 
+Q 465.051701 118.263908 465.051701 115.098703 
+L 465.051701 63.822376 
+Q 465.051701 60.657171 456.078407 60.657171 
+L 373.524101 60.657171 
+Q 364.550806 60.657171 364.550806 63.822376 
+L 364.550806 115.098703 
+Q 364.550806 118.263908 373.524101 118.263908 
+z
+" clip-path="url(#p08b264c75f)" style="fill: #d9eee9; stroke: #2a8c82; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 120.684339 89.460539 
+Q 129.899937 89.460539 137.885698 89.460539 
+" clip-path="url(#p08b264c75f)" style="fill: none; stroke: #6f7478; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 134.285698 87.660539 
+L 137.885698 89.460539 
+L 134.285698 91.260539 
+z
+" clip-path="url(#p08b264c75f)" style="fill: #6f7478; stroke: #6f7478; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 232.849969 89.460539 
+Q 244.310048 89.460539 254.540289 89.460539 
+" clip-path="url(#p08b264c75f)" style="fill: none; stroke: #6f7478; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 250.940289 87.660539 
+L 254.540289 89.460539 
+L 250.940289 91.260539 
+z
+" clip-path="url(#p08b264c75f)" style="fill: #6f7478; stroke: #6f7478; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 349.503341 89.460539 
+Q 358.718939 89.460539 366.704699 89.460539 
+" clip-path="url(#p08b264c75f)" style="fill: none; stroke: #6f7478; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 363.104699 87.660539 
+L 366.704699 89.460539 
+L 363.104699 91.260539 
+z
+" clip-path="url(#p08b264c75f)" style="fill: #6f7478; stroke: #6f7478; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #252a2d" x="4.273045" y="8.751655" transform="rotate(-0 4.273045 8.751655)">a</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(39.741856 87.633518)">512 development cases</text>
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(36.024668 94.388077)">consumed after diagnosis</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(153.27815 84.340114)">supported hypotheses</text>
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(156.783744 91.081805)">moments • direction</text>
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(164.630822 97.743434)">reconstruction</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(260.091389 84.365967)">prospective descriptor freeze</text>
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(282.465045 91.050233)">30 deployable</text>
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(286.024967 97.791924)">descriptors</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(392.080184 87.670928)">384 fresh cases</text>
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(385.478363 94.332557)">zero lineage overlap</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #b54a45" x="302.635077" y="141.686428" transform="rotate(-0 302.635077 141.686428)">Four design-only fields excluded</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #2a8c82" x="414.801254" y="141.686428" transform="rotate(-0 414.801254 141.686428)">96 cases per scientific family</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="19.976309" y="9.078213" transform="rotate(-0 19.976309 9.078213)">Prospective redesign with separated evidence roles</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_10">
+    <path d="M 19.976309 366.838597 
+L 229.82015 366.838597 
+L 229.82015 191.919353 
+L 19.976309 191.919353 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 38.442567 263.986082 
+L 110.628848 263.986082 
+Q 114.825725 263.986082 114.825725 260.487697 
+L 114.825725 221.305786 
+Q 114.825725 217.807401 110.628848 217.807401 
+L 38.442567 217.807401 
+Q 34.245691 217.807401 34.245691 221.305786 
+L 34.245691 260.487697 
+Q 34.245691 263.986082 38.442567 263.986082 
+z
+" clip-path="url(#p639e18ef3a)" style="fill: #d9eee9; stroke: #2a8c82; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 139.167611 263.986082 
+L 211.353892 263.986082 
+Q 215.550768 263.986082 215.550768 260.487697 
+L 215.550768 221.305786 
+Q 215.550768 217.807401 211.353892 217.807401 
+L 139.167611 217.807401 
+Q 134.970734 217.807401 134.970734 221.305786 
+L 134.970734 260.487697 
+Q 134.970734 263.986082 139.167611 263.986082 
+z
+" clip-path="url(#p639e18ef3a)" style="fill: #dceaf3; stroke: #356e9c; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 114.308698 240.896742 
+Q 124.898512 240.896742 134.258489 240.896742 
+" clip-path="url(#p639e18ef3a)" style="fill: none; stroke: #6f7478; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 130.658489 239.096742 
+L 134.258489 240.896742 
+L 130.658489 242.696742 
+z
+" clip-path="url(#p639e18ef3a)" style="fill: #6f7478; stroke: #6f7478; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 78.312897 337.452164 
+L 171.483562 337.452164 
+Q 175.680439 337.452164 175.680439 333.953779 
+L 175.680439 296.521061 
+Q 175.680439 293.022676 171.483562 293.022676 
+L 78.312897 293.022676 
+Q 74.11602 293.022676 74.11602 296.521061 
+L 74.11602 333.953779 
+Q 74.11602 337.452164 78.312897 337.452164 
+z
+" clip-path="url(#p639e18ef3a)" style="fill: #e9e2f0; stroke: #745c97; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 124.89823 265.636327 
+Q 124.89823 278.503927 124.89823 290.14169 
+" clip-path="url(#p639e18ef3a)" style="fill: none; stroke: #745c97; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 126.69823 286.54169 
+L 124.89823 290.14169 
+L 123.09823 286.54169 
+z
+" clip-path="url(#p639e18ef3a)" style="fill: #745c97; stroke: #745c97; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4"/>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #252a2d" x="3.188802" y="185.093026" transform="rotate(-0 3.188802 185.093026)">b</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #252a2d" x="74.535708" y="242.970492" transform="rotate(-0 74.535708 242.970492)">384 fresh cases</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(151.024501 238.614085)">128 particles</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(159.027626 247.350648)">per case</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #252a2d" x="124.89823" y="317.625233" transform="rotate(-0 124.89823 317.625233)">49,152 formal samples</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #6f7478" x="124.89823" y="358.092635" transform="rotate(-0 124.89823 358.092635)">Neighbour, variance, oracle, family, and coverage diagnostics</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="19.976309" y="185.919353" transform="rotate(-0 19.976309 185.919353)">Fresh formal H3 population</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_16">
+    <path d="M 258.797179 366.838597 
+L 468.641019 366.838597 
+L 468.641019 191.919353 
+L 258.797179 191.919353 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 258.797179 300.619169 
+L 431.386833 300.619169 
+L 431.386833 258.138781 
+L 258.797179 258.138781 
+z
+" clip-path="url(#pe5e4651a52)" style="fill: #d9782d; stroke: #252a2d; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 431.386833 300.619169 
+L 468.641019 300.619169 
+L 468.641019 258.138781 
+L 431.386833 258.138781 
+z
+" clip-path="url(#pe5e4651a52)" style="fill: #dceaf3; stroke: #356e9c; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mbd7c0de4b4" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mbd7c0de4b4" x="258.797179" y="366.838597" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 6.3px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="258.797179" y="378.348019" transform="rotate(-0 258.797179 378.348019)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mbd7c0de4b4" x="468.641019" y="366.838597" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 6.3px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle" x="468.641019" y="378.4248" transform="rotate(-0 468.641019 378.4248)">627,264 full particle environments</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6"/>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start; fill: #252a2d" x="242.009672" y="185.093026" transform="rotate(-0 242.009672 185.093026)">c</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #ffffff" transform="translate(332.058881 277.496522)">fallback</text>
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #ffffff" transform="translate(332.441693 284.890491)">515,904</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.3px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(433.030012 277.675908)">non-fallback</text>
+    <text style="font-size: 6.3px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; fill: #252a2d" transform="translate(439.09327 284.339339)">111,360</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #d9782d" x="363.719099" y="335.353133" transform="rotate(-0 363.719099 335.353133)">515,904 / 627,264 = 82.246710%</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: middle; fill: #6f7478" x="363.719099" y="356.343443" transform="rotate(-0 363.719099 356.343443)">Frequent degeneracy of the tested frame; not equivariant-GNN failure</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'Arial', 'DejaVu Sans', 'Liberation Sans', sans-serif; text-anchor: start" x="258.797179" y="185.919353" transform="rotate(-0 258.797179 185.919353)">Full-particle directional-frame audit</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p08b264c75f">
+   <rect x="19.976309" y="15.078213" width="448.66471" height="158.260268"/>
+  </clipPath>
+  <clipPath id="p639e18ef3a">
+   <rect x="19.976309" y="191.919353" width="209.84384" height="174.919244"/>
+  </clipPath>
+  <clipPath id="pe5e4651a52">
+   <rect x="258.797179" y="191.919353" width="209.84384" height="174.919244"/>
+  </clipPath>
+ </defs>
+</svg>

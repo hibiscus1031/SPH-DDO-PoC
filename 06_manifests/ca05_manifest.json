@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "project": "SPH-DDO-PoC",
+  "stage": "CA-05",
+  "generated_date": "2026-08-11",
+  "terminal_status": "DDO_CA05_H3_H4_IDENTIFIABILITY_LOCALITY_SEMANTICS_FROZEN",
+  "prospective_only": true,
+  "ddo01e_target_observed_before_freeze": false,
+  "hash_algorithm": "SHA-256",
+  "manifest_self_hash": null,
+  "manifest_self_hash_policy": "The manifest excludes its own recursively unstable hash.",
+  "upstream_bindings": [
+    {"path": "04_identifiability_contract/identifiability_metrics.md", "sha256": "eae94ab070824918fed537e330e666645e99d4c35b69bccbd26dd87679e75ccc", "role": "frozen_H3_metric_contract"},
+    {"path": "04_identifiability_contract/locality_ladder.md", "sha256": "9519fc861f30826da944bdc1567166f60fdb729b3da68029d7962dd38f1aaa61", "role": "frozen_H4_ladder_contract"},
+    {"path": "04_identifiability_contract/prospective_gates.md", "sha256": "cb83636e0595d89b9f87bbb79b55b1042634ab528e499db82784271057e3ca17", "role": "unchanged_scientific_thresholds"},
+    {"path": "06_manifests/ddo00_manifest.json", "sha256": "f298c23395047058212914339a0db6c5e5985f180d2c4011c1eeab9ba2b4663f", "role": "DDO00_contract_binding"},
+    {"path": "06_manifests/ca01_manifest.json", "sha256": "3e0c0ae43034feed692bd4a371c7698c33c036f27c8bab0747a89ebcd472fb08", "role": "numerical_uncertainty_semantics"},
+    {"path": "06_manifests/ca02_manifest.json", "sha256": "2cab9c8b435d138eee2d964b81914596effb87044c8cc272c07983d0e8626a8a", "role": "equal_case_RMS_and_H1_semantics"},
+    {"path": "06_manifests/ca03_manifest.json", "sha256": "321b37f81ddd81c2407f81dd17825e64e605a603f5f70ec324d0a1663a9acd3c", "role": "historical_componentwise_H2_scope"},
+    {"path": "06_manifests/ca04_manifest.json", "sha256": "a070527afdf604babf3401f665e9b53faed6f4ce77087583d879afd05e580a0f", "role": "atlas_descriptor_and_role_schema"},
+    {"path": "06_manifests/ddo01d_manifest.json", "sha256": "aa348eea6d59dd72d4d80116e7a44b212d9f6b571e79bbff514ceab59f0515f8", "role": "qualified_development_atlas"},
+    {"path": "data/atlas/ddo01d_observable_atlas.json", "sha256": "99fdf8115e1c2d6280756bcc46edbefc7d52b5f245cc32e308d9100cc4290e53", "role": "observable_schema_and_archive_index"},
+    {"path": "data/atlas/ddo01d_reference_target_atlas.json", "sha256": "c7e7608b269d6f1c3661e3fffb8c5ced430f2a8dc8b3432666fc745d0de483bc", "role": "reference_schema_and_archive_index"},
+    {"path": "07_reports/ddo01d_firewall_audit.md", "sha256": "549b7a7cd9b29c5708dbb5130c23947825ae13f239a81857870e7fd25defde6a", "role": "field_level_firewall_provenance"},
+    {"path": "07_reports/ddo01d_component_role_report.md", "sha256": "e41a20721070c72080874ce2077b91e15a220789b7ea736dfde883f5dbc107e0", "role": "component_role_provenance"}
+  ],
+  "files": [
+    {"path": "00_project_contract/amendments/ca05_h3_h4_identifiability_locality_semantics.md", "sha256": "a940562ed2a589bb4864c40d8674ce57940ee03c2a75206b2724dc747d639da3", "role": "prospective_operational_semantics"},
+    {"path": "00_project_contract/amendments/ca05_change_record.md", "sha256": "f4cfdd6a6550a38520a53bca783ad563005d9462779cc759695c8c1161d22385", "role": "change_and_outcome_blindness_record"},
+    {"path": "08_scripts/h3_identifiability_semantics.py", "sha256": "857f30efce8559ddf3d562051209d0069ba73c24f06183a685b7304155001234", "role": "normative_H3_pure_semantics"},
+    {"path": "08_scripts/h4_locality_semantics.py", "sha256": "a8fc3b01af805fd7884e6af3fcbd9237fdcbb1f6efe1c814cd2248c6d5976d6a", "role": "normative_H4_pure_semantics"},
+    {"path": "08_scripts/test_h3_h4_semantics.py", "sha256": "eedb1d26ae2d5a3c42bc66ab66095acbda24d374400c304a2201dd652b6694ca", "role": "synthetic_only_qualification_tests"},
+    {"path": "06_manifests/ca05_synthetic_expected_outputs.json", "sha256": "1574f5bdbd72bb88080bca8cdcce154a5de57e812931303a446146bb6be13745", "role": "frozen_synthetic_expected_outputs"},
+    {"path": "07_reports/ddo01e_semantic_precheck.md", "sha256": "90754a3fea9024bb55f0a6f5c156ef0d4bdd65d71f5b124651751c9539464f3c", "role": "eighteen_item_semantic_precheck"}
+  ],
+  "synthetic_tests": {
+    "command": "python3 -m unittest -v 08_scripts/test_h3_h4_semantics.py",
+    "tests_run": 18,
+    "tests_passed": 18,
+    "tests_failed": 0,
+    "tests_errored": 0,
+    "real_or_historical_target_values_used": false
+  },
+  "controls": {
+    "h3_h4_target_metrics_computed_before_freeze": false,
+    "target_pca_svd_performed": false,
+    "target_disagreement_computed": false,
+    "conditional_target_variance_computed": false,
+    "regression_performed": false,
+    "predictive_score_computed": false,
+    "neural_training": false,
+    "optimizer_created": false,
+    "time_integration": false,
+    "rollout": false
+  },
+  "authorization": {
+    "ddo01e_non_neural_diagnostics_authorized": true,
+    "target_subspace_only_after_formal_verdict_freeze": true,
+    "h5_h6_authorized": false,
+    "neural_training_authorized": false
+  }
+}

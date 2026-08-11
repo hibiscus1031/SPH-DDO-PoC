@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "stage": "CA-02",
+  "evidence_class": "SYNTHETIC_ONLY",
+  "historical_or_real_sph_target_values_used": false,
+  "expected_tests": [
+    {"id": 1, "name": "obvious_pass", "expected": "H1_SIGNAL_PASS; R_c=20; L95_c=20"},
+    {"id": 2, "name": "point_threshold_fail", "expected": "H1_SIGNAL_FAIL; R_c=9"},
+    {"id": 3, "name": "bootstrap_lower_bound_fail", "expected": "H1_SIGNAL_FAIL; R_c>=10; L95_c<=5"},
+    {"id": 4, "name": "analytically_unexcited_exclusion", "expected": "excluded pair does not affect statistics; CASE_NOT_APPLICABLE_UNEXCITED"},
+    {"id": 5, "name": "unequal_particle_count_equal_case_weighting", "expected": "component RMS=sqrt(5)"},
+    {"id": 6, "name": "vector_rms", "expected": "single [3,4] vector has RMS 5"},
+    {"id": 7, "name": "insufficient_eligible_cases", "expected": "H1_SIGNAL_UNRESOLVED for M_c=7"},
+    {"id": 8, "name": "invalid_mandatory_audit", "expected": "component and case unresolved"},
+    {"id": 9, "name": "fixed_bootstrap_denominator", "expected": "all 10000 ratios equal 10 using full-set U_c=100"},
+    {"id": 10, "name": "deterministic_repeat", "expected": "bitwise-identical bootstrap arrays and seed records"}
+  ]
+}

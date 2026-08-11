@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "project": "SPH-DDO-PoC",
+  "stage": "CA-03",
+  "historical_or_real_sph_values_used": false,
+  "tests": [
+    {"id": 1, "name": "clean_p2_refinement", "expected": "PASS"},
+    {"id": 2, "name": "clean_positive_spectral", "expected": "PASS"},
+    {"id": 3, "name": "exactly_75pct", "expected": "PASS; M_family=0.75"},
+    {"id": 4, "name": "below_75pct", "expected": "FAIL"},
+    {"id": 5, "name": "uncertainty_overlap_plateau", "expected": "PLATEAU_OR_UNCERTAINTY_OVERLAP; non-supporting"},
+    {"id": 6, "name": "opposite_sign", "expected": "OPPOSITE_SIGN; FAIL"},
+    {"id": 7, "name": "dispersion_exceeds_change", "expected": "FAIL; D_t>=C_t"},
+    {"id": 8, "name": "two_levels", "expected": "UNRESOLVED"},
+    {"id": 9, "name": "one_track", "expected": "UNRESOLVED"},
+    {"id": 10, "name": "nonpositive_lower_response", "expected": "UNRESOLVED"},
+    {"id": 11, "name": "equal_track_weighting", "expected": "M_family arithmetic mean of track fractions"},
+    {"id": 12, "name": "regular_pass_jitter_fail", "expected": "H2_SCALING_PASS_REGULAR_SCOPE_ONLY"},
+    {"id": 13, "name": "support_ratio_cannot_change_verdict", "expected": "identical component verdict"},
+    {"id": 14, "name": "deterministic_registry_hash_mapping", "expected": "distinct pool use and exact deterministic repeat"}
+  ]
+}

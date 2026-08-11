@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "project": "SPH-DDO-PoC",
+  "stage": "CA-02",
+  "generated_date": "2026-08-10",
+  "terminal_status": "DDO_CA02_H1_SIGNAL_SEMANTICS_FROZEN",
+  "prospective_only": true,
+  "real_ddo01br_target_observed_before_freeze": false,
+  "original_ddo01b_status": "DDO01B_H1_UNRESOLVED_CONTRACT_GAP",
+  "original_ddo01b_status_preserved": true,
+  "hash_algorithm": "SHA-256",
+  "manifest_self_hash": null,
+  "manifest_self_hash_policy": "The manifest excludes its own recursively unstable hash.",
+  "frozen_semantics": {
+    "point_threshold": 10.0,
+    "bootstrap_95pct_lower_threshold": 5.0,
+    "bootstrap_lower_comparison": "strictly_greater_than",
+    "minimum_eligible_cases": 8,
+    "bootstrap_replicates": 10000,
+    "bootstrap_unit": "complete_registered_case",
+    "bootstrap_strata": ["resolution", "layout_class"],
+    "component_target_aggregation": "equal_case_weighted_RMS_of_case_RMS",
+    "component_uncertainty": "maximum_CA01_U_num_over_all_original_eligible_cases",
+    "bootstrap_denominator": "fixed_full_original_eligible_set_U_c",
+    "rng": "numpy.random.PCG64",
+    "seed_hash_input": "DDO01B-H1-BOOTSTRAP|<canonical_component_name>",
+    "seed_mapping": "full SHA-256 digest interpreted as an unsigned big-endian integer",
+    "lower_quantile": "numpy.quantile(R_bootstrap,0.05,method=inverted_cdf)",
+    "unexcited_pairs_excluded": true,
+    "case_labels_diagnostic_only": true,
+    "ca01_U_num_modified": false,
+    "ddo00_thresholds_modified": false
+  },
+  "synthetic_qualification": {
+    "command": "python3 08_scripts/test_h1_signal_semantics.py",
+    "python": "3.13.9",
+    "numpy": "1.26.4",
+    "tests_run": 10,
+    "tests_passed": 10,
+    "tests_failed": 0,
+    "tests_errored": 0,
+    "historical_target_values_used": false,
+    "real_sph_target_values_used": false
+  },
+  "upstream_bindings": [
+    {
+      "path": "04_identifiability_contract/prospective_gates.md",
+      "sha256": "cb83636e0595d89b9f87bbb79b55b1042634ab528e499db82784271057e3ca17",
+      "role": "unchanged_DDO00_H1_thresholds"
+    },
+    {
+      "path": "00_project_contract/amendments/ca01_numerical_qualification_contract.md",
+      "sha256": "8029eee814efac3cf8dc82de7e60495ee33352890ca60a0944de50991b3c2a70",
+      "role": "unchanged_case_component_U_num"
+    },
+    {
+      "path": "06_manifests/ddo01b_manifest.json",
+      "sha256": "2617c95f85f8ef94b736c697aadc5a99efaf3208a77354d0c43b4d563bbf5c0a",
+      "role": "permanent_stopped_DDO01B_terminal_evidence"
+    },
+    {
+      "path": "07_reports/ddo01b_signal_report.md",
+      "sha256": "c74226245937e7b39a18e911e09ee2eb59195d321d7622de3d7cc10d0baa62e4",
+      "role": "permanent_stopped_DDO01B_report"
+    }
+  ],
+  "files": [
+    {
+      "path": "00_project_contract/amendments/ca02_h1_signal_semantics_contract.md",
+      "sha256": "284fe579ff8445a9a3efdbd1bcc36060f15071cfd131ec18719e698640f11756",
+      "role": "prospective_H1_semantics_contract"
+    },
+    {
+      "path": "00_project_contract/amendments/ca02_change_record.md",
+      "sha256": "56aa0e4727d40db8044e2c10044acf8d1bcf3feb05e7ca0b0950e33faabb739a",
+      "role": "prospective_change_record"
+    },
+    {
+      "path": "08_scripts/h1_signal_semantics.py",
+      "sha256": "5778ec4fe1f0a14c74a1ab0ee7f4cfeba5ade33730e51d61a2bc9c92aa9cc06b",
+      "role": "normative_pure_deterministic_implementation"
+    },
+    {
+      "path": "08_scripts/test_h1_signal_semantics.py",
+      "sha256": "0779c0d9850d1e840842b21a559e9c7423b131a7f6cf5fd745479659075dad70",
+      "role": "synthetic_only_unit_tests"
+    },
+    {
+      "path": "06_manifests/ca02_synthetic_expected_outputs.json",
+      "sha256": "bd3374a1b75aeb05ddfeb958d3b0c871b7a2c47d17b624e59dd1d9db0f53f301",
+      "role": "synthetic_expected_outputs"
+    },
+    {
+      "path": "07_reports/ca02_final_report.md",
+      "sha256": "f708ec047c05b59a3fb83f95627535f1697ac6104903f96ae2d04457a4f6f5a6",
+      "role": "CA02_final_report"
+    }
+  ],
+  "controls": {
+    "ddo01br_executed_during_ca02": false,
+    "h1_scientific_result_created": false,
+    "h2_h6_evaluated": false,
+    "atlas_created": false,
+    "model_fit": false,
+    "neural_training": false,
+    "optimizer_created": false,
+    "time_integration": false,
+    "rollout": false,
+    "high_resolution_sph_used_as_truth": false
+  },
+  "authorization": {
+    "ddo01br_fresh_signal_pilot_authorized": true,
+    "ddo01c_authorized": false,
+    "h2_h6_authorized": false
+  }
+}

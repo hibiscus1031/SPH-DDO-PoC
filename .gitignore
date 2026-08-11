@@ -1,0 +1,67 @@
+# macOS and editors
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Python bytecode, test, and analysis caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments and packaging
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+credentials/
+.aws/
+id_rsa
+id_ed25519
+*.pem
+
+# Logs, temporary work, and service runs
+*.log
+cache/
+tmp/
+temp/
+wandb/
+runs/
+.codex_tmp*/
+node_modules/
+
+# Frozen/generated numerical payloads remain external and are represented by
+# 06_manifests and provenance/datasets/dataset_manifest.csv.
+data/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.parquet
+
+# Literature is reference material, not repository source.
+publication/literature/
+
+# Export archives are retained on disk but not in ordinary Git.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z

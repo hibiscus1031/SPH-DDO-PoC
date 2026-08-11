@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "stage": "DDO-00",
+  "status": "PROSPECTIVE_NOT_EXECUTED",
+  "domain": {
+    "dimension": 2,
+    "type": "periodic_torus",
+    "bounds": [[0.0, 1.0], [0.0, 1.0]],
+    "compact_support_symbol": "h"
+  },
+  "continuum_model": {
+    "type": "barotropic_weakly_compressible_navier_stokes",
+    "rho0": 1.0,
+    "c0": 10.0,
+    "kinematic_viscosity_candidates": [0.0, 0.01],
+    "equation_of_state": "p=c0^2*(rho-rho0)",
+    "maximum_density_mode_sum": 0.02,
+    "maximum_mach": 0.1
+  },
+  "pilot": {
+    "resolutions_per_axis": [16, 32],
+    "support_over_dx": [4.0],
+    "mode_indices": [[1, 0], [1, 1]],
+    "density_amplitudes": [0.01],
+    "velocity_amplitudes": [0.1],
+    "jitter_fractions": [0.0, 0.05],
+    "seeds": [20260811],
+    "dtypes": ["float64"],
+    "purpose": "target/reference/neighborhood audit before atlas expansion"
+  },
+  "prospective_atlas_axes": {
+    "resolutions_per_axis": [16, 24, 32, 48, 64],
+    "support_over_dx": [2.0, 3.0, 4.0, 5.0],
+    "single_mode_indices": [[1, 0], [2, 0], [3, 0], [1, 1], [1, 2], [2, 1]],
+    "multi_mode_sets": [
+      [[1, 0], [0, 2]],
+      [[1, 1], [2, -1]],
+      [[1, 0], [2, 1], [0, 3]]
+    ],
+    "density_amplitudes": [0.0025, 0.005, 0.01, 0.02],
+    "velocity_amplitudes": [0.025, 0.05, 0.1, 0.2],
+    "phases_radians": [0.0, 0.7853981633974483, 1.5707963267948966],
+    "polarizations": ["longitudinal", "transverse"],
+    "jitter_fractions": [0.0, 0.025, 0.05, 0.1],
+    "seeds": [20260811, 20260817, 20260823],
+    "dtypes": ["float64", "float32"]
+  },
+  "derived_axes": {
+    "dx": "L/N",
+    "wave_number": "2*pi*sqrt(nx^2+ny^2)/L",
+    "kh": "wave_number*h",
+    "points_per_wavelength": "2*pi/(wave_number*dx)",
+    "mach": "velocity_scale/c0",
+    "reynolds": "velocity_scale*L/kinematic_viscosity"
+  },
+  "validity_filters": {
+    "minimum_points_per_wavelength": 8,
+    "density_positive_everywhere": true,
+    "support_less_than_half_domain_extent": true,
+    "neighborhood_reciprocal_and_deduplicated": true,
+    "same_continuum_field_across_resolutions": true
+  },
+  "execution_policy": {
+    "large_parameter_sweep_authorized_in_ddo00": false,
+    "expand_beyond_pilot_only_after_h1_reference_signal_audit": true,
+    "full_cartesian_product_required": false,
+    "design_strategy": "balanced_slices_with_preregistered_holdouts"
+  }
+}

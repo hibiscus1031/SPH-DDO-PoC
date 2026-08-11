@@ -1,0 +1,23 @@
+{
+  "ddo01d_case_count": 512,
+  "ddo01d_future_formal_h3_eligibility": false,
+  "ddo01d_roles": [
+    "DEVELOPMENT_ATLAS",
+    "CONSUMED_OBSERVABLE_DESIGN_EVIDENCE"
+  ],
+  "ddo01e_permanent_status": "DDO01E_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+  "ddo02b_fresh_case_count": 384,
+  "formal_h3": {
+    "density_rate": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+    "interpolation_density": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+    "pressure_gradient_acceleration": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+    "viscosity_laplacian_acceleration": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"
+  },
+  "h5_authorized_components": [],
+  "neural_training_authorized": false,
+  "online_spatial_ddo_route_closed": true,
+  "schema_version": "1.0",
+  "solver_development_authorized": false,
+  "stage": "DDO-02",
+  "terminal_status": "ONLINE_SPATIAL_DDO_OBSERVABILITY_ROUTE_NOT_SUPPORTED"
+}

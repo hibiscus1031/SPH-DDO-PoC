@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "stage": "CA-05",
+  "generated_date": "2026-08-11",
+  "real_or_historical_target_values_used": false,
+  "test_command": "python3 -m unittest -v 08_scripts/test_h3_h4_semantics.py",
+  "tests": [
+    {"id": "01", "name": "lineage_ignores_numerical_variants", "expected": "same FIELD_LINEAGE_ID"},
+    {"id": "02", "name": "lineage_changes_with_field", "expected": "different FIELD_LINEAGE_ID"},
+    {"id": "03", "name": "fold_assignment_keeps_lineage", "expected": "same diagnostic fold"},
+    {"id": "04", "name": "particle_sample_exact_and_deterministic", "expected": "128 unique deterministic IDs"},
+    {"id": "05", "name": "particle_sample_rejects_short_case", "expected": "ValueError"},
+    {"id": "06", "name": "content_sets_are_nested", "expected": "C0 strict-subset C1 strict-subset C2 strict-subset C3"},
+    {"id": "07", "name": "constants_retained_in_c3", "expected": "three constants remain in schema"},
+    {"id": "08", "name": "scaler_excludes_zero_iqr", "expected": "constant excluded, varying retained"},
+    {"id": "09", "name": "conditional_variance_known", "expected": [1.0, 1.0]},
+    {"id": "10", "name": "equal_case_unconditional_variance", "expected": 20.75},
+    {"id": "11", "name": "h3_obvious_pass", "expected": "H3_OBSERVABLE_MAPPING_IDENTIFIABLE"},
+    {"id": "12", "name": "h3_tail_fail", "expected": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"},
+    {"id": "13", "name": "h3_incomplete_unresolved", "expected": "H3_IDENTIFIABILITY_UNRESOLVED"},
+    {"id": "14", "name": "h4_selects_smallest_equivalent", "expected": "L1"},
+    {"id": "15", "name": "h4_requires_h3", "expected": "OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"},
+    {"id": "16", "name": "h4_l3_global_language", "expected": "STRICT_LOCALITY_NOT_SUPPORTED_GLOBAL_CONTEXT_REQUIRED"},
+    {"id": "17", "name": "project_mixed", "expected": "DDO01E_COMPONENTWISE_IDENTIFIABILITY_MIXED"},
+    {"id": "18", "name": "project_all_bounded", "expected": "DDO01E_OBSERVABLE_MAPPING_AND_LOCALITY_QUALIFIED"}
+  ],
+  "expected_summary": {"tests_run": 18, "passed": 18, "failed": 0, "errored": 0}
+}
+

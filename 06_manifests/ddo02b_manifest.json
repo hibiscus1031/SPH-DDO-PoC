@@ -1,0 +1,162 @@
+{
+  "bound_files": [
+    {
+      "path": "06_manifests/ddo02a_manifest.json",
+      "sha256": "fa56de94e709149d81b895423c22d8550496017ed7b9be3f7ce2a1171aec193e"
+    },
+    {
+      "path": "06_manifests/ca06_manifest.json",
+      "sha256": "9b238af878ae9a8bb64166631abd99e30ca2c5d66d3535781085de86953f033f"
+    },
+    {
+      "path": "06_manifests/ddo02b_case_registry.json",
+      "sha256": "5588bcc92c0db124481187c17c1e313ef308cddfc75968f152107a4abb1264b4"
+    },
+    {
+      "path": "06_manifests/ddo02b_diagnostic_partition.json",
+      "sha256": "15886965927d87e8dd77d210c9d3c1f7c5bed40e8e5e177d0ff988d638a2df57"
+    },
+    {
+      "path": "06_manifests/ddo02b_particle_sample_registry.json",
+      "sha256": "092b6ad937621ced65bab808841950ca3dd4ef4cdf73f41738cce0116210cf08"
+    },
+    {
+      "path": "data/ddo02b_atlas/ddo02b_observable_atlas.json",
+      "sha256": "04be2b81dce248148f7cd6d62527b2d5c831f56b60c96a8b945faec6f1bf4c49"
+    },
+    {
+      "path": "data/ddo02b_atlas/ddo02b_reference_target_atlas.json",
+      "sha256": "32f9db39075248a2fce9ca4037052f1b6299f1a656d5b8fe1570c54db89331a2"
+    },
+    {
+      "path": "data/ddo02b_atlas/ddo02b_case_metadata.json",
+      "sha256": "1e89221d7d13c1933d2ebb89452c4f1c3273e7ec15b9e2bf9557e3b2cea01a9e"
+    },
+    {
+      "path": "data/ddo02b_identifiability/ddo02b_observable_feature_cache.npz",
+      "sha256": "ec29f6d046db1cc1e626407544c80d61a9aa23c425c1b7f871ed79b03e9809bc"
+    },
+    {
+      "path": "data/ddo02b_identifiability/ddo02b_observable_feature_schema.json",
+      "sha256": "3abde8010d1eb99112af74406fffab164ecaa20aa8ba4df3e3c8d907440c28d5"
+    },
+    {
+      "path": "data/ddo02b_identifiability/ddo02b_reference_target_cache.npz",
+      "sha256": "f33c99201813cb4962d9e15c53bf6ba9b526985f26e2baad800a6cf13373acf5"
+    },
+    {
+      "path": "data/ddo02b_identifiability/ddo02b_reference_target_schema.json",
+      "sha256": "182eb249df13851119e5947cb00483f76ce5346f7994df7b191d89fd35488ac5"
+    },
+    {
+      "path": "data/ddo02b_identifiability/ddo02b_metrics.json",
+      "sha256": "551dc207bb23d22271f66d76df4fc65c08aa8649e366183ddc2db23072d2d582"
+    },
+    {
+      "path": "data/ddo02b_identifiability/ddo02b_non_neural_diagnostics.json",
+      "sha256": "b15e0e2cf54dab087d3af7368aa4eeb7d9adba746b46780d6b284389c9c06185"
+    },
+    {
+      "path": "data/ddo02b_identifiability/ddo02b_non_neural_diagnostics.csv",
+      "sha256": "590f07649d2c8836a4e9de12f3dc4a972c782e40fa524fa6a5e845dc9bbd6d3c"
+    },
+    {
+      "path": "data/ddo02b_identifiability/ddo02b_formal_verdicts.json",
+      "sha256": "6cbedb7c46bc4c3b622ef2601ee4631b9763976bb98dd414fc9dd6d33c88d87c"
+    },
+    {
+      "path": "data/ddo02b_identifiability/ddo02b_checkpoint_manifest.json",
+      "sha256": "002f27e18acc257eb72544534b35f2ed9e874400933acb1bfe861e1e378df507"
+    },
+    {
+      "path": "07_reports/ddo02b_component_h3_h4_ledger.csv",
+      "sha256": "400064c99e77b6b3294aff55eec20dd84b85a517befa3c78e035d3c4154eda54"
+    },
+    {
+      "path": "07_reports/ddo02b_h3_h4_requalification_report.md",
+      "sha256": "789a5412a4d08ac55c9dcaf1455402fde56506509b09b01ac000aed113288511"
+    },
+    {
+      "path": "07_reports/ddo02b_firewall_audit.md",
+      "sha256": "75e16f052ebc030568d5380adab89e4be2542c5cbf491a353e6ffdf8e4d667fb"
+    },
+    {
+      "path": "07_reports/ddo02b_next_stage_decision.md",
+      "sha256": "20b48b330bf19eecf6ea25f6188a0ac17bd4962e4d993a6b92c399aaa8af91e5"
+    },
+    {
+      "path": "06_manifests/ddo02_final_status_ledger.json",
+      "sha256": "b2756d803c05324b18df5c2ea0e6db2a07a693a72ce8eb50c567e6b34d37effb"
+    },
+    {
+      "path": "08_scripts/ddo02_descriptors.py",
+      "sha256": "59908f5fb403cc73bf0053815f07d7954a1f21c53425c244aa705f622f2a85de"
+    },
+    {
+      "path": "08_scripts/ddo02a_failure_attribution.py",
+      "sha256": "4047e7d9c4109f1b9de98ad758ccdeaa44e680e0e99d831361e6ce3c875cd212"
+    },
+    {
+      "path": "08_scripts/ca06_freeze.py",
+      "sha256": "5c655551ee0e44aa670e49da18472f57b9657b68eb9b9693f9cd0acd8073060b"
+    },
+    {
+      "path": "08_scripts/ddo02b_registry_builder.py",
+      "sha256": "4efc38232d14da44fa5d458d98b21697e4d15d5b2d2246cd138eb395cc7a0d18"
+    },
+    {
+      "path": "08_scripts/ddo02b_partition_builder.py",
+      "sha256": "317624e62b2a5824ec23f4f717893501f5a2aa8c91f105c26129746a7adb4cdc"
+    },
+    {
+      "path": "08_scripts/ddo02b_atlas_builder.py",
+      "sha256": "be8d11b10994e222e81ca1ec563b2f5b57fd241b1f0bf8927b2d41e6f9fd42d9"
+    },
+    {
+      "path": "08_scripts/ddo02b_feature_builder.py",
+      "sha256": "1192c92260d5c721bef3250315dd5e652d179f91071659507aa6bc5387f3c033"
+    },
+    {
+      "path": "08_scripts/ddo02b_formal_requalification.py",
+      "sha256": "007ab85ca3f85e532348e024448b8f0a0b4abe900a701edbac7c2aac61398de2"
+    },
+    {
+      "path": "08_scripts/ddo02b_release_audit.py",
+      "sha256": "80c35061140752cc334b6b3dbc75411db51b54e44ff9a521ff22297ddc480691"
+    },
+    {
+      "path": "data/ddo02b_identifiability/ddo02b_release_audit.json",
+      "sha256": "d5ec1c94256c8867df8ad686faf482b6fc0d5efb576b4056ac7c84f7ad3b746e"
+    }
+  ],
+  "formal_h3": {
+    "density_rate": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+    "interpolation_density": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+    "pressure_gradient_acceleration": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+    "viscosity_laplacian_acceleration": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"
+  },
+  "formal_h4": {
+    "density_rate": {
+      "selected_rung": null,
+      "status": "OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"
+    },
+    "interpolation_density": {
+      "selected_rung": null,
+      "status": "OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"
+    },
+    "pressure_gradient_acceleration": {
+      "selected_rung": null,
+      "status": "OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"
+    },
+    "viscosity_laplacian_acceleration": {
+      "selected_rung": null,
+      "status": "OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"
+    }
+  },
+  "h5_authorized_components": [],
+  "neural_training_performed": false,
+  "online_route_closed": true,
+  "schema_version": "1.0",
+  "stage": "DDO-02B",
+  "terminal_status": "ONLINE_SPATIAL_DDO_OBSERVABILITY_ROUTE_NOT_SUPPORTED"
+}

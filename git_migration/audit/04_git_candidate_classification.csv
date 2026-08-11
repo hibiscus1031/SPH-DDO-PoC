@@ -1,0 +1,31 @@
+scope,scope_type,file_count,size_bytes,category,recommended_action,reason
+data,top_level,1965,659736943,D,EXTERNAL_DATA,large datasets remain on disk and are represented by manifests
+figures,top_level,64,22534048,G,SELECTIVE_TRACK,"track sources, maps, and final small artifacts; exclude literature/cache/export archives"
+06_manifests,top_level,39,4957151,B,TRACK,"small report, manifest, configuration, test, or provenance evidence"
+08_scripts,top_level,74,1396726,B,TRACK,"small report, manifest, configuration, test, or provenance evidence"
+publication,top_level,47,526587,G,SELECTIVE_TRACK,"track sources, maps, and final small artifacts; exclude literature/cache/export archives"
+.codex_tmp_p3,top_level,3,146491,F,IGNORE,"cache, temporary, editor, or generated runtime state"
+07_reports,top_level,61,109904,B,TRACK,"small report, manifest, configuration, test, or provenance evidence"
+01_imported_baseline,top_level,11,102904,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+00_project_contract,top_level,13,62853,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+02_defect_definitions,top_level,3,12457,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+04_identifiability_contract,top_level,3,12087,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+03_field_design,top_level,2,8106,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+05_representation_contract,top_level,2,6262,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+README.md,top_level,1,3400,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+.gitignore,top_level,1,868,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+.gitattributes,top_level,1,270,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+.csv,extension,33,46125962,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+.json,extension,191,105690958,B,TRACK_AFTER_CONTEXT_REVIEW,small diffable scientific metadata or summary
+.jsonl,extension,3,9999516,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+.md,extension,111,547070,A,TRACK,source code or diffable scientific/project text
+.mjs,extension,1,1200,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+.npz,extension,1797,503068237,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+.pdf,extension,16,689747,G,TRACK_IF_FINAL,small figure/document artifact
+.png,extension,18,2667299,G,TRACK_IF_FINAL,small figure/document artifact
+.py,extension,42,645339,A,TRACK,source code or diffable scientific/project text
+.pyc,extension,42,853185,F,IGNORE,"cache, temporary, editor, or generated runtime state"
+.svg,extension,16,843411,G,TRACK_IF_FINAL,small figure/document artifact
+.tiff,extension,16,18478882,J,MANUAL_REVIEW,file role is not safely inferable from type and path
+.txt,extension,2,5113,A,TRACK,source code or diffable scientific/project text
+[none],extension,2,1138,J,MANUAL_REVIEW,file role is not safely inferable from type and path

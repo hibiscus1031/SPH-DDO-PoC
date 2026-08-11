@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "project": "SPH-DDO-PoC",
+  "stage": "DDO-01B-R",
+  "generated_date": "2026-08-10",
+  "terminal_status": "DDO01BR_SPATIAL_DEFECT_SIGNAL_QUALIFIED",
+  "hash_algorithm": "SHA-256",
+  "manifest_self_hash": null,
+  "manifest_self_hash_policy": "The manifest excludes its own recursively unstable hash.",
+  "permanent_status_preservation": {
+    "original_ddo01b_status": "DDO01B_H1_UNRESOLVED_CONTRACT_GAP",
+    "original_ddo01b_status_changed": false,
+    "original_ddo01b_manifest_path": "06_manifests/ddo01b_manifest.json",
+    "original_ddo01b_manifest_sha256": "2617c95f85f8ef94b736c697aadc5a99efaf3208a77354d0c43b4d563bbf5c0a"
+  },
+  "prospective_freeze": {
+    "ca02_manifest_path": "06_manifests/ca02_manifest.json",
+    "ca02_manifest_sha256": "2cab9c8b435d138eee2d964b81914596effb87044c8cc272c07983d0e8626a8a",
+    "ca02_terminal_status": "DDO_CA02_H1_SIGNAL_SEMANTICS_FROZEN",
+    "registry_path": "06_manifests/ddo01br_case_registry.json",
+    "registry_sha256": "ee654fffdaf966bbaa01974fd09755c5c6c65af62bc77e8240d40ede4547dd8f",
+    "registry_case_count": 24,
+    "excitation_mask_path": "06_manifests/ddo01br_excitation_mask.json",
+    "excitation_mask_sha256": "d7a71824ac55525d90e8c469fd0236424fdaae5f074310f606a3113e497d3d8b",
+    "excitation_pair_count": 120,
+    "registry_and_mask_frozen_before_target_evaluation": true,
+    "historical_cases_used_as_formal_evidence": false
+  },
+  "numerical_qualification": {
+    "mandatory_cases_passed": 24,
+    "mandatory_cases_failed": 0,
+    "all_derivative_reference_gates_passed": true,
+    "all_primary_and_independent_topology_audits_passed": true,
+    "all_uncertainty_and_sign_gates_passed": true,
+    "all_component_closure_gates_passed": true,
+    "derivative_discrepancy_max": 1.7763568394002505e-15,
+    "derivative_gate_fraction_max": 0.011177349458713758,
+    "U_num_min": 2.842170943040401e-16,
+    "U_num_max": 2.49547103422026e-13,
+    "component_closure_residual_max": 0.0,
+    "precision_degradation_diagnostic_max": 0.00011091280265596026,
+    "precision_degradation_in_primary_uncertainty": false
+  },
+  "component_h1": {
+    "interpolation_density": {
+      "eligible_cases": 24,
+      "analytically_unexcited_cases": 0,
+      "T_c": 0.007631393558578417,
+      "U_c": 3.108267802848074e-14,
+      "R_c": 245519177967.41483,
+      "L95_c": 228367911955.50385,
+      "verdict": "H1_SIGNAL_PASS",
+      "closed_for_learning_ddo01": false,
+      "bootstrap_seed_sha256": "9188aeb2f1b4ed756d39921f851f4c544beba05899106a1da21ba2c45ccd13f3"
+    },
+    "density_rate": {
+      "eligible_cases": 8,
+      "analytically_unexcited_cases": 16,
+      "T_c": 0.04339104026510208,
+      "U_c": 2.686777340006246e-14,
+      "R_c": 1614984599542.633,
+      "L95_c": 917705160812.6146,
+      "verdict": "H1_SIGNAL_PASS",
+      "closed_for_learning_ddo01": false,
+      "bootstrap_seed_sha256": "bc388d17e0c4a6594caf2306d0adddd3d40ef87abebe09f1245cce814d571b47"
+    },
+    "pressure_gradient_acceleration": {
+      "eligible_cases": 8,
+      "analytically_unexcited_cases": 16,
+      "T_c": 0.5474323680816151,
+      "U_c": 2.49547103422026e-13,
+      "R_c": 2193703555660.252,
+      "L95_c": 1642658116559.0906,
+      "verdict": "H1_SIGNAL_PASS",
+      "closed_for_learning_ddo01": false,
+      "bootstrap_seed_sha256": "15519d8f196c3df45553ac7a92a6ff386c686f9e1cc86220b72423197001f366"
+    },
+    "viscosity_laplacian_acceleration": {
+      "eligible_cases": 16,
+      "analytically_unexcited_cases": 8,
+      "T_c": 0.0027891424569048092,
+      "U_c": 1.984763889787807e-15,
+      "R_c": 1405276703821.43,
+      "L95_c": 1170250584034.9502,
+      "verdict": "H1_SIGNAL_PASS",
+      "closed_for_learning_ddo01": false,
+      "bootstrap_seed_sha256": "92727195d53a862b8117dca02038d5a6d8293828728ae55f8ad7f43eb0556d4d"
+    },
+    "total_acceleration": {
+      "eligible_cases": 24,
+      "analytically_unexcited_cases": 0,
+      "T_c": 0.31606842943405716,
+      "U_c": 2.49547103422026e-13,
+      "R_c": 1266568215378.2903,
+      "L95_c": 791027679511.1615,
+      "verdict": "H1_SIGNAL_PASS",
+      "closed_for_learning_ddo01": false,
+      "bootstrap_seed_sha256": "8d5d57b753fdaedb25bb8fb45d5381a26903c272832c7a2fab4b3a1c959f5523"
+    }
+  },
+  "total_component_boundary": {
+    "cancellation_index_min": 0.0,
+    "cancellation_index_max": 0.0,
+    "domination_share_min": 1.0,
+    "domination_share_max": 1.0,
+    "pressure_dominant_case_count": 8,
+    "viscosity_dominant_case_count": 16,
+    "descriptive_only": true,
+    "scaling_claim_made": false
+  },
+  "firewall": {
+    "reference_in_model_input": false,
+    "observable_and_reference_physically_separate_files": true,
+    "observable_forbidden_columns": [],
+    "target_derived_features": false,
+    "target_derived_normalization": false,
+    "model_trained": false
+  },
+  "files": [
+    {
+      "path": "08_scripts/ddo01br_prepare.py",
+      "sha256": "bc5efd42c7bc34e8091d72effe3205828d7788e9f4a341fcbbcc7ac2fb2f5e33",
+      "role": "prospective_registry_and_excitation_mask_generator"
+    },
+    {
+      "path": "08_scripts/ddo01br_pilot.py",
+      "sha256": "db1f4444a852a06f72811f4f755b0cc01d573ede0f2986df9321fda917805f19",
+      "role": "DDO01BR_execution"
+    },
+    {
+      "path": "data/pilot_f1/ddo01br_f1_pilot_metadata.csv",
+      "sha256": "74220138c305c4671f50867e23fe10311addf2958f017e49280c89bbeed6a971",
+      "role": "particle_metadata"
+    },
+    {
+      "path": "data/pilot_f1/ddo01br_f1_pilot_observables.csv",
+      "sha256": "16e6d404f98f005d7bd526b84ac641b8121945cadedb68be578a7a1a52fec8c4",
+      "role": "observable_low_cost_fields"
+    },
+    {
+      "path": "data/pilot_f1/ddo01br_f1_pilot_reference_targets.csv",
+      "sha256": "d448d8ec63afd0808b801f761c6a3c20137a40d19219ba5bc597401ba5b6ffd8",
+      "role": "physically_separated_reference_and_target_fields"
+    },
+    {
+      "path": "data/pilot_f1/ddo01br_f1_pilot_evidence.json",
+      "sha256": "70809034e3130fb9f98c24e175fca4254dd47c50797096043ba8bddc060c27f4",
+      "role": "case_and_component_machine_readable_evidence"
+    },
+    {
+      "path": "07_reports/ddo01br_signal_report.md",
+      "sha256": "8ded1bd2e2d11c6b895d88c253bd5610036d5088cef11d07fd491d453e386cc8",
+      "role": "signal_report"
+    },
+    {
+      "path": "07_reports/ddo01br_component_h1_ledger.csv",
+      "sha256": "d6c7fe5885bd878409350b6acdde71f106a43e171775b745d8e6a15fe81199b1",
+      "role": "component_H1_ledger"
+    },
+    {
+      "path": "07_reports/ddo01br_uncertainty_report.md",
+      "sha256": "9eb57ba1a67e527cdc77afa2b4410ff23037abc177fe5d29dc9a2c2962ef754c",
+      "role": "uncertainty_report"
+    },
+    {
+      "path": "07_reports/ddo01br_firewall_audit.md",
+      "sha256": "ef50ad0b86d8cc45be1e3f280f8118991590b414d4751b64e46ec3c8a8286118",
+      "role": "field_level_firewall_audit"
+    },
+    {
+      "path": "07_reports/ddo01br_next_stage_decision.md",
+      "sha256": "dbd9ebf42e238a4087bb789b14e2c098567586d76d467e92e14c1d7cea6556bb",
+      "role": "next_stage_decision"
+    }
+  ],
+  "controls": {
+    "h2_h6_evaluated": false,
+    "f2_f3_f4_executed": false,
+    "balanced_atlas_created": false,
+    "identifiability_analysis_performed": false,
+    "locality_analysis_performed": false,
+    "pca_svd_target_geometry_performed": false,
+    "representation_r0_r4_evaluated": false,
+    "regression_performed": false,
+    "neural_training_performed": false,
+    "optimizer_created": false,
+    "time_integration_performed": false,
+    "rollout_performed": false,
+    "solver_in_the_loop_performed": false,
+    "high_resolution_sph_used_as_truth": false,
+    "lcdf_03_accessed": false,
+    "lcdf_10_accessed": false
+  },
+  "authorization": {
+    "h1_qualified_components": [
+      "interpolation_density",
+      "density_rate",
+      "pressure_gradient_acceleration",
+      "viscosity_laplacian_acceleration",
+      "total_acceleration"
+    ],
+    "components_closed_for_learning_ddo01": [],
+    "ddo01c_recommended_for_qualified_components": true,
+    "ddo01c_executed": false,
+    "ddo01c_requires_separate_authorization": true
+  }
+}

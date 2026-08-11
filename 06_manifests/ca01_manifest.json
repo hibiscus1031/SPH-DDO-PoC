@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "project": "SPH-DDO-PoC",
+  "stage": "CA-01",
+  "generated_date": "2026-08-10",
+  "terminal_status": "DDO_CA01_NUMERICAL_QUALIFICATION_CONTRACT_FROZEN",
+  "prospective_only": true,
+  "evidence_already_seen": true,
+  "retroactive_qualification_prohibited": true,
+  "original_ddo01a_status": "DDO01_ANALYTICAL_PREFLIGHT_UNRESOLVED_CONTRACT_GAP",
+  "original_ddo01a_status_preserved": true,
+  "hash_algorithm": "SHA-256",
+  "manifest_self_hash": null,
+  "manifest_self_hash_policy": "The manifest excludes its own recursively unstable hash.",
+  "frozen_rules": {
+    "primary_device": "cpu",
+    "primary_dtype": "float64",
+    "eps64_definition": "numpy.finfo(float64).eps",
+    "C_fp": 128,
+    "C_fp_selected_from_observed_ddo01a_discrepancies": false,
+    "uncertainty_combination": "additive",
+    "uncertainty_formula": "U_round + Delta_ref + Delta_repeat + max(Delta_perm, Delta_comp) + Delta_geometry + Delta_identity",
+    "float32_diagnostic_in_primary_uncertainty": false,
+    "compensated_accumulation": "componentwise Python math.fsum",
+    "independent_geometry": "brute-force topology with delta - extent*floor(delta/extent + 0.5)",
+    "registered_case_count": 24
+  },
+  "evidence_seen_before_ca01": {
+    "max_derivative_a_b_discrepancy": 1.7763568394002505e-15,
+    "deterministic_repeat": 0.0,
+    "neighbor_order_discrepancy": 2.4868995751603507e-14,
+    "float32_float64_diagnostic": 0.00010730433520755867,
+    "acceleration_component_closure": 0.0
+  },
+  "files": [
+    {
+      "path": "00_project_contract/amendments/ca01_numerical_qualification_contract.md",
+      "sha256": "8029eee814efac3cf8dc82de7e60495ee33352890ca60a0944de50991b3c2a70",
+      "role": "prospective_numerical_qualification_contract"
+    },
+    {
+      "path": "00_project_contract/amendments/ca01_change_record.md",
+      "sha256": "4384cb5d67c805e9bd0b7d09bc986f1ae168e333a2cee444f5228f14c463451e",
+      "role": "prospective_change_record"
+    },
+    {
+      "path": "06_manifests/ddo01ar_case_registry.json",
+      "sha256": "403aedcc4cb9c4ac194d044850e7a698d11ff8331cffa5a9041907e9a60d83e7",
+      "role": "fresh_case_registry_frozen_before_numerical_evaluation"
+    },
+    {
+      "path": "07_reports/ddo01a_preflight_report.md",
+      "sha256": "9514ab7ed7b97e09d4cc4975d9be19e6168180d141206c4558827370279fd2dd",
+      "role": "preserved_original_ddo01a_report"
+    },
+    {
+      "path": "06_manifests/ddo01a_manifest.json",
+      "sha256": "42e8f6fb8df385eb5d5b1e9c58f4cc8c4eb11d9c1ff8d47e2edd027df8866778",
+      "role": "preserved_original_ddo01a_manifest"
+    },
+    {
+      "path": "07_reports/ca01_final_report.md",
+      "sha256": "28adb2da5f924eed7937b37e8f3bde3353d2215ad52e3446ceb0ef04735921e8",
+      "role": "ca01_final_report"
+    }
+  ],
+  "authorization": {
+    "ddo01ar_execution": true,
+    "ddo01b_execution": false,
+    "h1_evaluation": false,
+    "atlas_generation": false,
+    "neural_training": false
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "authorization": {
+    "h5_architecture_selection_authorized": false,
+    "h6_authorized": false,
+    "neural_training_authorized": false
+  },
+  "controls": {
+    "corrected_solver_claim": false,
+    "gnn_training": false,
+    "h5_evaluated": false,
+    "h6_evaluated": false,
+    "high_resolution_sph_truth": false,
+    "lcdf_03": false,
+    "lcdf_10": false,
+    "mlp_training": false,
+    "optimizer_created": false,
+    "rollout": false,
+    "sealed_test_created_or_consumed": false,
+    "solver_in_the_loop": false,
+    "target_subspace_changed_formal_verdict": false,
+    "time_integration": false,
+    "transformer_training": false
+  },
+  "files": [
+    {
+      "path": "00_project_contract/amendments/ca05_h3_h4_identifiability_locality_semantics.md",
+      "role": "prospective_CA05_semantics",
+      "sha256": "a940562ed2a589bb4864c40d8674ce57940ee03c2a75206b2724dc747d639da3"
+    },
+    {
+      "path": "00_project_contract/amendments/ca05_change_record.md",
+      "role": "CA05_change_record",
+      "sha256": "f4cfdd6a6550a38520a53bca783ad563005d9462779cc759695c8c1161d22385"
+    },
+    {
+      "path": "06_manifests/ca05_manifest.json",
+      "role": "frozen_CA05_manifest",
+      "sha256": "633fdbfa14868f27920cfb0814367370d6da90df1dbe03132f73a82174fdec7d"
+    },
+    {
+      "path": "06_manifests/ca05_synthetic_expected_outputs.json",
+      "role": "CA05_synthetic_expectations",
+      "sha256": "1574f5bdbd72bb88080bca8cdcce154a5de57e812931303a446146bb6be13745"
+    },
+    {
+      "path": "06_manifests/ddo01e_diagnostic_partition.json",
+      "role": "target_free_lineage_folds",
+      "sha256": "9b2de0b66b28b8912e2563cbf59317cd338904c441a4696768eb9c8d3dec57ce"
+    },
+    {
+      "path": "06_manifests/ddo01e_particle_sample_registry.json",
+      "role": "target_free_formal_particle_samples",
+      "sha256": "79daafacbbd3707889bf093a2e679220c6dcbd56e489fd025163e8e4b73bf160"
+    },
+    {
+      "path": "data/identifiability/ddo01e_observable_feature_cache.npz",
+      "role": "observable_only_feature_cache",
+      "sha256": "ea5e9c4a1e036ec8f9b1634501e06b90191ed088d81ec618df2582a2068ee6e9"
+    },
+    {
+      "path": "data/identifiability/ddo01e_observable_feature_schema.json",
+      "role": "derived_observable_schema",
+      "sha256": "2edda19ce9424efe548005850f4bbb74800685d8ea2fd7a730421e35ceaddce8"
+    },
+    {
+      "path": "data/identifiability/ddo01e_reference_target_cache.npz",
+      "role": "physically_separate_reference_sample",
+      "sha256": "9288bd4ba888dd3b64ff6685a13173f6a9fd3f158ab4de00f8818a41679db0bb"
+    },
+    {
+      "path": "data/identifiability/ddo01e_reference_target_schema.json",
+      "role": "reference_sample_schema",
+      "sha256": "99defc9fbb6df7d12b788500c6a8cf0ff519b76ff29bbc55feb8cc40aad9ad45"
+    },
+    {
+      "path": "data/identifiability/ddo01e_metrics.json",
+      "role": "formal_H3_H4_metrics",
+      "sha256": "871108e9619b5c5405b8895ed0e82dd22ba08bf9c2104ca04d382aa0e8df9feb"
+    },
+    {
+      "path": "data/identifiability/ddo01e_non_neural_diagnostics.json",
+      "role": "non_neural_diagnostic_index",
+      "sha256": "ff3875e79af839bbfb6731024ce9328e78b0407e455fbbc62e7c9b8b46e08edb"
+    },
+    {
+      "path": "data/identifiability/ddo01e_non_neural_diagnostics.csv",
+      "role": "case_level_non_neural_diagnostics",
+      "sha256": "d7bf999f08aa2d08c6ad910ff6067fe8e2d288a188129628c57262d182a091b2"
+    },
+    {
+      "path": "data/identifiability/ddo01e_formal_verdicts.json",
+      "role": "pre_SVD_frozen_formal_verdicts",
+      "sha256": "478e51ea8a9b407a0181c9bb7789590a76e7dc8b6aa3301beb5084e8dbd1dd0e"
+    },
+    {
+      "path": "data/identifiability/ddo01e_target_subspace_diagnostic.json",
+      "role": "post_verdict_target_subspace",
+      "sha256": "e2a06889a503390a47e3e19b7164ad09135dd9575cc643d32a508bf55a381d58"
+    },
+    {
+      "path": "data/identifiability/ddo01e_figure_source_data.csv",
+      "role": "figure_source_data",
+      "sha256": "3619a8928aae81cffa105688fc767315f6a27baddb5dd029e2aedad2cde866c8"
+    },
+    {
+      "path": "data/identifiability/ddo01e_firewall_audit.json",
+      "role": "machine_readable_firewall_audit",
+      "sha256": "5e32db365620c8d8d621d3ccabc502aaffe1f83bda542e533541daf235e20d8b"
+    },
+    {
+      "path": "data/identifiability/ddo01e_checkpoint_manifest.json",
+      "role": "transitive_binding_of_80_fold_checkpoints",
+      "sha256": "5e8fb76fb23664e23357e8de8c0ecd6065bb9e3811eda36c4c4d39d147f65877"
+    },
+    {
+      "path": "data/identifiability/ddo01e_release_audit.json",
+      "role": "release_audit",
+      "sha256": "16356d3032bfa3e747be5e1ac02e14d17bd3272ab82f9d99556edd49f4baa4e0"
+    },
+    {
+      "path": "07_reports/ddo01e_semantic_precheck.md",
+      "role": "required_report",
+      "sha256": "90754a3fea9024bb55f0a6f5c156ef0d4bdd65d71f5b124651751c9539464f3c"
+    },
+    {
+      "path": "07_reports/ddo01e_identifiability_report.md",
+      "role": "required_report",
+      "sha256": "c34bc884c6a8a2d043d3eacc8164b28e251b8f6c54e451c751efe37e0318c071"
+    },
+    {
+      "path": "07_reports/ddo01e_locality_report.md",
+      "role": "required_report",
+      "sha256": "137f17287099d2917e78fa3452bdcdc3cf57f3b0a2d4c4d2ce4872c673128fbd"
+    },
+    {
+      "path": "07_reports/ddo01e_descriptor_ablation_report.md",
+      "role": "required_report",
+      "sha256": "750e84a502035f35cf0b9ee67390be92b2863b9def8b28950ab839cf9e85ae62"
+    },
+    {
+      "path": "07_reports/ddo01e_disorder_mechanism_report.md",
+      "role": "required_report",
+      "sha256": "42c5c0dace911df53b3c03ff8c4c446bcd4c8d016dd85039b45b860ead67bf3a"
+    },
+    {
+      "path": "07_reports/ddo01e_family_stratified_report.md",
+      "role": "required_report",
+      "sha256": "967bd6b1ecb19df248d8dd20c97e2f136150de0a5e93441ceddda88edad49c66"
+    },
+    {
+      "path": "07_reports/ddo01e_target_subspace_diagnostic.md",
+      "role": "required_report",
+      "sha256": "69778efd19c6a4e2c565539b2862682049c48ebbf65516fd5865773972a250e9"
+    },
+    {
+      "path": "07_reports/ddo01e_component_h3_h4_ledger.csv",
+      "role": "required_report",
+      "sha256": "400064c99e77b6b3294aff55eec20dd84b85a517befa3c78e035d3c4154eda54"
+    },
+    {
+      "path": "07_reports/ddo01e_firewall_audit.md",
+      "role": "required_report",
+      "sha256": "29cd1f4cf68fb6f53f3954ce4cfdba952b3e8b30ceea4eab13e8c90c8a6e77a2"
+    },
+    {
+      "path": "07_reports/ddo01e_next_stage_decision.md",
+      "role": "required_report",
+      "sha256": "0013f98f9ee7a9933d00d23d130c05c030478f93276365b11a24717fe2d38807"
+    },
+    {
+      "path": "07_reports/ddo01e_figure_contract.md",
+      "role": "required_report",
+      "sha256": "62378e0562c90033379ab9f65938d3595edc03c47459510f528fbda0935a766c"
+    },
+    {
+      "path": "07_reports/ddo01e_figure_qa.md",
+      "role": "required_report",
+      "sha256": "ef5fd6fb22dc2d1ad65c47c82b5c40af7d985da9fdad321a206724c9e65df691"
+    },
+    {
+      "path": "08_scripts/h3_identifiability_semantics.py",
+      "role": "DDO01E_implementation",
+      "sha256": "857f30efce8559ddf3d562051209d0069ba73c24f06183a685b7304155001234"
+    },
+    {
+      "path": "08_scripts/h4_locality_semantics.py",
+      "role": "DDO01E_implementation",
+      "sha256": "a8fc3b01af805fd7884e6af3fcbd9237fdcbb1f6efe1c814cd2248c6d5976d6a"
+    },
+    {
+      "path": "08_scripts/test_h3_h4_semantics.py",
+      "role": "DDO01E_implementation",
+      "sha256": "eedb1d26ae2d5a3c42bc66ab66095acbda24d374400c304a2201dd652b6694ca"
+    },
+    {
+      "path": "08_scripts/ddo01e_partition_builder.py",
+      "role": "DDO01E_implementation",
+      "sha256": "3324feb0079f2db9228578280632efe7903887b5035db9951d9938ca2d258fe3"
+    },
+    {
+      "path": "08_scripts/ddo01e_feature_builder.py",
+      "role": "DDO01E_implementation",
+      "sha256": "4012a53e24f03aa757bb679f4ef82be2961a34aebc37531b2a8b1af69fb4c64f"
+    },
+    {
+      "path": "08_scripts/ddo01e_non_neural_analysis.py",
+      "role": "DDO01E_implementation",
+      "sha256": "88bec6c76c6cf700842bab455cd1f164d4f9dd08123f42b9d81f8afb928ae39e"
+    },
+    {
+      "path": "08_scripts/ddo01e_target_subspace.py",
+      "role": "DDO01E_implementation",
+      "sha256": "1d2a37c35447039ad8666c67d25a1c4031fe30bdce84be58c72720572a3c59cc"
+    },
+    {
+      "path": "08_scripts/ddo01e_reporting.py",
+      "role": "DDO01E_implementation",
+      "sha256": "5952b7627e7b9d961e26952afba7a49524e8de939940dd460a0789c2ae2f2a73"
+    },
+    {
+      "path": "08_scripts/ddo01e_figures.py",
+      "role": "DDO01E_implementation",
+      "sha256": "4d532c1817b4a20af23883334f6c2eb8cfb9217f8857f12144199a4b629aeeed"
+    },
+    {
+      "path": "08_scripts/ddo01e_release_audit.py",
+      "role": "DDO01E_implementation",
+      "sha256": "0570eb7cab9c82593cec2578df95fd573d87287e261ebc785aece78ef0397614"
+    },
+    {
+      "path": "figures/ddo01e/identifiability_ladder.svg",
+      "role": "Python_figure_svg",
+      "sha256": "80c938867483750ee1c0cf8de97e67062be46ae055afc706417ad275f27b6ed8"
+    },
+    {
+      "path": "figures/ddo01e/identifiability_ladder.pdf",
+      "role": "Python_figure_pdf",
+      "sha256": "aef2fd12d35ce1948f182e062b05087b459bf75fb5f424734bd4a268fc8be6b6"
+    },
+    {
+      "path": "figures/ddo01e/identifiability_ladder.tiff",
+      "role": "Python_figure_tiff",
+      "sha256": "0d3b4a7cddd622bb81b65f23981f4098d2bdfaf8cf2cb5f4ae095e73defc97ff"
+    },
+    {
+      "path": "figures/ddo01e/identifiability_ladder.png",
+      "role": "Python_figure_png",
+      "sha256": "a1598902ad0f47606f2ee49149d8717657ae349ac5444c04d75cddf3c0a891ee"
+    },
+    {
+      "path": "figures/ddo01e/locality_ladder.svg",
+      "role": "Python_figure_svg",
+      "sha256": "c3d2450aa6beb71055ce739c86f44aaab4883fe29573cca9d080994d5828bf29"
+    },
+    {
+      "path": "figures/ddo01e/locality_ladder.pdf",
+      "role": "Python_figure_pdf",
+      "sha256": "6ae581b515930f688e69bde46f7a17f4a7fc9f02a2fa5b2e04a26f0e8b28c98d"
+    },
+    {
+      "path": "figures/ddo01e/locality_ladder.tiff",
+      "role": "Python_figure_tiff",
+      "sha256": "73aa9c5b920f85bec8cb9b600e9d662ce05efc30f4060b313fa5582de81776e2"
+    },
+    {
+      "path": "figures/ddo01e/locality_ladder.png",
+      "role": "Python_figure_png",
+      "sha256": "b0f527e7ba629726d7047baa3f69a64358abd425c91e1598d9b0c19f8d8c8bdf"
+    },
+    {
+      "path": "figures/ddo01e/consistency_ablation.svg",
+      "role": "Python_figure_svg",
+      "sha256": "405ea6ade90a13c0f79096ff20c54178b2b025c5c9b80a6164cad3cc944a0720"
+    },
+    {
+      "path": "figures/ddo01e/consistency_ablation.pdf",
+      "role": "Python_figure_pdf",
+      "sha256": "12cc16a34d6144bd11da649596826bcf89598e4f4692568f1492d5fb63efe4ed"
+    },
+    {
+      "path": "figures/ddo01e/consistency_ablation.tiff",
+      "role": "Python_figure_tiff",
+      "sha256": "0a2ff8f52c688d5530cbef9e0d82b899b800b39aa66b228e954dd3b8a6482168"
+    },
+    {
+      "path": "figures/ddo01e/consistency_ablation.png",
+      "role": "Python_figure_png",
+      "sha256": "678b72e1f71e0482cc0d33430288ba91b16454fb0cf0d1a7dc22741cb0198dce"
+    },
+    {
+      "path": "figures/ddo01e/disorder_stratified_ambiguity.svg",
+      "role": "Python_figure_svg",
+      "sha256": "4a1feb309a7a754911163854689470bb75aab4e2cdba0c972da1b037de0406db"
+    },
+    {
+      "path": "figures/ddo01e/disorder_stratified_ambiguity.pdf",
+      "role": "Python_figure_pdf",
+      "sha256": "c5dd9b9e0c7e065e1f96b5d28d2be1b8d98f878a335f3ad48d194e489d7fbbdf"
+    },
+    {
+      "path": "figures/ddo01e/disorder_stratified_ambiguity.tiff",
+      "role": "Python_figure_tiff",
+      "sha256": "cf399d8a2647a4ac52038c71b190f1d40b52d1a8009e3466c5acf82222dcf180"
+    },
+    {
+      "path": "figures/ddo01e/disorder_stratified_ambiguity.png",
+      "role": "Python_figure_png",
+      "sha256": "fc0792e0edd7faf10bb2007f928dcb0cd13211d4d5b2fdbdeb31ebb96feeb249"
+    },
+    {
+      "path": "figures/ddo01e/family_stratified_metrics.svg",
+      "role": "Python_figure_svg",
+      "sha256": "cadb226309fcbef405e2b928bff7c8c3b4ba01b98001dca61ad14b4de16f4764"
+    },
+    {
+      "path": "figures/ddo01e/family_stratified_metrics.pdf",
+      "role": "Python_figure_pdf",
+      "sha256": "bf5565cddf2514f8ae8020993e39c7358a23264eabad266669a6cc0a5e19547e"
+    },
+    {
+      "path": "figures/ddo01e/family_stratified_metrics.tiff",
+      "role": "Python_figure_tiff",
+      "sha256": "2956cc0006d82f26aed3220d6455c6f298b0fee11bfceb4002806f88d1d6a352"
+    },
+    {
+      "path": "figures/ddo01e/family_stratified_metrics.png",
+      "role": "Python_figure_png",
+      "sha256": "53339f6d076ae8d047cd7911ff47bf32a69da9b411eafd8996dd55e80660f5bf"
+    }
+  ],
+  "generated_date": "2026-08-11",
+  "hash_algorithm": "SHA-256",
+  "manifest_self_hash": null,
+  "manifest_self_hash_policy": "The manifest excludes its own recursively unstable hash.",
+  "project": "SPH-DDO-PoC",
+  "release_gates": {
+    "ca05_frozen": true,
+    "exact_case_count": true,
+    "exact_formal_particle_sample": true,
+    "f4_blocks_same_lineage": true,
+    "figure_exports_and_qa": true,
+    "formal_grid_complete": true,
+    "formal_verdict_frozen_before_subspace": true,
+    "formal_verdict_metrics_bound": true,
+    "formal_verdict_unchanged": true,
+    "reference_firewall": true,
+    "reports_complete": true,
+    "scripts_compile": true,
+    "terminal_state_consistent": true,
+    "zero_lineage_overlap": true
+  },
+  "release_summary": {
+    "case_count": 512,
+    "content_locality_combinations": 16,
+    "data_role": "DEVELOPMENT_ATLAS",
+    "diagnostic_folds": 5,
+    "fold_checkpoints": 80,
+    "formal_h3": {
+      "density_rate": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+      "interpolation_density": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+      "pressure_gradient_acceleration": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+      "viscosity_laplacian_acceleration": "H3_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"
+    },
+    "formal_h4": {
+      "density_rate": {
+        "selected_rung": null,
+        "status": "OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"
+      },
+      "interpolation_density": {
+        "selected_rung": null,
+        "status": "OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"
+      },
+      "pressure_gradient_acceleration": {
+        "selected_rung": null,
+        "status": "OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"
+      },
+      "viscosity_laplacian_acceleration": {
+        "selected_rung": null,
+        "status": "OBSERVABLE_MAPPING_NOT_IDENTIFIABLE"
+      }
+    },
+    "formal_particle_samples": 65536,
+    "lineage_count": 276,
+    "reference_in_model_input": false
+  },
+  "schema_version": "1.0",
+  "stage": "DDO-01E",
+  "terminal_status": "DDO01E_OBSERVABLE_MAPPING_NOT_IDENTIFIABLE",
+  "upstream_bindings": {
+    "ca05_manifest_sha256": "633fdbfa14868f27920cfb0814367370d6da90df1dbe03132f73a82174fdec7d",
+    "ddo01d_manifest_sha256": "aa348eea6d59dd72d4d80116e7a44b212d9f6b571e79bbff514ceab59f0515f8",
+    "observable_index_sha256": "99fdf8115e1c2d6280756bcc46edbefc7d52b5f245cc32e308d9100cc4290e53",
+    "reference_index_sha256": "c7e7608b269d6f1c3661e3fffb8c5ced430f2a8dc8b3432666fc745d0de483bc"
+  }
+}

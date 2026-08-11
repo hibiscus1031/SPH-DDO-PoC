@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "project": "SPH-DDO-PoC",
+  "stage": "CA-04",
+  "generated_date": "2026-08-11",
+  "terminal_status": "DDO_CA04_ATLAS_DESIGN_AND_DESCRIPTOR_SCHEMA_FROZEN",
+  "prospective_only": true,
+  "fresh_ddo01d_target_observed_before_freeze": false,
+  "hash_algorithm": "SHA-256",
+  "manifest_self_hash": null,
+  "manifest_self_hash_policy": "The manifest excludes its own recursively unstable hash.",
+  "upstream_bindings": [
+    {"path": "03_field_design/prospective_parameter_axes.json", "sha256": "d680b1a89d1b5df4c58cff6b2faba2926e0f2f9a615ca9ffede593fa917faf27", "role": "authorized_finite_parameter_pools"},
+    {"path": "02_defect_definitions/dimensional_analysis.md", "sha256": "b733fb6bcac458b795a3d30bd3b09ec3fc8cb35bf5e69ac19409e12cf9c10088", "role": "observable_descriptor_and_normalization_contract"},
+    {"path": "00_project_contract/amendments/ca01_numerical_qualification_contract.md", "sha256": "8029eee814efac3cf8dc82de7e60495ee33352890ca60a0944de50991b3c2a70", "role": "fresh_case_numerical_qualification"},
+    {"path": "00_project_contract/amendments/ca02_h1_signal_semantics_contract.md", "sha256": "284fe579ff8445a9a3efdbd1bcc36060f15071cfd131ec18719e698640f11756", "role": "case_RMS_convention"},
+    {"path": "06_manifests/ddo01cr_manifest.json", "sha256": "44bc51a9835be9c3bd9cd2732a9f1b9aee28cbc98cb2ca3931b83ad70f584fef", "role": "historical_H2_scope_and_anchor_provenance"}
+  ],
+  "frozen_design": {
+    "fresh_case_budget": 512,
+    "family_quotas": {"F1": 128, "F2": 128, "F3": 128, "F4": 128},
+    "candidate_counts": {"F1": 3888, "F2": 1872, "F3": 1872, "F4": 972},
+    "selection_target_free": true,
+    "historical_ddo01cr_cases_count_toward_quota": false,
+    "data_role": "DEVELOPMENT_ATLAS",
+    "f4_matched_block_count": 8,
+    "f4_cases_per_block": 16,
+    "reference_in_model_input": false,
+    "empirical_h2_power_normalization": false
+  },
+  "registry_qualification": {
+    "path": "06_manifests/ddo01d_case_registry.json",
+    "sha256": "b4365cd02cd56d917282a490712247a3a287ce405261c4e80c474cc09739d1df",
+    "case_count": 512,
+    "unique_canonical_ids": 512,
+    "frozen_before_target_evaluation": true,
+    "deterministic_replay_match": true
+  },
+  "synthetic_design_tests": {
+    "command": "python3 08_scripts/test_ddo01d_registry_builder.py",
+    "tests_run": 10,
+    "tests_passed": 10,
+    "tests_failed": 0,
+    "tests_errored": 0,
+    "real_or_historical_target_values_used": false
+  },
+  "files": [
+    {"path": "00_project_contract/amendments/ca04_atlas_design_and_descriptor_schema.md", "sha256": "e54644782815028308489a77e748b60e40f45a0c4f56e488b7d6f93885d87624", "role": "prospective_atlas_and_descriptor_contract"},
+    {"path": "00_project_contract/amendments/ca04_change_record.md", "sha256": "98ba8246ad7f640c7222da1a126294ba0bbb6f6a91186a0327c52c94fdab2930", "role": "prospective_change_record"},
+    {"path": "08_scripts/ddo01d_registry_builder.py", "sha256": "23b02753c3156b69b530e326b9da7440b50f1bb350c51ff1cd2e2abac5770ed0", "role": "normative_target_free_registry_builder"},
+    {"path": "08_scripts/test_ddo01d_registry_builder.py", "sha256": "91548430173bc94386a8ea7aabd4ba687f3edb5b1f5987ecd37d565001ce44c1", "role": "synthetic_and_design_only_tests"},
+    {"path": "06_manifests/ddo01d_case_registry.json", "sha256": "b4365cd02cd56d917282a490712247a3a287ce405261c4e80c474cc09739d1df", "role": "exact_512_case_numeric_registry"},
+    {"path": "07_reports/ca04_final_report.md", "sha256": "3c1480bcca3ca9d4677a98339ca74b54ad0b6af4156ba6b7e9e76b79d701b6ca", "role": "CA04_final_report"}
+  ],
+  "controls": {
+    "ddo01d_targets_evaluated_during_ca04": false,
+    "h3_h6_evaluated": false,
+    "target_pca_svd_performed": false,
+    "nearest_neighbor_target_analysis_performed": false,
+    "conditional_variance_performed": false,
+    "regression_performed": false,
+    "neural_training_performed": false,
+    "optimizer_created": false,
+    "time_integration": false,
+    "rollout": false
+  },
+  "authorization": {
+    "ddo01d_exact_registry_execution_authorized": true,
+    "ddo01e_authorized": false,
+    "h3_h4_evaluation_authorized": false,
+    "model_training_authorized": false
+  }
+}

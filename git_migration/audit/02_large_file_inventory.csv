@@ -1,0 +1,112 @@
+path,size_bytes,size_MB,extension,mtime,candidate_category,recommended_action,reason
+data/ddo02b_identifiability/ddo02b_observable_feature_cache.npz,28251337,28.251,.npz,2026-08-11T10:28:38+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/identifiability/ddo01e_non_neural_diagnostics.csv,25145317,25.145,.csv,2026-08-11T02:07:03+08:00,D,EXTERNAL_DATA,dataset or trajectory payload; retain on disk and index by manifest
+data/identifiability/ddo01e_observable_feature_cache.npz,18375476,18.375,.npz,2026-08-11T00:48:04+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_identifiability/ddo02b_non_neural_diagnostics.csv,8300688,8.301,.csv,2026-08-11T11:03:45+08:00,D,EXTERNAL_DATA,dataset or trajectory payload; retain on disk and index by manifest
+data/atlas/observable_cases/case_0463.npz,6230471,6.230,.npz,2026-08-11T00:13:38+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0462.npz,6129420,6.129,.npz,2026-08-11T00:13:36+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0461.npz,6082444,6.082,.npz,2026-08-11T00:13:34+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/ddo01d_case_metadata.json,6070991,6.071,.json,2026-08-11T00:13:59+08:00,D,EXTERNAL_DATA,dataset or trajectory payload; retain on disk and index by manifest
+data/ddo02b_atlas/observable_cases/case_0335.npz,5342431,5.342,.npz,2026-08-11T10:18:31+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0511.npz,5341076,5.341,.npz,2026-08-11T00:13:59+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0510.npz,5208796,5.209,.npz,2026-08-11T00:13:58+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0334.npz,5207245,5.207,.npz,2026-08-11T10:18:30+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0509.npz,5124417,5.124,.npz,2026-08-11T00:13:57+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0333.npz,5116969,5.117,.npz,2026-08-11T10:18:28+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/ddo02b_case_metadata.json,4570243,4.570,.json,2026-08-11T10:18:42+08:00,D,EXTERNAL_DATA,dataset or trajectory payload; retain on disk and index by manifest
+data/atlas/ddo01d_case_checkpoint.jsonl,4567931,4.568,.jsonl,2026-08-11T00:13:59+08:00,D,EXTERNAL_DATA,dataset or trajectory payload; retain on disk and index by manifest
+data/pilot_f1/ddo01br_f1_pilot_reference_targets.csv,4355496,4.355,.csv,2026-08-10T22:46:16+08:00,D,EXTERNAL_DATA,dataset or trajectory payload; retain on disk and index by manifest
+data/atlas/observable_cases/case_0459.npz,4150984,4.151,.npz,2026-08-11T00:13:31+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0458.npz,4079028,4.079,.npz,2026-08-11T00:13:30+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0457.npz,4046001,4.046,.npz,2026-08-11T00:13:28+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/pilot_f1/ddo01br_f1_pilot_metadata.csv,3636606,3.637,.csv,2026-08-10T22:46:16+08:00,D,EXTERNAL_DATA,dataset or trajectory payload; retain on disk and index by manifest
+data/ddo02b_atlas/observable_cases/case_0331.npz,3590892,3.591,.npz,2026-08-11T10:18:27+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0507.npz,3590773,3.591,.npz,2026-08-11T00:13:55+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/pilot_f1/ddo01br_f1_pilot_observables.csv,3568412,3.568,.csv,2026-08-10T22:46:16+08:00,D,EXTERNAL_DATA,dataset or trajectory payload; retain on disk and index by manifest
+data/atlas/observable_cases/case_0506.npz,3499637,3.500,.npz,2026-08-11T00:13:54+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0330.npz,3497078,3.497,.npz,2026-08-11T10:18:25+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/ddo02b_case_checkpoint.jsonl,3444562,3.445,.jsonl,2026-08-11T10:18:42+08:00,D,EXTERNAL_DATA,dataset or trajectory payload; retain on disk and index by manifest
+data/atlas/observable_cases/case_0505.npz,3442424,3.442,.npz,2026-08-11T00:13:53+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0329.npz,3441330,3.441,.npz,2026-08-11T10:18:24+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/scaling_f1/ddo01cr_scaling_evidence.json,3187312,3.187,.json,2026-08-10T23:41:31+08:00,D,EXTERNAL_DATA,dataset or trajectory payload; retain on disk and index by manifest
+data/atlas/observable_cases/case_0399.npz,2982017,2.982,.npz,2026-08-11T00:13:09+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0398.npz,2905749,2.906,.npz,2026-08-11T00:13:08+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0397.npz,2853835,2.854,.npz,2026-08-11T00:13:07+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0455.npz,2655300,2.655,.npz,2026-08-11T00:13:26+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0454.npz,2638493,2.638,.npz,2026-08-11T00:13:24+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0453.npz,2622051,2.622,.npz,2026-08-11T00:13:23+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0101.npz,2542902,2.543,.npz,2026-08-11T10:17:40+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0327.npz,2339700,2.340,.npz,2026-08-11T10:18:23+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0503.npz,2336651,2.337,.npz,2026-08-11T00:13:52+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0502.npz,2306884,2.307,.npz,2026-08-11T00:13:52+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0326.npz,2306251,2.306,.npz,2026-08-11T10:18:22+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0479.npz,2290890,2.291,.npz,2026-08-11T00:13:48+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0383.npz,2288938,2.289,.npz,2026-08-11T10:18:42+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0501.npz,2276887,2.277,.npz,2026-08-11T00:13:51+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0325.npz,2276534,2.277,.npz,2026-08-11T10:18:21+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0478.npz,2251460,2.251,.npz,2026-08-11T00:13:47+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0382.npz,2244763,2.245,.npz,2026-08-11T10:18:42+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0477.npz,2224590,2.225,.npz,2026-08-11T00:13:46+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0381.npz,2220156,2.220,.npz,2026-08-11T10:18:41+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0239.npz,2190610,2.191,.npz,2026-08-11T00:12:30+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0139.npz,2186714,2.187,.npz,2026-08-11T00:12:09+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0156.npz,2170691,2.171,.npz,2026-08-11T00:12:14+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0219.npz,2169404,2.169,.npz,2026-08-11T00:12:25+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/identifiability/ddo01e_reference_target_cache.npz,2014077,2.014,.npz,2026-08-11T00:53:23+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0395.npz,2010870,2.011,.npz,2026-08-11T00:13:06+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/scaling_f1/ddo01cr_case_checkpoint.jsonl,1987023,1.987,.jsonl,2026-08-10T23:41:31+08:00,D,EXTERNAL_DATA,dataset or trajectory payload; retain on disk and index by manifest
+data/atlas/observable_cases/case_0394.npz,1960577,1.961,.npz,2026-08-11T00:13:05+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02a/attribution_descriptor_cache.npz,1945948,1.946,.npz,2026-08-11T10:15:59+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0393.npz,1928035,1.928,.npz,2026-08-11T00:13:04+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+figures/main/figure04.tiff,1848224,1.848,.tiff,2026-08-11T15:18:21+08:00,G,TRACK_IF_FINAL,publication artifact; small enough for ordinary Git after claim review
+figures/main/figure03.tiff,1825310,1.825,.tiff,2026-08-11T15:18:20+08:00,G,TRACK_IF_FINAL,publication artifact; small enough for ordinary Git after claim review
+figures/main/figure02.tiff,1682782,1.683,.tiff,2026-08-11T15:18:19+08:00,G,TRACK_IF_FINAL,publication artifact; small enough for ordinary Git after claim review
+data/ddo02b_identifiability/ddo02b_reference_target_cache.npz,1588536,1.589,.npz,2026-08-11T10:28:49+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0156.npz,1580780,1.581,.npz,2026-08-11T10:17:50+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0117.npz,1580478,1.580,.npz,2026-08-11T10:17:43+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0475.npz,1575313,1.575,.npz,2026-08-11T00:13:45+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0379.npz,1571245,1.571,.npz,2026-08-11T10:18:40+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0474.npz,1545016,1.545,.npz,2026-08-11T00:13:44+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0378.npz,1540996,1.541,.npz,2026-08-11T10:18:40+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0181.npz,1540250,1.540,.npz,2026-08-11T10:17:54+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0351.npz,1539432,1.539,.npz,2026-08-11T10:18:33+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0473.npz,1528281,1.528,.npz,2026-08-11T00:13:43+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0377.npz,1524683,1.525,.npz,2026-08-11T10:18:39+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0451.npz,1520145,1.520,.npz,2026-08-11T00:13:21+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0450.npz,1515346,1.515,.npz,2026-08-11T00:13:20+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0350.npz,1514068,1.514,.npz,2026-08-11T10:18:33+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0449.npz,1505109,1.505,.npz,2026-08-11T00:13:18+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0349.npz,1503247,1.503,.npz,2026-08-11T10:18:32+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+figures/ddo01e/identifiability_ladder.tiff,1441664,1.442,.tiff,2026-08-11T02:12:42+08:00,G,TRACK_IF_FINAL,publication artifact; small enough for ordinary Git after claim review
+figures/main/figure01.tiff,1441208,1.441,.tiff,2026-08-11T15:18:17+08:00,G,TRACK_IF_FINAL,publication artifact; small enough for ordinary Git after claim review
+data/ddo02b_atlas/observable_cases/case_0168.npz,1436985,1.437,.npz,2026-08-11T10:17:51+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+figures/main/figure06.tiff,1421028,1.421,.tiff,2026-08-11T15:18:23+08:00,G,TRACK_IF_FINAL,publication artifact; small enough for ordinary Git after claim review
+data/ddo02b_atlas/observable_cases/case_0303.npz,1404039,1.404,.npz,2026-08-11T10:18:14+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0499.npz,1399597,1.400,.npz,2026-08-11T00:13:51+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0323.npz,1398656,1.399,.npz,2026-08-11T10:18:20+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0498.npz,1391884,1.392,.npz,2026-08-11T00:13:50+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0322.npz,1388957,1.389,.npz,2026-08-11T10:18:18+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0302.npz,1379530,1.380,.npz,2026-08-11T10:18:14+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0321.npz,1378676,1.379,.npz,2026-08-11T10:18:17+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0497.npz,1378634,1.379,.npz,2026-08-11T00:13:50+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0134.npz,1377528,1.378,.npz,2026-08-11T10:17:46+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0301.npz,1369056,1.369,.npz,2026-08-11T10:18:14+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0200.npz,1353265,1.353,.npz,2026-08-11T00:12:21+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0217.npz,1352830,1.353,.npz,2026-08-11T00:12:24+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0205.npz,1337736,1.338,.npz,2026-08-11T00:12:22+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0134.npz,1336792,1.337,.npz,2026-08-11T00:12:06+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0177.npz,1327044,1.327,.npz,2026-08-11T00:12:18+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0391.npz,1320954,1.321,.npz,2026-08-11T00:13:03+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+figures/main/figure05.tiff,1314068,1.314,.tiff,2026-08-11T15:18:22+08:00,G,TRACK_IF_FINAL,publication artifact; small enough for ordinary Git after claim review
+data/atlas/observable_cases/case_0390.npz,1303417,1.303,.npz,2026-08-11T00:13:02+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0389.npz,1285947,1.286,.npz,2026-08-11T00:13:02+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+figures/ddo01cr/refinement_scaling.tiff,1251964,1.252,.tiff,2026-08-10T23:44:42+08:00,G,TRACK_IF_FINAL,publication artifact; small enough for ordinary Git after claim review
+figures/ddo01cr/spectral_scaling.tiff,1198238,1.198,.tiff,2026-08-10T23:44:44+08:00,G,TRACK_IF_FINAL,publication artifact; small enough for ordinary Git after claim review
+06_manifests/ddo01e_particle_sample_registry.json,1116652,1.117,.json,2026-08-11T00:42:11+08:00,B,TRACK,"small report, manifest, configuration, test, or provenance evidence"
+data/atlas/observable_cases/case_0232.npz,1096399,1.096,.npz,2026-08-11T00:12:28+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0471.npz,1074405,1.074,.npz,2026-08-11T00:13:42+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0375.npz,1071229,1.071,.npz,2026-08-11T10:18:38+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0470.npz,1064850,1.065,.npz,2026-08-11T00:13:42+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0374.npz,1059813,1.060,.npz,2026-08-11T10:18:38+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/atlas/observable_cases/case_0469.npz,1055846,1.056,.npz,2026-08-11T00:13:41+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload
+data/ddo02b_atlas/observable_cases/case_0373.npz,1051923,1.052,.npz,2026-08-11T10:18:37+08:00,D,EXTERNAL_DATA_OR_CHECKPOINT,large/generated numerical or model payload

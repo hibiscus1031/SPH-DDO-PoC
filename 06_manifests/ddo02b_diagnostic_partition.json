@@ -1,0 +1,3082 @@
+{
+  "case_count": 384,
+  "cases": [
+    {
+      "canonical_case_id": "DDO02B|F1|e11115fee4ec4c6c85973da3aa47f90d6d80ef2d365a5471f9d6c70e9c95309a",
+      "case_index": 0,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|29ab46a65e6f055fdb252164bfc8f07af858276c32622ad2dd979ec3a71ad479",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|0e519eab14fd341ddadff4f54e1f16cfcc7b94d0b1cd999897eb7d3496c6dceb",
+      "case_index": 1,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6c8144cf8c00dd356f1d394de6b35ea3c08e203441e9cd0fa6b65620b5192899",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|8aad78c9279944ba1d56aaa8edeb7a19ff59db72974dc0df3c74309916bc731b",
+      "case_index": 2,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|ca4ca6c5c5eaa7fddcc6494b91946b51cfe77061b192c1d1f63177b29de26bef",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|8cbf6558d52e38d8a38a7c8c28ce1e3c3b18598f039e869d523fa8b6a2324fd1",
+      "case_index": 3,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|077713dfcceecb16e02b58b784e6268eb0a46a620d5aa6698b7deaf4edaf4d13",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|b86a07197c46ae83b24d8f41c2965228a8c8142aecb85eb9f54ae3308ca91d34",
+      "case_index": 4,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|dc089b1cc6352ee65c5c443c2ff3aeeb2b5a0dc39dbacacb8c18fb0dc0c67083",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|0999f06d49c0312963c224ae16638c6a3d45fcce3a677ef27d0c6024b3bc923c",
+      "case_index": 5,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|183bddb0e07b0dbbb53d5676ffe7a8b99853eb95a540c133d18abdeff3f1df96",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|946879cd7b9defd2ffe64fc303259391fd45b8323cdd1adae12c893756da1237",
+      "case_index": 6,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|c28d70b02f2ce00f8493ad2bc4736a3845a9c7865d4c83fd7fe3b3bd09fa4137",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|b8827dc5bf9c994cfb7ebcb2c8bc397182168946ea8cba6c8b0029628c247471",
+      "case_index": 7,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|8d8f5418596ba7658ee18c7c516ca0611c0237301566a529af0603a1e73855cc",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|33d52c821159c5197fada9158be07c78acd6ad362e148a4ae218e21f30b673e2",
+      "case_index": 8,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0197da90103a46996c26e0273ab63c42fb36909281b8645f6b18050c6904d48a",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|098834bb2d7adee69ece73623fc87325b210f9db8c8c9eead8f286718a8e3c6c",
+      "case_index": 9,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|4c934cd7f8d03045edd7cca084f68c7d5ad107bed3da3d5ac98afc2eb4d03297",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|aa5a959c0471abd7d63eebe7d01711443020cc88306872482e74788076b39b5f",
+      "case_index": 10,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|4c15f259b55f38952ca442c587aa9137422b302ab23407265380040f83513c53",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|40dc497a9499c7296869f0956b14ad4b5a041fe9ec9be28b254fa973152c87d7",
+      "case_index": 11,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|7d06ddb12594afe47d095c66e43fccb969f689547f31278c136baa9c9bb22ea8",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|61e5f4250eed06e39ea59b4ae6fe9e92c98d75e623be2b4c2e994bcced5c1b22",
+      "case_index": 12,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|73d13c724c237286036c7bf9a4d1c4b35b0e5f948bc6b1fd5b0ec66b781dec77",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|04e44375a96e9e449f4a5f54a8e69f29e485068bc2e70213788c6228fb9afd40",
+      "case_index": 13,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|edd56b57512110d465845b53e0230f87f673d2907c104cc31d0649ebee569189",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|358d340f389096305a7eff5ac0887e7604ae5806736df6c54c04ebeeec0bc15e",
+      "case_index": 14,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f06f15075e51275fa89e434b2cf25932f9d77f5f09e7632b201d62ff57ea4c16",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|47857ea03e050b0ead4f57225bce398b2d96ae744a7e944157897b125593d9b1",
+      "case_index": 15,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|fad852a116a430c51341d91ee6a5bea3510fbd36ac589c4068b0a8dc3b4a58a9",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|26b1e707eae95aedd8b9bdb4ab45d53e873daae691758e6be3ca09918a3aad40",
+      "case_index": 16,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|ff06dd37ed9a14924018f7137e275c0928dab18696cba6f4d7af2f4277e9ea39",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|07cb5deebcfd8329b1afaafe507b7e5adba8af0b2361565de30094ad0e7d5b71",
+      "case_index": 17,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|2974b25532fa55e2ea9d4ac550c4908f6cf439a01374cb0e64d65b7e01a250a2",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|20a7ae19a88f6214616b750e1a4bea2e2fd11c11958f4a2b3a809b7b81ce30df",
+      "case_index": 18,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|3dd9ec9565ec14e9f51cceb34a10f705a5d663bb0e10c792ff9f6bc58573501a",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|dd6486e66dbfa0e9b6ef63b2b651fdbf489604c940a7f55a5153c34731192fee",
+      "case_index": 19,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|d6252bc5373fe6de85b0ab02e8fdca6c78b0fee9e52de8e315fe8ac1702581f0",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|1f7ab9a84e4d5ae18b9299e129453d90a23eed8d07b7daa92c27778b6e4ef536",
+      "case_index": 20,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|8276514458093c0c78dfaa38d62a762f13cfd7dcd07739eb2676aada05731067",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|296e133669a462d7bb92790ed31d79ed8bcf7fd738dbbd7de6407ed9a52e7b0d",
+      "case_index": 21,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|a4b08b9f83279265e0ba62849a0b18b7fd51de80836796ec182390a58a57d397",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|6e6ebb750d36e56ad1da334b4f16dc1b89b0380250520b270d9f15cc64a5f176",
+      "case_index": 22,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|603b963d1506966eb57cf162e6122787cb2a39857b0beec7446cac1b5a33e268",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|03333e0bad56c0b6af9ea268bd258fa0da077f71f28491f352df3760b1e2b618",
+      "case_index": 23,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5c0f3f05164f05942f9cadd5e7f39cd4ba9a9902e9949d96e9db5bbff51d5ab5",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|c3e415250ba492249a21acc50aacf4851c19d16638dbb7b49c8ab0fdd1433e20",
+      "case_index": 24,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e02589ab9d3d2c8ff71224049395b64769d9fac203077adc8961733570c59ede",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|854b3e89a99d0d9b294855a846334421ab266801075687fd0fd03c4ee0baf888",
+      "case_index": 25,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|a88a38729f367d3855ceb6589181adb98b20202ea5c4d3b62fc535c7ac312638",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|572eb57b52e4277050c81edbf5d9fb5d4c6c2834eaa4bfa13ca999e53044a85b",
+      "case_index": 26,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f812e65a2778b4391469478b43c839aa4a0456d01b09d180e6b47bd440a2a8c3",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|522cac5ff2f2e7a9ace98dd97e1c6ae67e92e04dbc07fa70c6c8de60cfe8aa8b",
+      "case_index": 27,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6e8c39eda6503739fb120618e66373e87918243acba2d766c378c33362799c39",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|d764ffa923e7f6c15a6b77d749858aa725bf281e0ce9e350a2881caffa190c7f",
+      "case_index": 28,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|91e23dddec37928e9dbcf397781d3e72312235edb0421e2d969d87dabe216399",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|63446ea78391f663cf8e15a569a6f681063874adf80f4c0144c8803e883c0792",
+      "case_index": 29,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|69f532f40155e188f750b43dd5436461e74250e7c7216d62b64a7a2b89a1788d",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|eb54f9d9f5dbf8d06eb4fefe1764fd2a541798a858aa30b88e3e2c730236ada8",
+      "case_index": 30,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|260afbb19f87c117d41f7a89765542cf071be1b6543c069109c08a78b0dcf4e9",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|6868cb401ff262d7ec3269c71a71451e860e43d8ee0edb46f045430f61d43415",
+      "case_index": 31,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|183bddb0e07b0dbbb53d5676ffe7a8b99853eb95a540c133d18abdeff3f1df96",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|7d98cb07c1332d5556c6b9da16bbc9af92de5912037eb0cccb4470c6e7597909",
+      "case_index": 32,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|8ca4bb76f7dac9895b0c897373137b0d6d5cc706e61e975b2d10612a7ff0c19f",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|70f4567505a966a0fee96b508bd3120c0a2977d33c4aa94da66fe8701e060a59",
+      "case_index": 33,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|8fa93877a49f02231d708f165dc01aa863ee1184f161147424d0caf071041bf2",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|41141aef7173eaba8bf6524879adf7097eab79e36ad006de095aee6513881c3c",
+      "case_index": 34,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5517b9b69ffcf1c939b1ab45fbe7c39ca4197642e5b187aefacfb0475a948133",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|8469a48f9611e72f8d1e72f5596d4688dd98b524d480a4a0e99403fff1529ad9",
+      "case_index": 35,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|d0efec43c0e92db47ceb62d194b070d7385249a4c51d3f3921dd7f8ed92709b0",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|374d636df6e75269b88824680443d027b6fa53b6ae3b51ca16026f930523480d",
+      "case_index": 36,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|284f7b4514a628456cce1f32982249d90940d5c4a40d536210cc104383e2a679",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|ab08defb526133f15108c6006420b8f885fe6d4681cc4ad7f3c602bbfcd6ccf0",
+      "case_index": 37,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|4ad4fc5df90715cfa5f2c888392d76d9c9d4d9b6271dd6f4dbf0f87aee79fd05",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|07e84b8a627a908f49a266e47fd563537a8f63662db7dd6a29bdddd6d76b15c8",
+      "case_index": 38,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|8ae84029e73fa757afd0eb29715da631606d88989e129b3d375a62066181a90a",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|710022384a28bf15da4b1c5a4f7f7ccbc08b401ee6728e20ecc28db1bf249a21",
+      "case_index": 39,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6adc1bbdd893086900390f09efa38e22bfe8fdde41a99104c36a4295ceb15f48",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|81584b25bab78f3eb5ec2f69da22239927fcc593f41517628ba54e71193597e4",
+      "case_index": 40,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|84addaa5dc41a34c66f19225aa72fddfca12efa43fc59f27d77fa62bd56cbbe9",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|501d4bd89686b910fd825214e37543d9f440470c78d0d105d1966b6b478c8da1",
+      "case_index": 41,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|714f510977c5b246a87f29769e3d6c3037987579a9125084a8186f468c42148f",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|d715726af800a00218718d45471208fa40be745b0d48eea1513a0606950bc478",
+      "case_index": 42,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|ab3fdb6c8d8844019e49abea85693bee41fef134fe7c33a0b55fdc441d978f3d",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|ca33ae2c2db6e5c948443a93fc3f199d61b6a40358c36e9931f7aac8f157ed49",
+      "case_index": 43,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|d0efec43c0e92db47ceb62d194b070d7385249a4c51d3f3921dd7f8ed92709b0",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|62dc0737c17c628f04f4068d8ebbace56f8d2843f963cf6981e42a513adf1be9",
+      "case_index": 44,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|3c0208322c9f8082d591cbcea04024142cb745219e695390c8316e842a7735c6",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|4b98ae5f11a3ade065444f46251f6fa30e0d49af927d57735ecc4199058bb46f",
+      "case_index": 45,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6adc1bbdd893086900390f09efa38e22bfe8fdde41a99104c36a4295ceb15f48",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|02e6b3532885c983e6cec6e882fbd1f564f036be01b581e99a68303765ece324",
+      "case_index": 46,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|a42aff59f5cf43bec1302cb7b06b697eef2b4f04df5f6114291bb9837d15a90b",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|7e1f404ae21519bf67bb454ea5632de4176be8ae9acf82d16f4066db469c3140",
+      "case_index": 47,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|c956234dd096611facd25f7e953e96ed194f8f8f46cf1bc0a6a78a78137a34f6",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|b7a2e7396030126d78a9dbb97a5d870c3c5fe2ea348f13cb64f5e27bf23bba95",
+      "case_index": 48,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|603b963d1506966eb57cf162e6122787cb2a39857b0beec7446cac1b5a33e268",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|072aeff33ec757f351226b8da3dcf318b9094ca4632e2d24e3b7f6886fb0349e",
+      "case_index": 49,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|678a2eb588e7f30267cea72f08faef3152af5038ed71e98cca2085ae7be18454",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|ddc862d7d6fe69c24d6467697c615003a7919204f572643e847a79d7883fe104",
+      "case_index": 50,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|077713dfcceecb16e02b58b784e6268eb0a46a620d5aa6698b7deaf4edaf4d13",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|aaa24850722c83b8b3904c07a6a598446566638ab7fbd20ed1eec5e3969fb10c",
+      "case_index": 51,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|9a2035d59f9ad0422affc8e18c9375da13c4c367cf79ff2fff797f8be9d5b549",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|28fe4a8086710e42d4cab57a70b67b5a968c9076a923c92cf16e563e4562ad8b",
+      "case_index": 52,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f347a9f9973558f2d1cc22dbde4f59037979c37e439b1755cb3dde01c7e87459",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|a341745df01c28d0c7425e5bca1bcf03410cbbb2cd6462abf7d37561ac08c650",
+      "case_index": 53,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f06f15075e51275fa89e434b2cf25932f9d77f5f09e7632b201d62ff57ea4c16",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|85786f251af013cdb426f03a0d2f6860bf13b3162aa7d78dbf087fd52df052f2",
+      "case_index": 54,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|edd56b57512110d465845b53e0230f87f673d2907c104cc31d0649ebee569189",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|7573614525b4970618a1dd08f63a3079f081b3415ddd90cceee98d7667c2c68f",
+      "case_index": 55,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6257dda01ab9ea07b867d6e9738b10252b22cd5e7ddcb6abc68566407f9e9a11",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|1b4a6bb2c548697dfaff5e50be779a0331bd0f7eb71e1506e33e8733860cf36c",
+      "case_index": 56,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f347a9f9973558f2d1cc22dbde4f59037979c37e439b1755cb3dde01c7e87459",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|752def9ccfa0812f867a9849b6cbdd3f600513e54e5c4268740a9d913bd2f96e",
+      "case_index": 57,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5b5d7fea8b39764304bbec59ea22d2a46782624ebc5dcd000b33b05c7896ef92",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|2aae4b949cff362ecceb5f55603a7edc46dbc17bfda91bcef4691f4f48a47f65",
+      "case_index": 58,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e3c094fdf830a7925d6ff8f3a0e3def21b49a4f449b61bd18ffbce9be5daade8",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|7428823d45317d595d32ac4b108b4346779ef97be95430d94517a7576cea3ab5",
+      "case_index": 59,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|dc089b1cc6352ee65c5c443c2ff3aeeb2b5a0dc39dbacacb8c18fb0dc0c67083",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|09c184d3f3d0b6e9a666025b1e9a894c4bfae76dc9943cebcbc1fabf6b68b919",
+      "case_index": 60,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|4c934cd7f8d03045edd7cca084f68c7d5ad107bed3da3d5ac98afc2eb4d03297",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|d79737f7f2ae8f6ec069e892b8b99818dd39727ccfdcbe912a0767643a2ceb56",
+      "case_index": 61,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|30109364064f1b256a2f5ef21a9b8c82b678aee95562aa8f954a5ad8981b31a6",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|1351e9a9d432a5ee0c1ce175ebb790fab4808094c0911df96bae647bd188f917",
+      "case_index": 62,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f0192cb59b1a8db6b4c43ea869df2d47676a22d8ed798eba8c0fbfd2e5d646ba",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|8765c626ce721384ff9b90f00f3640c77477e3ee7bc1db6db1b4e7db36617ba1",
+      "case_index": 63,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0337f00f8d03ac46ab590debd1471133569cb426f32e832f24a7dca9c5d1f1ca",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|eccc468117568ce2820c2f7e193048a14452b3fe2eefb211474dda9b40a2efb8",
+      "case_index": 64,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|fcd6099831a49f1eaf2d2753d493edd1bf1119366be3cc2aaf5d1b80e17b8ff4",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|e5d3d873e801ec5710d61bdce121a09f651309543d2448be2963a21db3da7a5c",
+      "case_index": 65,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|9ac519ddc1659412a10034a01e579d7f4350171d20ce47040bb9d5e67266d94c",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|1071a31eda3a13816c60439d29ee5cfcb7f6013cf015a5aedad2393c652edc66",
+      "case_index": 66,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|2d28c8ee3c3ecf5935936c37dff145931ad098ff46fd86223179c85656c209a7",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|9e8c98fa7a4ebad3a29d34e8b9f70da3253ca6a0ff678d7d809aee7c93ff60d4",
+      "case_index": 67,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|62a4cf714addf91491a8dbcc59b9458062107df31eef0ef7f319da0bd228aae5",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|e34d5c528f439649c9c49dfb17570a9692a316ef5e7ced95361610194d497d49",
+      "case_index": 68,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|d27a4627e07c1e04d303e03aa01cb34e89094583831b5e5e312c7cd92e09c581",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|56b4e0fd9aab813a9e3a81d7b85aa4e7a6b23a58d53111f7cac03f6ea4e24768",
+      "case_index": 69,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|93019da92d277713c0e8c67587a5f3f9ba96afc0dd17ff6985025da7f997c5a4",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|f308cab8a5da110c14cffa6b83a17f86288e1bac6ac9da60169356a63c35b631",
+      "case_index": 70,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|d1f3323d4577a02d094e4587e74e0d3d7b00dfcc63c4592dfad6c315be9fe024",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|c9a17d25cb09edfa9c26186c7cc6a04a682fe81685c6d0868e06e71a5f186351",
+      "case_index": 71,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|4ad4fc5df90715cfa5f2c888392d76d9c9d4d9b6271dd6f4dbf0f87aee79fd05",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|36ccfbbb8937efcb0c914b97cfad360b0360b6b958a240347c547e3fe95f717c",
+      "case_index": 72,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|2e281c430ce1229667409b130125d618876bd09013a2eaad6ac7b61f27414367",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|3124ab42490e5272b7030999e03fc8105dc2e4382d74982fb614bda053c6a212",
+      "case_index": 73,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|62b3105d5a8b73ed76fdb5b976c89d4c1455354dea84dbda9173ff01a71ee88e",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|6341b2b77afcd5bca496b723db39f4e557fcbd40818a4ec5e535df89467ae2de",
+      "case_index": 74,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0e3593f164ed0a736ae14224fcd46c0b271910ecf1d5b8c936d360ea2f99ba9b",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|4fe9397874b83218ac385132027513613341248adc7b471994cd3ca3bd2e21cb",
+      "case_index": 75,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|d6252bc5373fe6de85b0ab02e8fdca6c78b0fee9e52de8e315fe8ac1702581f0",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|55521415be1414a74c1299c683690338a64ef681dc9f3633ea4071778f08d2f1",
+      "case_index": 76,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f0042fed75fe3dddd56233bc56cdec136a114d2e6de4a0ed76159f1b600d1ca9",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|d60bc07c6ae1f04f47f86ab902c88747aaa671a723f37606e6c4b22c79eefcdb",
+      "case_index": 77,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|941d286500d7be650b39b85eb11f08f9013b9035957d17e350ab4f7e67e2f0e5",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|f330a927fe943398b51da0f1434fda652c7671148deef239c8f2737799b80480",
+      "case_index": 78,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e7aebc181d40ffdec6967659d9322b20f5e76f5a1d1444574e77fffe4cd311f2",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|fc3b801bb62bad31c4e22eb37a5060a38287382a04916b791a4e100a733a9a10",
+      "case_index": 79,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5cb5ae21a104e16d10db1c9ae42f1a5bd0a240ca68144b98e1c4274be096d35d",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|075be8a7635bf8fdcdce83d5f381a2eb1e53908b5d285aaa1be6dccf055f7903",
+      "case_index": 80,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|89ccb5efb02f23f9092e31b624acdfb4d5a1585f3773dc196f4990dc268dbf77",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|d4d8d26d2d3381ce693e46ed2a5bf437a57c5103f3e11259f52931e0088bddbb",
+      "case_index": 81,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|275d2cda98daaa7fde5b9f8f2f32024d94dbeb7e4f2eec47340c1e02630a6e92",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|c05153e126e9ac075070f764fdbceca7f815cdb7ed4c654005c2876d4b8de95d",
+      "case_index": 82,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f75161319e22c796622f042a5311371bd0caa23eae38d1b90274889bf13511c8",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|07da47970a3f323650194de135e7bc53823298d6e19750d4ac76be5985ecb946",
+      "case_index": 83,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|225cb1b66badded7800d72fdaa7de270c346592863c05ecec0f751ebb4af3b58",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|4886487f061b14d75e2b87de10d150e68e6d8160087a33cff22a6ece59d0ab07",
+      "case_index": 84,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|8ae84029e73fa757afd0eb29715da631606d88989e129b3d375a62066181a90a",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|0efecae27aa3f551e49f9fbf20ed69b3e9f1e6b845fae8971043c2cd58253882",
+      "case_index": 85,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|db0230ca3f90779f0ec65f12819bf5c97768a14879ea1decaeab98efebee8292",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|7616694803315ffd674763bf6f08ae2ff0e9833d488c5f5bbfc43af7e97d2b17",
+      "case_index": 86,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|3f21ace20c4ee564054ca6f76a0e06683443b9c5b6eeefbdb7aa99cbf546bfef",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|e2a4da89270c492812199617e23bbe3bbf95ab76a2c2f9b4b69df1151be8dbd8",
+      "case_index": 87,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|2974b25532fa55e2ea9d4ac550c4908f6cf439a01374cb0e64d65b7e01a250a2",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|a4ddf23ab93a76b49650e88d64898a1637aa7afdfa6cbed62a395840f20b3b45",
+      "case_index": 88,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|418bb94ea211cbc0fa4bb220160abbb944129434bfac15af221b3c74dbef1c5c",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|fc578856f11391a9a30b627b231acb0a7f30cbeb5848500f64f47d2e35958e9a",
+      "case_index": 89,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e9db69c562e27eb2c55b3730fa576db3bd1e11ddf7f663b265ff3301948bb4f9",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|33d44bda9df0125720ecf542ba9d8910c5d9d87a33612d6fa91b89636aaef0e8",
+      "case_index": 90,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f0192cb59b1a8db6b4c43ea869df2d47676a22d8ed798eba8c0fbfd2e5d646ba",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|608c94c06f236b897f8704e837598d8a141de8b301a5d0bb4ce9247b125fe56b",
+      "case_index": 91,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|4eaa662a4afc2ae42be540a4727bbae978b6b5f0c7b84650fb258f862c61bb11",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|d1e0ebada82fc2a87a918e36c653ce8076a514c6d14c6e46700d041b68861b0d",
+      "case_index": 92,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|dda9187470ee9ac6df4018edf7b4639ad476fa0b413d1f870fe0317f6500fd20",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|3206f7e9b5298ee2dda03ffd881321461fcde6d2c28f457b62507c08d6287817",
+      "case_index": 93,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|92bcaed329c40dfb16cb04e80d254723caaf218b05393a92e0369e2315769bbf",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|c3cb1c7db1f7d13756a39b441bdef377ecc2377337ec677d19d16de5a73363dc",
+      "case_index": 94,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|603b963d1506966eb57cf162e6122787cb2a39857b0beec7446cac1b5a33e268",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F1|12ec0b3643aa9784226da2dbc08aef4066b17552610dbbf4ed1b6c2b5a0803bb",
+      "case_index": 95,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f66656ca0747fc53afbfe3fec5aaf0a0c6948bd724d3df73b4f12c7bddeaa35c",
+      "formal_evidence": true,
+      "macro_family": "F1"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|5c067ac6a281de6d5c457ad6bdd3bd31070442f22b806df5d73e9cc9a551aed1",
+      "case_index": 96,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5b13521026fac4a5c1e76e4772bb99e001bf5c7f0fc9d5c32e24c6526fb2fc52",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|470bb48b9874e515b73ae0c8f8e452b4f7216d2e048e213c20012e3b2a67baaa",
+      "case_index": 97,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|c3b133dcc95691b1d63d27ffdda05cd9c12d287074817955c1f6d399010e6368",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|ec910ff675c05cd687a7742ff90f82db905606d821751854cc4e697bacd47654",
+      "case_index": 98,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|019898dfafe3bcf2ab559c6421907734a39ea0c277811ab77c8506bf85ec74d6",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|094a85e30ae20299d825337959642e5f66caccba96d903fcf23b8960ff8fd5a7",
+      "case_index": 99,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|56d49745f958c11611b38e09ebf4fe7c0c9e54b8c04d38d27bc08af78d465205",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|974840630c8007e23c9ae1857a76fe115b21f260b9f107ab459392adac89a124",
+      "case_index": 100,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6e6a047d734b220a6e1a6b5822dffb9c8bc3306541c5a4e1aca3365ede3dc4ba",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|c5d1b60d32463125ff8e5aa657b18e12d91f1b86fdb04b0a4d93cab9a06c63aa",
+      "case_index": 101,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|d6d986334e90b1a53a0c91888830d1bb0488eb6e2e065b87552c326a77297e73",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|f430ae177da6d208f3450d468371328dc1cf1e5c1999e5ed8c3389bda43666e9",
+      "case_index": 102,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|20270fd834b2eda99dbf8740eaa47bc63022ca6e98fd9c0024c5c8bc1bbbf481",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|70f2d9a3adcb824fbfb47d11656aa9f957ec581bb2b5ac3d6e975b403fe1ae95",
+      "case_index": 103,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|98b3eb5555b0e986d6ab223a466133e806f8738f20347afa1bfb742b8a52c4b4",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|c285d5f08f7d81b96a27df039013fba32346e5f19c5c95b3eae7b761554461aa",
+      "case_index": 104,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|81b9d4a67fb957184627309ecf342502eb189d6e7f855ef667376ae62887fed0",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|01f0dbee6a7fffdfea054f4c83b16ec7b4514e24c3708c2238c0d1cd192a8e14",
+      "case_index": 105,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|ee23aa2d6d5f34f560b6491aa60e2f0a1583f6673bde8c2f12c708874a321935",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|179ba404d5a98d2541af692abf6d2bc92cf414e1d4608d0f780f30a2c31dbd70",
+      "case_index": 106,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f174ce889dffdd506606883508a323616b5b866c4b3f3c7e5984d13c96642d1b",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|d2e2e2da8eb334cc520fd6a34caa88e86b2cde5f14ff0dc1443b0cae981d1b54",
+      "case_index": 107,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e61602cfeb23292996e7d8d6012e41b04d06cd35d2e561d04a4351f16dc78a53",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|d1c3376b3c67698ff612dbbe1aac6b5310b876ce49a851f1a0394fdde1cabbd2",
+      "case_index": 108,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|43572cb5a1c53ca1316808be1fc1daa947e55d5658199b2ef217a88899a11bf4",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|39bac1b83e9b065a2d1522f66a039228bad89fa5e2cd6bfd6f50238e52ee8e4f",
+      "case_index": 109,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|766ae828103e97d3e95b9def81ed70b1aedbfae25ad9512ca3426e0aa5f827d1",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|a6ce0cd70b7f2702e05f8acb69cb856e5b06c3103b54ba0f11ed85e475b133f6",
+      "case_index": 110,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|34659d6dda331ec7a0544dd0e86134818b06df805733c52f1af24eaeb278133e",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|bedfb420c74f25692f2b5404a4991c75d35cd6b953130f5fd08eba4f5ac337cb",
+      "case_index": 111,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|535cc642328eb0f429ff5ccf6c42f28dcba880840a2ad5abfa86d11ecec84e80",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|cc5a7f0e01d38e6d0a64129ea70c66d0007a3a2b2c2727a3a20ad8d85ace8970",
+      "case_index": 112,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|fed5ff29068d5c945ed47ee1de128a6b337e242e1aba5e519124bca10bd13261",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|362b40b50ed0d78d9c909fecf33dc0dc9b875d27496c3f4e61d6e616779a57f2",
+      "case_index": 113,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|86ec123b228a59b49153bb470e2dc11cd26f50a8110b9d61f1e934dd9d61091b",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|dd1e31b981f1cf1685b02b7a6dbb8b2d39c31612ab33a152cc261c17ea846a2c",
+      "case_index": 114,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|3ef1e4ddaa71122d55238107a92593e1026075ade6b9aac6d199bc543e1cc976",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|2f7d4cbe9ff49eed6fd0ccff2b714f2935a7b3b4e5a9ca7add046b499629d5e0",
+      "case_index": 115,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|364d26143dcac7f68e447359c5b04f7c2e713a7a605d17fcf8bbe7ff0b4a3ca4",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|b1db5af81373a7a4e1e3638e18c54872c1ac8c08590bd6c7ae83371edd1bf546",
+      "case_index": 116,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|7b0cba3dc4e212ea240e675a4fd0e38310c27bdf9dcc3befe293aca6b0415d37",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|55582723651a75dcd0af8488c7231afb87a700c04f6e8dd232285efff25e08d1",
+      "case_index": 117,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|63914e497c3536921c7299e76b3dbec4419f754962ad56d44cb4548c08e5ecd6",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|c541bc1b67d19bc13d45ff810bafe96fbd16501442aa8e5893c501e47f86407f",
+      "case_index": 118,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5db39891e65bca08c255f14047a0a072df26c9e7bc1f598744bdcf907a00a115",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|a37a1d092e28f85ab88f7adddf2b03e905def3f36f74c26f42ed6ee510c0a842",
+      "case_index": 119,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|429444dd2044dcf7b6fd72ba5c739dd428ca5df131624000eab73da3ae902000",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|ee7d7ab2d23ab6b4187bceeaee66649549cda06ac3d3f79d283dfb03d1aa1a40",
+      "case_index": 120,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|36f0429af41498624d6f64b35de3b19098159a76bc73212c0d54ec28a738f9f3",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|8522b382d469876f4a36b38cebab6d574e0405e9965ceb0f0f41ad493511b2b8",
+      "case_index": 121,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|942aafb2b0fc52bfdbbc416189f43305ef45ded9fd60053706763ec999ac9c7a",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|b0c7acb2156eb0ec4153a21b942fdbfc9ea5bbfbb4a8111893ef5bb0c93f3851",
+      "case_index": 122,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6e6a047d734b220a6e1a6b5822dffb9c8bc3306541c5a4e1aca3365ede3dc4ba",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|cc7c09219cedbb63be374a32ed3f0a643ee3c8bd62320871f47723ba50491943",
+      "case_index": 123,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|c42101277f0ea775634d46a3563ad3ff8eb791f1168d2491c01907c4002c3a15",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|3a0183416e590e89d4bea4164648baf9093880e18dd759927445d3a4323b1d6c",
+      "case_index": 124,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|959b0783d993604b7215c3cdd3be91b3fea918390e7078082f6ff7a7f8e55881",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|7cf6bcbc1104022bc44564626cc2de96f545b7cbedfaa4c6a6fcb52169c23d94",
+      "case_index": 125,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6b9c71935b831578761ee0b5e79dce638430db096448b3a85aa1a5c33a2be4dc",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|9950e805a62920e83c2e51c4717f780e88fc0031f70590ff5f9a1d4312658e96",
+      "case_index": 126,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|685ec2b750360a5c6947332a9f705896a5c117fe553d9c29cc50f79ea6022e82",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|ebeac67f5385890e1b8c9e2c10684cd05e750ea274c369d927d5180a5baf6478",
+      "case_index": 127,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|53bd7c654b1b81a3589e00cbb6b1052ad459f8529fae7d1919faf0d73cbdb56f",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|c1764b864e9cbc6d50ec63f5fec62cfe497d269b9f32d667b8ac50cb39b286ea",
+      "case_index": 128,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|53bd7c654b1b81a3589e00cbb6b1052ad459f8529fae7d1919faf0d73cbdb56f",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|6066b88ab88f3b8f842d3a197249aaf69db40669c4e403ec573c07f9668ee63d",
+      "case_index": 129,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|56d49745f958c11611b38e09ebf4fe7c0c9e54b8c04d38d27bc08af78d465205",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|d9f5fa7f56a5fc24e2694897d826995280629de4925ddd5a9d7afaecc822f594",
+      "case_index": 130,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|c208e20aa237f2cd8d85a63e0cbeb043b06126ff244cf90044060e170af6651f",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|46b4ceb03d7245c3a4610139fc9854a4dae8f24101631937945b9abe279d30a9",
+      "case_index": 131,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0fef51b81a0a25bdb10e41923a1a06485ebcc0dc3996fd129b7b64e6dbaf3fca",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|c860bcac5046413254dbe430a383199b925017e21ef1c686cb62f5d079b8b5a5",
+      "case_index": 132,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|959b0783d993604b7215c3cdd3be91b3fea918390e7078082f6ff7a7f8e55881",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|1576b8902e48b5d22187a7f95a12c711a3bca6d43aaafbb9660e6baacfcf1808",
+      "case_index": 133,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|98b3eb5555b0e986d6ab223a466133e806f8738f20347afa1bfb742b8a52c4b4",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|90468a4f5affdb64fd30a45478975dc0b5d20a4fd84a65991804fabdeee93e9e",
+      "case_index": 134,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|7f1bbd756d50e1fcc4cb3d3867e4823204be0814a95daa70593242384701ef19",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|a391af422e14aa480013932c06d59d63ece069376c05367c9011f0be0c879726",
+      "case_index": 135,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e61602cfeb23292996e7d8d6012e41b04d06cd35d2e561d04a4351f16dc78a53",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|e2e87f070298d59f5ff8bba023129998ec1260337a7c13f9deb93e64689735a5",
+      "case_index": 136,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|98ac59f9c9c0cbb75e78c62f3056cf309f9580d3111ce085260c7ea47bf7260d",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|d3ddcf559bd9db56140ab55f47e48d81affd3353bf90491bb084e69068307d18",
+      "case_index": 137,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|364d26143dcac7f68e447359c5b04f7c2e713a7a605d17fcf8bbe7ff0b4a3ca4",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|1a3a17fde143235e13309002550a8de7a67c8b49c6eb15b23e1bdda92af7ca31",
+      "case_index": 138,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f769acf8fef754c7a295a30443609ebf950ce976aedb77bc77cd04b57168f556",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|74bf62123966e71197dd0cca4a9a821fe1ec2413c5329cc158e2059f108e96a4",
+      "case_index": 139,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|c3673e81516b94fcbd1bccae4bf70ebe85eed19f241690d38672f4652cc09797",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|bc6b28288a3ba674a5019c240b3a82c1ae564cd63326e889e535fc8cef9da34b",
+      "case_index": 140,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|7d75760ccdf8e93bb963f70c068c90e270020488a5efa2ff9715161a3bfe8143",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|f256d09bcd13edab0e2b1bcefb921272165152968360ad73176078251f5ffd81",
+      "case_index": 141,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0ae3d4c1de8a2f50a269ca59d69e76b73f35acafcf0c761570f96af0f1dc1dcf",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|8dbe723810baa77fb3f0aa4697fd0911f7d89846d02abd7bfa6f421e1f9bb508",
+      "case_index": 142,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|993169c0217be9ff282af285c2d18517c89793f09dd34d7588f443aa62467011",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|b226dfcecd72fd50d30bab421e61f781d73c290a5e32bb0be5a12cff56349cd8",
+      "case_index": 143,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|d9bbb0ffdbc38dec92b0dac49fac862909c944aae264c0261152146c43b2c7a2",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|e499857d0d8afd66bb9a14e1164e9820db1b0422e24af3da40e49c6b81911c90",
+      "case_index": 144,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1d9e0ca97a90723c9be2ee42ba99182402b309f18bb4f6c51d994bd19a25995b",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|f85d43f9f4fdb3bd997de66e8ee8356c26a469284fa505f7e1307ba18edcc08c",
+      "case_index": 145,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|263c7462524c1735d75d9698319650794ee2f25746f204cb499d91748a4733fe",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|ddc45654dca67ca0c080a7bc7dae56f3392b9c77c5ba52f7de1014cf9f68ecf1",
+      "case_index": 146,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|87531e91df2cbb9e7d973a64097436ac3fea13bed7743352e48f2e3b10b322cf",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|a478e37151846bfd401ae77d1903a253974276f1478e6951a228fc59ed878798",
+      "case_index": 147,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|7f1bbd756d50e1fcc4cb3d3867e4823204be0814a95daa70593242384701ef19",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|ed7b4c977af19816b1de9146c6cfd299b6775de79276a439e63a4d928406cb44",
+      "case_index": 148,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|fed5ff29068d5c945ed47ee1de128a6b337e242e1aba5e519124bca10bd13261",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|fafca6e62b2aa0e91a740b30b7536bc5a7fef3c2432111d678c9f9404459f968",
+      "case_index": 149,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|9d091388843fb7915c01acbcff48194a58fa29c10d46b53128489cfffea033d6",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|a91f10b68729d40a023a77aa553e243063f9cb0ea05f2729c8ce1ad5bdd53fe4",
+      "case_index": 150,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|dacff89e1f1929cf451d7b98cc9f77e1af8a6d6c8caeaf3ef497d8ec99cd09b8",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|1075161d55c5d69944395e84cc413dbc47bf1b9f72e32c5c485ffd4949b3059f",
+      "case_index": 151,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|d6d986334e90b1a53a0c91888830d1bb0488eb6e2e065b87552c326a77297e73",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|9ad21e182412c18c9e98efd9e1248e912cb147a772199e6495fa1d32aae02fd2",
+      "case_index": 152,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|7b0cba3dc4e212ea240e675a4fd0e38310c27bdf9dcc3befe293aca6b0415d37",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|deb2b8cdf3e3dea34430b60fa8ca9ecbe3f24b0bef0827f2c151134867e14cb1",
+      "case_index": 153,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1900082489f00f4054e93cdb95a88f7a2429e7be00db990fed56d9dc2717bb65",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|85adb4e2cc2bf862699818743890f6b86d8982559b0c31083946c87194d9d300",
+      "case_index": 154,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|019898dfafe3bcf2ab559c6421907734a39ea0c277811ab77c8506bf85ec74d6",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|ac27fbf7d6e3bb7d1a8514855d25f09f47cc7238991cd1c191ee3a753f25a53b",
+      "case_index": 155,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0c672166665aaa2d25c909e8a368f904926c1ebb7d79071d039d423c68d89f59",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|a49284afca9fc9ad715c622da8a1cc01c9f0b2584abe73693f360b6dbd03a6f5",
+      "case_index": 156,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|8e7e801217264f5217223d1ad062302c64ed061c2882f3d0c8cd9b6888f0d902",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|75b5ef0efbbb4cf202d62a4cac60fc968a1af49dc3e330719a0519c2c07b99c2",
+      "case_index": 157,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1d9e0ca97a90723c9be2ee42ba99182402b309f18bb4f6c51d994bd19a25995b",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|e51514d0ca04467d0a6e544b668b8857db305e7593bc13580041dfa5118699d1",
+      "case_index": 158,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|bb13cd7c68a5cea2370313f434b81f100e20faff1e48024726df5e9eb01912b0",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|79701176f2cb796322bceb65d9afb7681d4ceb15f127f6602f1e897661214d1b",
+      "case_index": 159,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|b58f34b71109521519c995fbcc318733f6529a04cab584b0c0765a0ad40bf923",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|55c646c3824d4d93412cf3edb306138129abdd3093d9618936244a0ed4ae0d97",
+      "case_index": 160,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|da5096405a81d629372c07b2cbf36c2c303c0c554a6d557dc0ac556c6ab54c21",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|1c2331cf72e750972e1ddeb0f6e4ebb6f81a8c941a0e36d845accd661fa61300",
+      "case_index": 161,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|b7a51534549ba0f7532641ee87149ee4d3e126b3cf44aba382c79e817f9b18b3",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|6047437bd21e40e14c5459e52a3d6965e91a65182f3a64b11e2b165e87884eee",
+      "case_index": 162,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|c226c552bd19be9173d7dd7b253d4deb4a7845b2971654dc84122b9e21ec09d9",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|20fbd427bc9a1712f09f07eef9507587d38a7db46bf3cb03f476b4bda544940d",
+      "case_index": 163,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|134a8835921741af845e1658593483ec217a8e1527be5b06bd1c96f8f2b126e2",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|810508ec91ae7c15066c1dab03e15411c1ec51ec80847a0b72d11b055cd2ef65",
+      "case_index": 164,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|993169c0217be9ff282af285c2d18517c89793f09dd34d7588f443aa62467011",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|3279c2e48f6c45e1e9fdebb5a0307002db4f5a162db039fff18e99a6a636ea81",
+      "case_index": 165,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|7e3be53a661d3e12ea6afb68e690fc699fb5504890d8bc369dcd1775f60acf61",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|bab285ef4cc063eee568c4904d454d8fb1a24ff8f1e098d7dd060d26ec33426d",
+      "case_index": 166,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6b9c71935b831578761ee0b5e79dce638430db096448b3a85aa1a5c33a2be4dc",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|9f3e8710cc3c06c4f10056e3e9daee046870a09f3c0c6d82a357f2038cef4489",
+      "case_index": 167,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0011c092d2006c89ea99cb3af89dec01f756b61d74a594651ad2bef68943d942",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|86932385c761341495489a398627fdcf2b2f9d9656409a635d2e3aa89d4c45b1",
+      "case_index": 168,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|63914e497c3536921c7299e76b3dbec4419f754962ad56d44cb4548c08e5ecd6",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|9b5306825d915f43386b980cbceedaf57761ab4475b7d3b87f514353929bd328",
+      "case_index": 169,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|c3673e81516b94fcbd1bccae4bf70ebe85eed19f241690d38672f4652cc09797",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|b860db3f462878e830a859a3cc516e26b20ac7870ba64c83392055edd58f31e7",
+      "case_index": 170,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|53bd7c654b1b81a3589e00cbb6b1052ad459f8529fae7d1919faf0d73cbdb56f",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|d9b0ba7ef4abd6188db99a83af1410faf3aa541ceeb6e45b744ac103807d6aa0",
+      "case_index": 171,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f6a87ec6f1c883e09044897489cb703acb705925a75c98ba137ec58452c4a4ee",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|e90b1164075c2c4c55408dd23fa5359ae2ebf5800e29b22da2363d46ce1737c5",
+      "case_index": 172,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|dacff89e1f1929cf451d7b98cc9f77e1af8a6d6c8caeaf3ef497d8ec99cd09b8",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|1c75df29d3e61d064db42225c67d54fe4fd695d7e242e169868787075dac430d",
+      "case_index": 173,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0c672166665aaa2d25c909e8a368f904926c1ebb7d79071d039d423c68d89f59",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|4853a6774f2a7d4dd820656492d100fb4aa796e37bc554238b09ad143dfeb70e",
+      "case_index": 174,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|c42101277f0ea775634d46a3563ad3ff8eb791f1168d2491c01907c4002c3a15",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|0f0b3bfd73884ba1093f8f80bec945c62962be3f3f9ba7704dbd0f84e4c0ef2b",
+      "case_index": 175,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|db0cb165cd82968bf7232d5d921885ea5ea06196a237970b3fd95fb5bfea3436",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|8a8eb1121bf3d8a5380fc73e1a8611c18f146e171202e20acbe4732fd3395524",
+      "case_index": 176,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|86ec123b228a59b49153bb470e2dc11cd26f50a8110b9d61f1e934dd9d61091b",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|c2a5d7a9c495ff1d58c17559a8e6554cb77e73ccab54e9eefec1a4e3d9a854f2",
+      "case_index": 177,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0fef51b81a0a25bdb10e41923a1a06485ebcc0dc3996fd129b7b64e6dbaf3fca",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|c0af1ac00b7043667ebf93eea302692555739a6639fc0c6fad008589cc779d70",
+      "case_index": 178,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|942aafb2b0fc52bfdbbc416189f43305ef45ded9fd60053706763ec999ac9c7a",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|147592e44260fc424ace7c98dca89ff35213728ba2e53e0853d728f57c62e3c1",
+      "case_index": 179,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|bb13cd7c68a5cea2370313f434b81f100e20faff1e48024726df5e9eb01912b0",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|732bdb7753200a250db25ce1cdfad6a7bbb7d172ecf183cbc3097911e4ce104d",
+      "case_index": 180,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|9d091388843fb7915c01acbcff48194a58fa29c10d46b53128489cfffea033d6",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|6c9cbd025c89d9167efc6ff1228266b27d5c316b39c8ca11377e6c0a75f61642",
+      "case_index": 181,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|21c4153f0761deba40dc48ad1b73b01dad513b40f3084c11a1efc0c14f10eb00",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|ef140d694f9c5f9fbac5575854192d8ac7047dd3e0f7f1b63a19148f9b506a6f",
+      "case_index": 182,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1f90ffd025ce4630695efb99b306c44730460b82cf4e634d68ac1d4d3fa162b4",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|701b8c157fe2093cb78019672bdd5d951efb25d55c49bf9967d462193a7af3de",
+      "case_index": 183,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|61a4ec563ce474d8054eb4b665321de5a00eb9f919a8de544982336388ea23ba",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|e81e373b190e84a2249fb8ab0bb25bef623b4798a9ce85728e9ac06c833e2272",
+      "case_index": 184,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e61602cfeb23292996e7d8d6012e41b04d06cd35d2e561d04a4351f16dc78a53",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|19a77d5a8f6c65bf7918c0aaf21ea3440b7bd35ad58dd6d8bef4296ad62d5753",
+      "case_index": 185,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|20270fd834b2eda99dbf8740eaa47bc63022ca6e98fd9c0024c5c8bc1bbbf481",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|6011721d05442059e42c049bbbe37d651a462e4d127cf3df1c0770759b64fbe2",
+      "case_index": 186,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|9b64a22eceb068cb8429bb92afaf03357efc6b9c6cc4a04cb24987466055ee0e",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|ba2a3cbeb7711b241df602e7a3e04e57007702df475ffcf1d7113d08e70c3730",
+      "case_index": 187,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|b5515dfe5f49938d4790289331ca30b3f5f46fb8b3d53e783b15eafa442f89f0",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|83cdff0d7e8bb6c27e3352e3ec26466b76df02cc22ffc24b4e63d2abb66515f0",
+      "case_index": 188,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e61602cfeb23292996e7d8d6012e41b04d06cd35d2e561d04a4351f16dc78a53",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|aba7ba155a2a549f47df865edcc36959ea38440805079a398b4078924e29c9a2",
+      "case_index": 189,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|dacff89e1f1929cf451d7b98cc9f77e1af8a6d6c8caeaf3ef497d8ec99cd09b8",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|af6a0d84595856e3c1182b0f276d89595d2e4e81e8bde4134909d15c1cb0f242",
+      "case_index": 190,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|563792b71a0c529a33abcd37bfd06790a5b76a6b59d844a874838365fee6f357",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F2|884bccb8ee48856dc38f7302a95253e81ee10c87c6facc3c52793c03f2bb8066",
+      "case_index": 191,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5d871bf2bb1532d7aa2cd894792b5ed045c7aed3ca23811e0e83dc863f8c72c5",
+      "formal_evidence": true,
+      "macro_family": "F2"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|e8f928c3a7a0b5e884190d79a6c25ce72bac3e0d6bf886d4bbee8992f0dfbd38",
+      "case_index": 192,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|48ec0444066a219ecf4575e5854c8ec09c60519c70ef44ac236896cb2f4a3f69",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|357e9e0d658812dc409606a3b34d25e9c49a186fcbe8a6a69f9ea3a0d4968357",
+      "case_index": 193,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|66343093d8d757b001362236796d604ea129f98a6b324be083711ceb91985145",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|c913cf9717192b7769837f2a52d2b4deb6bd8b55ed04407453e0df1a72dd95c4",
+      "case_index": 194,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6d277dc9613212a77ac733388e01b0ea96d10ad5854be476c42396db36747960",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|f434c7f8866124e963ab234984727e358dcc5019a1f920468ea9491a2adee97e",
+      "case_index": 195,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|dc8f3f7a4e050295a6cfd03c8aa0806e790cfdaca66454d8dd3ec2346ad95e30",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|851a25b47818bf0c77e771a4eac3340d965e630ea01b45afa3b6bc1cd91223c9",
+      "case_index": 196,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6edeeeea0c837e7f611738716840aeb47d7c87492fb73458f7c3317b7957cca7",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|0f6a39e4fea9b5f0952662dd31c180999ffc90768a376017d952c2282b714464",
+      "case_index": 197,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f67fdd90d6f41d6a2169bdc6830c480a9d4bcca7307842fd3f7ed594bedb0359",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|cd6932fb69be6b2f0340b4c8a0f5aab40d32f3565962cb96de24f43995dfacda",
+      "case_index": 198,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f9eeb4cec40860d3b5f431137857fc035ba0fdc9311688aa9020ff458a4b27e4",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|df7ef7e752008134313dc7fa45cc138967cbb6d9bb9883cca3491994a2da3aec",
+      "case_index": 199,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|eebc8d942c57e4135c382325acc4cff5e8f266f3a6a1e43e0d171d43f6cff9a4",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|4b323accfbf89cf5eb7d6b75d977d1d1b9a8161d194c425ffc1509e61373fb59",
+      "case_index": 200,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|434c3428129d0934658d59433dae158a4c0425a80f34c6522aca2b4859ac9228",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|d7b6921f4cdebcfc4e2fc799e7ef8e5f1625ba0074caf94e313a1b0a6e71bcf2",
+      "case_index": 201,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|c450120c6b65fb7809790120d88f6bc4142bb4bc95cb512970f12efa614ceb15",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|5c028d994f456a43c940d811b0a77acef41a678cd1f262d45430af54b1bdf98a",
+      "case_index": 202,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|27fa12ce1e3378306e0266a4383c3fc26956aa4a641da5d801ded540885f366c",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|ea16b3edaad1bfa79f1ea3bec921c1c7d5b6cd9ed224267a3d4d56d221e13f58",
+      "case_index": 203,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|bcab5ce6982a50960f66560afb3ffbb5f904d0bacf7325803172427c0236fadd",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|a5251869561700dfcd89f927375a8e5b825791f15204dd94f048a5581d3aef80",
+      "case_index": 204,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|ab999fcbb3b70d0c4aebcbf2a44e72e9cb3b1a12e2158ad50d4a829d96014732",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|073a90007ff3266895eef0c14becc6d765a14c95b1335ed39990b290c6a33618",
+      "case_index": 205,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f19ba791c667bd31b2fea75ed641a89b36c5a8a84b14d51051517053011cf516",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|7bdcafd24f304542b432df733f93bf59c0d22838e08d76c1457943d541284136",
+      "case_index": 206,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|b7f0bd599e182e82d62e78c060870af5c6f4bc86d465fa9903469aeef288e542",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|c7d4ae12693ec46e14f83b80d765668ddb895fe34f3b2dfce3c6db06cc40e349",
+      "case_index": 207,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|ab999fcbb3b70d0c4aebcbf2a44e72e9cb3b1a12e2158ad50d4a829d96014732",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|fb9b86d68269baadf0883e4b82db64e81885b2ba1f8884e72ea181a1ecc720cc",
+      "case_index": 208,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|715b18ac087090049a537c676a6251b5e1da5ed27fd2e1d258b45f6eaecb63a2",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|2d7f68ab6425452d715f4a0e63ed6085e31d478cc2f3741ec48a553e58e21672",
+      "case_index": 209,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|79ab52b44dc4ea8de61d0826dd5ab5d83aeead4e8f0c1636ce534890c7073b03",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|185df84f4f9f64ffff37897c157b26948161c2253a3020f00cfc9f7d77c1363a",
+      "case_index": 210,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|715b18ac087090049a537c676a6251b5e1da5ed27fd2e1d258b45f6eaecb63a2",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|ecb305168bc4584d2fbae9699a2eccaa6a5023750974efa659f316cfc62daf7e",
+      "case_index": 211,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1f393c334709053c8955fb7e8c815f4a007b6b069b1c74807a3517e7a344d60b",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|c0bb3ba29b68f8861c491cea2f527cb5ef54f5d91a85046c4475ed4af7c43549",
+      "case_index": 212,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|855463cf89e885effb3c62cf13a8492bbe3a23287de91f23271e9746f8f8d305",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|d0cbedad852a3fda9c54fbbd03b3d29df0b58d1ff35253e901c5b4caeb4b33bc",
+      "case_index": 213,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|08206e5c6f3a4d48551e6b9183148f798878cdf0a63c61085c89d73a9fc13a9b",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|8038e1f92ebc66a11f5ccd0c846c8dd69ce6668e024d09639e5386c247f689b2",
+      "case_index": 214,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|17716157adfdf6b3573df4cf17707bdd5fd60e4555d02b9c797f850eb96491a7",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|33baa2c586836727ef94fbd0c2a3cfc41b674f91f1d4ebd98e2c3de10bbf4c4c",
+      "case_index": 215,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|97ff201f16caeb919e79c3b23d1607792ff056df22877af8255fa059236eb4aa",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|01973f43acf4ffa6e6665a37f70489a743df517b9008e930aa6415403c41be50",
+      "case_index": 216,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|ddd383ed786f68a7038ec25f36bca8c77e385b779d20ba93ae4408e6d9c65dc8",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|38bb523537da0416846f5bbdf473453827c5ac069cd3f5ba15af530a75a09574",
+      "case_index": 217,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|c8c37b7059f07d373b720509d0008171ae652c620df9d365535c2342eda2e98b",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|d0c01722f9bf3cac30fb4d575e378ab51de250c5fca8a4e84fbc9e27b16cb788",
+      "case_index": 218,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|2db420f61fd36c28d7d21f8798039730b8741274625641d90a053e8d1c9ce744",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|5ffba96af7ee672b0ba0c8603d0221117c0f2f3bb73477983ee405b1b9a10db0",
+      "case_index": 219,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|bcab5ce6982a50960f66560afb3ffbb5f904d0bacf7325803172427c0236fadd",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|dab8d6d500a8fd7fac1221972e0e5afb3c758127561e31d7ae1d29296c3a4531",
+      "case_index": 220,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|494d036ea9d37fae4830c603a9dab57db35f55c502cc63179ce66729c35c37f5",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|5d1e4849f12cef7b70fa7afb9e41bd5305f77233fd023901c462779b137ee85f",
+      "case_index": 221,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e2da4978af4458380a16534926d906bd4223940b013f3a485dfbb3c0de902ac7",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|b32b77892ace957b11874e6b28fcff94e5631b4bae0892c7b21747eefd74b6cd",
+      "case_index": 222,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|473d79f6e293005ec02dfe2ae9c5ca8fbd8387f513c7e2b3d553b029791aa833",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|c8381b216489411aa1722b1d26a0d76319efcf4a630d27fa77f5f7c50b3d230e",
+      "case_index": 223,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f99a55007e6086ce07f5041be3c99d76951328bc43203ee95754b232cad48879",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|5775a99e4400e4c962e73bfec1fecb48ad894a7567cf6e2f6540491b8034e091",
+      "case_index": 224,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1be10fdc6696dbf6e04c78fe9740a979cdfd9f291d3eee4166110e6884fc9e81",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|64b9628ae27be10d1bd033de68fcd473c950035fd186b4dd1d61143b335d1710",
+      "case_index": 225,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|ca669854a77bc91a7ec78638335f06f18a5a2ee5836fae17df044b7cd0e693e9",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|83ce9501c3665d884c2edf21db05712d274787f8c62d63686511d5c876c331dc",
+      "case_index": 226,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e81062af13bef0d089d3669417bc0699f4b705d02020c8ed2b5674bc94697ff0",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|1e29d9b96f7988bcff46386b3f3467347750e1fb9f7deae316ff84a195da162b",
+      "case_index": 227,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e15f888d63b4fd2ffb55a0095ddd091d5efdd7b7c591fe6164425867b46b5517",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|0906cc62420dd652fc70ef16dd562e0f041a98526e11d6fe1a60fd6ff146622c",
+      "case_index": 228,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|bbb5fab8b05b968e23cc6b7b2cfe88dfcf10aaae93c30fe1e8a674cd2756a3ed",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|237a3ee97ba3be2c8cf5bd9ffe6add37b5106b8f55797b4551e9d55753ffce7c",
+      "case_index": 229,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|2090d0e9da6d5ee55bfab4c490da532e705b1b1343aa968fd5415cef517e3d36",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|76227296013914c924ae4112805a5022f8edbd7ca25f13c8d1ddb7abe52b5e65",
+      "case_index": 230,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f80a2e1d4f1fba3b35c639d179a6867db8ee946a99d895890b8342e296d37c23",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|7b0500587486443999c743cbc724ffb32a9abdc3a20a94299d93afe0dd0a31f8",
+      "case_index": 231,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|669cec956b99ae0f61d83ed137da92cebff0e14a0854d1f0e351f3e799a7c11b",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|e4bc510b9dd61f7e9e4e5e80f03b19fa82ece5d66b674276e1a045cd47da9e13",
+      "case_index": 232,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1d6c10cb483863e22eabee11d202a2104095c7c02ca4ab2480dad386f7a98dec",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|1adce2e63211aa21971247b975ec8d1c03221bba5b44d79c5df35e255a0f6f15",
+      "case_index": 233,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|b765bc307f9520d8ad1f014c53248ff1b60fb046359f6679dfe5023c16d095d0",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|7751ed057ae224758b0ad240b1ea155f3f1ea02555b67096c9568e2f8560ae10",
+      "case_index": 234,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1d6c10cb483863e22eabee11d202a2104095c7c02ca4ab2480dad386f7a98dec",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|725eb9fc3930bba8488703b9566a3655f618b30ba161022e28a653085de4e66d",
+      "case_index": 235,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f03da9f829ef1757ab034d397b9ca9c6f0a66b35f6645de72cb2cbd2393ea3fe",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|66a8a4e60bf72354a81466e7daa0ac0c3739c503f487d3a64f5e2926ae89010f",
+      "case_index": 236,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|465260c68d7ddf6c900a5b16f7d795e5c27fadc2f690a5c562867a8330b14d9c",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|6fd3eae1df2542c6076409aa5623740d1f54fd55aa824945aeb5d03949c479a5",
+      "case_index": 237,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f67fdd90d6f41d6a2169bdc6830c480a9d4bcca7307842fd3f7ed594bedb0359",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|13200d9257fd191ee5bbddd8d58f8298d0cb1d6f7c1034e9c09af0857d605b66",
+      "case_index": 238,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|a442afdc38b0d4d28be5eebb84a15877cccf7495e158cc623e5c9b12fcd3ae21",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|c3cd59a50ee347231d57a7f63b1fd8d3c6767d1f8524b19b61a5d8b2a2584291",
+      "case_index": 239,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1d6c10cb483863e22eabee11d202a2104095c7c02ca4ab2480dad386f7a98dec",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|e6d19f9bc44590ecd6f2d90869c1fbb09b141ea17aaf37388faf046e46f8458d",
+      "case_index": 240,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0cdacb738e5c598ab830957a57fe067ac8f1ab0f0325c64f223c6e13ff602780",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|6180bd1f28b5319f3923ec51346201b181a61b598d1614e36553f48d27732647",
+      "case_index": 241,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|ca669854a77bc91a7ec78638335f06f18a5a2ee5836fae17df044b7cd0e693e9",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|0fa18222ac3a113a62811495431fe3f5c7394574a120132e8ff33c2d16c63246",
+      "case_index": 242,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1324fef85b16d27637bcf6f8b36aa0ffeedb9741940d844b41e25a9a2047dee9",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|e21a67b0d38ed63e5d36fed9851f54377a87e151f460d0b569f7426263f5689a",
+      "case_index": 243,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f03da9f829ef1757ab034d397b9ca9c6f0a66b35f6645de72cb2cbd2393ea3fe",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|481ddc6da59aec01537fc62e99c29ab455d33da8ff91548bf0ae144cf4809756",
+      "case_index": 244,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6d277dc9613212a77ac733388e01b0ea96d10ad5854be476c42396db36747960",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|6b7f90054117498fdb5b60c0e4f0bfa3e4b2d61011af5c6f2cccf85467d4597d",
+      "case_index": 245,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1be10fdc6696dbf6e04c78fe9740a979cdfd9f291d3eee4166110e6884fc9e81",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|38d5986d5648d89811dade07bebb4290ac9e0d1b4e8eac34adca31f562cb4399",
+      "case_index": 246,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1d0ac300e748506162576ee4973572ad6d5185feccf75799c6a76e627e71259b",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|32928f541fe126883a88d3fca1a841d0b90dc7b1d5ee77abb6dc2b1dc527b552",
+      "case_index": 247,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0e98ace90697a55d4f428632f3583b895a5ecff616fa8fbb9e34a41506154744",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|171242a8ae4400f02766b6da54ae0ddc132509739d3a0be6f7763f5028f9f670",
+      "case_index": 248,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|7ecd981e58941beb527cfc7c185e7b35b94b6785b363891b556557f91e5a5bef",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|27307485964a13b124540f67cd00343e15906eeedd058d00e710cdcc1307083c",
+      "case_index": 249,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|27fa12ce1e3378306e0266a4383c3fc26956aa4a641da5d801ded540885f366c",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|9c1227708fa1b66a9fc1ee3c97a4aacd2c89de9dab75d2d9d56c7d74a5538730",
+      "case_index": 250,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|b22c9ab7d57199b5612a2f15616bee6104877533dea18524aafdc804a9f904aa",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|46340e8859169799162c53609e717f8e9d52cbd27fd8a6b5f7b20f00d3e1aeec",
+      "case_index": 251,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6a6610b05c9bd0f4cd65de5a3ce948381097e61332dc697219385ac3ac397b02",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|f8172521db9c8a95a43bf28d5de134efb595b76237e0213e5b18a64e601a607f",
+      "case_index": 252,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|7ecd981e58941beb527cfc7c185e7b35b94b6785b363891b556557f91e5a5bef",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|62321e4ce1a547eb185fd3c91f996ae3ed8e71a616696a74f9355ead9b517adf",
+      "case_index": 253,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|2f3336f5b890cfb3ad8ae556f27b8dc909a0087c0686652370263d284901abc4",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|e8fa505b8f5e831eee09eed7bb05d434242448661dedd916a16f8ea349c13564",
+      "case_index": 254,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|47431547cdc3c7920b11e71e1977d51295bab24ed981a5083ec24ebe788f0e17",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|2b4cb7eb6edc3d5b96c295919a790ddb91f623b35084cc215a868d29c8606554",
+      "case_index": 255,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|018268d6210bd4f91e68ec7a02b511f2cd266376f99ad5540cee844826d8c93b",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|c3c34d61ee7e18715eebde0baf6263898ca2b5d13a831841a54f750bf5f25d0d",
+      "case_index": 256,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|af014ccbcc6b1918766bd3a5a7423ff49082c8410b28212bb6eda7a7794d3756",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|d243c0646d6c406403bc8f106519966a17e2832221cae50a6f7f6ccd44d3f754",
+      "case_index": 257,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|01c04b0e454128fc7d8b0d41f0f034e692fa9e45280958d8514ab74112bbc8f8",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|37f58e2af1c05ecc66d5f8f58f202f46e3e042c8307021c6983afe2f5ff68fd4",
+      "case_index": 258,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|66343093d8d757b001362236796d604ea129f98a6b324be083711ceb91985145",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|71b3a76f0dbb8db1c209be09b98185cd7d7d588d3d8e3395dcc3e55aa230192e",
+      "case_index": 259,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|755ef17d289047d72321ebb944454da389088ad996762a39f429d0e6742b124a",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|183608fd1732cfbbb6d2963c69b4556f22962750e0724eab215c52214a663cb1",
+      "case_index": 260,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|8eb1c00b75b6400bf2e7c9cd4bbb631f998185f55adc1f9eecae26a06d4f55a4",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|13467a9b6582fc6527e536c22657923912033c729233ee6be1865e0e5185c2f1",
+      "case_index": 261,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|63a6ff46978f91526f319e0779fa482ac041d27dbdc349bedd54ccf1fb6d4b38",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|009c645334025e5306beb8813b5d14149d410c3bc27e9345c233215dbd26fef2",
+      "case_index": 262,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|af014ccbcc6b1918766bd3a5a7423ff49082c8410b28212bb6eda7a7794d3756",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|5be72e4bc53b74c55040b60c978bd356184970ba92668037c76efe00623b4c23",
+      "case_index": 263,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|beda761bb2a0e2601408c3eeef393be6ac8fc76b26a757311eef8d06d7e3eea3",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|ef2df536b3e901d85a3917f1526d1125f6e42d44b6d94b9714f556a00804cf1a",
+      "case_index": 264,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|7c521aefdd58b4ae49ca960c141dfcc2d59911d368216762c69f8be778e06659",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|3a9784c3585c45be4f45e1d15e768ad756c178a2a287a71bb2fe172e3ddbc58a",
+      "case_index": 265,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1324fef85b16d27637bcf6f8b36aa0ffeedb9741940d844b41e25a9a2047dee9",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|d53efbc1b6535d2d839e7393d817e2100f865edb0d0dec64983d83deb8dc4aaf",
+      "case_index": 266,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|532c13acacd9ce3ffeffb66daf4bc72c4de7ca908145fa3de0643fdaa214349a",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|5421d74374a23b117de56a0aa08478598d9e022b88a3b9c31782a9c2d16f6fba",
+      "case_index": 267,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1f393c334709053c8955fb7e8c815f4a007b6b069b1c74807a3517e7a344d60b",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|7d4ddcda9d5484c1680d0ed11e5960d55c69b863e9bdcc5e49cb377f42f8af43",
+      "case_index": 268,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|451148b9277803ceeb0b95f22d27f07feee95f0feebce1e9876bd208f99aaf9a",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|d52f1a1cda158b20de9de0e13e197e4d01ada074b80aa9be7fba466aeddeeb85",
+      "case_index": 269,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|ddd383ed786f68a7038ec25f36bca8c77e385b779d20ba93ae4408e6d9c65dc8",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|938322e77a6b5a685abd941c14774f5d001787b40b88f9cf87594de287fe9882",
+      "case_index": 270,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|aa3217f146457aa767aa351b8a8a2da9670f90c5f365d627394778f012cb8043",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|fb3424815a37a6f17efae4df8532fda996f639ff11231ad07781d6e0bc92819e",
+      "case_index": 271,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|836dd0229493e39b6d16002bc76e92a07a0ba350b5981caaf3410b015360753a",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|e5137120c2667a4bd111f76eb55d50dfbd8ae73b8c084d84a6012595442533c9",
+      "case_index": 272,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|01c04b0e454128fc7d8b0d41f0f034e692fa9e45280958d8514ab74112bbc8f8",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|40e3675ee4567cdabf5e1c0154f0e5f7402b220424d3e12b3b54450a710f3bb3",
+      "case_index": 273,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f9eeb4cec40860d3b5f431137857fc035ba0fdc9311688aa9020ff458a4b27e4",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|aa27952d7f516e77dde6ae60ff9d494545c2402110d530e32203c821439aab32",
+      "case_index": 274,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|08206e5c6f3a4d48551e6b9183148f798878cdf0a63c61085c89d73a9fc13a9b",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|e2c97d607d24ef77f5756ba2743a48f65a2b394b310388f0f45bb729cc7733b5",
+      "case_index": 275,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|97ff201f16caeb919e79c3b23d1607792ff056df22877af8255fa059236eb4aa",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|26c8b41cec0e64e38245c10f0aefc181edcaf575d746b0991ee6bf58246069a8",
+      "case_index": 276,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e08a2a72cafaff2f8df1444e8c6c2f487381ec630c3b32df4bb7e79d7b88e6fe",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|87d2682d8922792396788dc6120f7a3bfbb5d56b31e14fa3d8b07284cd057a4b",
+      "case_index": 277,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|8e1b77b94fd09ff0c86a69413505036f84e56d00ed2b35ff09ab1730fd272d95",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|aefbbe6b9f1348cfef6acffd24ae1d3122d790efb0e62375a88bb2f8d2409a46",
+      "case_index": 278,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|1be10fdc6696dbf6e04c78fe9740a979cdfd9f291d3eee4166110e6884fc9e81",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|3f0f0c9c5630b9c949a0d314678f23485d6431a660cc9126f6d847fc8baa767e",
+      "case_index": 279,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|f2901d91e45e54e1c74580fd9b6cbf38a844d97ec93cce94e3a9db295fa52488",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|5d56b72644f639a5d8d31c02e4f77c058e661fca6766ff093ce46946fe62ebd5",
+      "case_index": 280,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e60c670bd10c96f6fd4794c7c6ea98dbe2d74efc5ad3f494faac173872ef345b",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|438c8e9f8620a458bed455883f21835fbdc361f47e0a89fde4153cefa688f023",
+      "case_index": 281,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|01c04b0e454128fc7d8b0d41f0f034e692fa9e45280958d8514ab74112bbc8f8",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|e4efa209bafa9d3bd09c0c0ee115328a4d42f6f1642facb32de2fff9b8d98747",
+      "case_index": 282,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|494d036ea9d37fae4830c603a9dab57db35f55c502cc63179ce66729c35c37f5",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|f46ee1bc28e55dfafa00d4b99d99aa1a700156cb0a459b0fad3409d63ec5b630",
+      "case_index": 283,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6e3f317a377831f89af7a66d5379046577acc4873babb0abc48203132e0eaefd",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|d926ad1d13462feefd9276660a7e6602e8441a52a48a06ad1f76d6ec8a6ba1a8",
+      "case_index": 284,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|60556e126970d99063f4e0f62a35fab8e48e9a65654133ca0b435f388f6c4a8b",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|f01a6e5d0786b4487d8ebb78bfa0f42d5a682728dd5efe13c307a694c14da45c",
+      "case_index": 285,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|fde94422144d6819f6772660e420323eb3e38f00d109bdb66b32f1f4a3d8aa02",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|daeb9bda6a609c77b09ee10c2f445bbbe8d24e638f0c8cd1f0e6ea65f19a77a8",
+      "case_index": 286,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|60556e126970d99063f4e0f62a35fab8e48e9a65654133ca0b435f388f6c4a8b",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F3|c35d9e6271a99d3cd19e87e8ffc1aaacf84e4c2282dd06b7330ee139f65ecd19",
+      "case_index": 287,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|0d1b050a7476324e5384883da40ecb62b8b1774a473179bd14992a66104279e4",
+      "formal_evidence": true,
+      "macro_family": "F3"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|fd3bdd8c87efb8575c8d25b1d4bea9a1774b76725c204c26fcf40cb726051a0c",
+      "case_index": 288,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|6a916fa853454af89e8062be586605ef2d077008ea173925a4135e15f57550a8",
+      "case_index": 289,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|fc64755f9abe4f42842800e54714c350a0833fb72c8438bbce5686925bbe8db6",
+      "case_index": 290,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|2580e9651bee7453983045e851369b0c7ceec10a1981aa00f6fbf254a7284926",
+      "case_index": 291,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|54d02dec76a4c8fff97d41596e244e059a95cf4606e8c8a3f9207d632ce251f4",
+      "case_index": 292,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|57221f15768d9bd2292841cfb724d2d59178e22d4d7d4097e3c00c3e2d1f74b5",
+      "case_index": 293,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|9f12387c3e4331e78f1baf316c010535ca37268840bd20728475d18889f2760d",
+      "case_index": 294,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|18e8679cd86950ff06ab0f3ad77dc33d63d20911c5d1b8b54b035ef4f9a5b7b5",
+      "case_index": 295,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|d19736fd7cc2b8a1171138f964e1e60af87468e62bdda578fdfdd5053b04ff22",
+      "case_index": 296,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|5bc2ebdb5e61667b0780382e91dfa09a727dba78181e67eadfab80fd3386d73f",
+      "case_index": 297,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|72653c5ead94ce89db6ee0e6843c84b8a13e410674874bcf8ab23047a503921c",
+      "case_index": 298,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|4eddaec1600227aac29ffc0e77d64a333c02a1c2c39dc57537fba989646f6856",
+      "case_index": 299,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|12e4d7f5741d249583e7324805f773838bf283be1ee14f93bce887aecc59f09d",
+      "case_index": 300,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|67902a376159ddcc5b0ed67f50da86a468dcbafdd921c2804c3d091ffa695dce",
+      "case_index": 301,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|a4bdf5df2a93980610c4ad8b150bf9020d7c0baf5cfad62b26193b8d25c9ef30",
+      "case_index": 302,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|dec579d692d8a3c523eff9f1c07e2b19cf41d151076c66d731a0f59f31494e38",
+      "case_index": 303,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|355f32c630998e621d7206da51385c485754b4978933f59e76809589e35af8b6",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|edbfe834b068b3b715cb505def4baf81cc5e860eeb13ac042913cc67096afbd3",
+      "case_index": 304,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|49a94bfda0e6d134fea834d7da9c6f189b5654b4d859d37fa51fc359f0b86a93",
+      "case_index": 305,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|0642c2d5e7843ba7700afdd6ef61e55e753b71cdb2e904e2acf002a6d0242cd9",
+      "case_index": 306,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|0d0220841a475e09e2020f8bdeba0dd452eb241a4159bba45fb0eb7815369f69",
+      "case_index": 307,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|77ba2cdb6cd9b4bd8ee6e9a78d122dab2cd12a8d99b94712ba8ba4cb68076cd4",
+      "case_index": 308,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|a33b4a6c3f5eee8d350fe0c5d8c9dfb1e9926d4966c69c113537293559d06de8",
+      "case_index": 309,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|dc0c0047404c0334ecb62b41cb91f63f042ba1de7264c0c256409eb9ae71d098",
+      "case_index": 310,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|a8f16b9f85b3649b950c8269ece51390d6517450cbbadb0030b75c731e52d2f8",
+      "case_index": 311,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|3af1c77e5806119a06733a62f7c1870def1fd0be64e917b68b9272a715101977",
+      "case_index": 312,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|e27426b21e355487d7b0aa1c8f1b43d98166db8716036349845469238c20f774",
+      "case_index": 313,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|225aff763c7cf5ade6588623b86f607a8e33f7426dd03254fad26bf2a20754e2",
+      "case_index": 314,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|1915fa2388f0dba83f4d24e976a8b0e51461e2ebaa6d1b9dfb2c8decfc6a3a2c",
+      "case_index": 315,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|02f6c7a25da6815d65f68aacb6b82847636a0e8c65833fd7d6ca13b5c783cd03",
+      "case_index": 316,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|2122d67cc2caed63b27968a23f12e3dac8adf74ffc45a49a31121fa02ff015aa",
+      "case_index": 317,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|1c7b55495ad4484af352f16c4d32f3d0c5762910ab662cdc34b49439b1a03ecc",
+      "case_index": 318,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|926d387d9641a1567ac71ea3cb995eab8ffc1ab25f4d6274810f6e8b449f0aad",
+      "case_index": 319,
+      "diagnostic_fold": "FOLD_2",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|6805beee92ba100205a5f4f5d2ed3e265e26460d44e3aa690e4a90adef1e548d",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|478b9c067e89635b59c1408e3df99c8e58164744b04098de3458fb0034e9777a",
+      "case_index": 320,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|52de4f536bba48d6ba8dba8ccdce70d47e1ed290224cdfbdc1997e139b4e3c97",
+      "case_index": 321,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|7953c3265f5fb80a96d5b627e0154fb368849a8152ea2f9d3462a27a9712787b",
+      "case_index": 322,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|b15675c99dd2ec79ce51e77c2cde6cb1a0141ed17d5f0393fd902d6e81292a28",
+      "case_index": 323,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|7baa7549eb488edbaf34062a6fd01eebec2a67f19fa25b5ebd42aebbe6611b45",
+      "case_index": 324,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|d0ca03105da8a746697c2a224b5ea4396d2a62fb50033b23df4bd7baae6787cd",
+      "case_index": 325,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|dbd96a84d7d120b1cf77696576593f6d5f842d3b8a2eba557135aaa805392f1a",
+      "case_index": 326,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|6130297b734ad00eba8251de8d43e6f2b6bd7fd1459f2dd65ab30480ab93b214",
+      "case_index": 327,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|ce1982307780a3a2e6d69a8f1e5455d45de5da00baa66d672f2405e36c31a044",
+      "case_index": 328,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|450b6c5a6d06f3fcfc2ebdff0999c55fc78fe7a366593746d9ddc2b067f16eb2",
+      "case_index": 329,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|bb0c7e3acae350e2487622877564975a813ed85ca48b22adab2282015dba0396",
+      "case_index": 330,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|35a96c590babf4aaaf4bf45588303ad367e2bf85c5b44d0c0ec2e2a5cf23acfa",
+      "case_index": 331,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|f2bfe5fa6940720144b00d84dc69e70fb01053618968459a6c3e3c8b77ed4010",
+      "case_index": 332,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|cfe9da77ac06fb7c2a7a014bebdb03e7463a00841c840808a973557d165d61b8",
+      "case_index": 333,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|191992997ba2977c0e17ec063069eaf3d28a42e0ebda345bf74e76dd3302cb55",
+      "case_index": 334,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|1e1572a9d4f90bd204a7cfdaecdd795157be0e849865899ea6d407f987179e46",
+      "case_index": 335,
+      "diagnostic_fold": "FOLD_1",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|02b9f2f0dc5716319753d6361659ec07ae05dee807ad4abab42f954e9207b521",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|305d69521e3a0000ad2b2277af838336245f2bff3245983e9208f1d4b72781ac",
+      "case_index": 336,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|c02849a45b21fd492e789d1b2cf052d9cbee38f5667910644b4c8cc6db92b1f5",
+      "case_index": 337,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|c3ebde8360735cdb7fbb5c2476dc7b571857b16037fb8271e8f7c00ec58d587f",
+      "case_index": 338,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|180c56012dd53363365b279f0e8549ea19b6ccd30ac32b4d56b169f22d811f98",
+      "case_index": 339,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|12917839aa6e7a14e25a0674ea1509af040739827d2cc47416b64ec5e30bb92a",
+      "case_index": 340,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|650fc37d15ed26bc5f4d597d9c91ac6f2076908a006b3e90bfdf97c896bf0ef4",
+      "case_index": 341,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|191831dbb1381cce53d55ea7fdb4dfc0e85d5fd2c4487f9b82cea93697ce7131",
+      "case_index": 342,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|ee056800c75c754e643ae20b3248e46d426f43a9ee750813b89f94f8593eb5de",
+      "case_index": 343,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|2f26039651a11a7bc2a445d4989b6f77f08eb94493ba9f84d1ccdb48193df547",
+      "case_index": 344,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|230977fabfdba55a80800a23ad81fa14bceb81759b21e9b826a02a93731f7ba0",
+      "case_index": 345,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|4afc95dc86a592697526fbd87d5bbeca69af5ec8fcb871156c108db714324e6e",
+      "case_index": 346,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|cc45e89840373aa7379b6a24d3f787e457e2cd6e0dac42d1c7af27a5696ace61",
+      "case_index": 347,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|8ef123417d930b0b95785549f985e7c1312b211ffb968c0586356c08fd3f2b59",
+      "case_index": 348,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|70a5779a6ae030982962eea9f9d50d337c82fbc010fbcf80e1a82c780a3a656f",
+      "case_index": 349,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|251889b892edb5ec50fae0981ff2fa4cffd81664451159c9e0f8829a535a3663",
+      "case_index": 350,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|64cc9a9672cefa36a4f329eecf07890aecf43ef06f9e2f9d48898acb7be4b761",
+      "case_index": 351,
+      "diagnostic_fold": "FOLD_0",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|80f98256409df4851c19386878c399ad9a55cb132dbf52d68927bb4e0e3c4aec",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|1c72adacb453d7a1d0d42211821d7c8a108a153b3bfd3fe8e3e19c67baf8587c",
+      "case_index": 352,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|ce10712aad527f482a3848a48070a0a8d593c6f512748bc1af3712fb1b95b950",
+      "case_index": 353,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|74593ec13035e4fc43c46b3ce7cacd6b1d979c036969b031b23dbb2454169e2f",
+      "case_index": 354,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|b3a32262a97c3d5f16e3d7b1828598a9930957a8d3bc8090e7c3ac99c1b2b523",
+      "case_index": 355,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|0caeb8a0d1997012da3f2522b9cd4c2390f027bc4cc53324cdbc3d6fd1e6fa31",
+      "case_index": 356,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|1c42a93c6976808fe605839a200c92ad9fdf7c864ae0724e25ccdc6a3b4054df",
+      "case_index": 357,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|4b8dc9acd611b21b72c23e78921f052aabadfa0ec5f4a0259cb99af444383b43",
+      "case_index": 358,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|62d02483e445fa5e4287f69315a0d98410ef50de4a5c51746823a1f422e3bb31",
+      "case_index": 359,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|78c46531a7ec0ca4c50d26d30078923cd326a252dde65ed3a2f139752b3c9946",
+      "case_index": 360,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|23b5194f3a5eba35f3f593b68639e38de661c754bd6bb1cdc61b8c7aacc06d1f",
+      "case_index": 361,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|d87e9c9bb7e9f2b12cc93bae1a94e2a8ff264c1e0b21d3042b259375961ed21e",
+      "case_index": 362,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|d343dffe7f7db7c754144f9d8834425d254f1eeacd1bb9ad859d78c9869a41a7",
+      "case_index": 363,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|53b7e2711ff1bd91835523221f83cfeee1fd4086ad324ed77d6c1e4bd271a70b",
+      "case_index": 364,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|b53415c4809dd2fe13181f7e392b3381a526bf1340328efa867d20bbd22b2348",
+      "case_index": 365,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|9519d9fc6f18d7a35fb0e47afd2d3bc7239fb7b4ee23e6cbde937dd97d7a730b",
+      "case_index": 366,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|1e9f301d5a99c815ff1e2d0675169c678ca1b0e57114ab206713fa751189fc39",
+      "case_index": 367,
+      "diagnostic_fold": "FOLD_4",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|5f08215e6c113ee430210da1db9072f7dacafc0b0440a37534b50b52c538e378",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|de66e22ca3dafdaa0139724c0c9565a251ebfed97745a8612d3e4f04293b00dc",
+      "case_index": 368,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|1e3bae751bfdb7b2c072977c0fd91a5d6d73fb3f9d56b6a5c2a135289b01c1f7",
+      "case_index": 369,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|75c639a5c70a681aca5ff96c74bfe4a055307cae48b1ae911e25e4bd9e025cb9",
+      "case_index": 370,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|c6f8155a898a70eb9e149873ae8c2b7d340edd3f20a329b919407c013616a7ac",
+      "case_index": 371,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|4a176489d14e6650f9be2a6fdf8ff1998e33ce725f36c59f662a157277ad88f0",
+      "case_index": 372,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|bae97e9d63419e797b28a72e3aaad66b23657c90297ac3d02ada3b286d553fa2",
+      "case_index": 373,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|70390c6e01441745f1b83247e2f54aa29ad33eaf2ed622f51bae3362236db09c",
+      "case_index": 374,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|9cb568b5c9e2c925c79747feaab96071945d1d4bc0f56813b0a59189b4b89f95",
+      "case_index": 375,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|86e598c6105161370b6062a941829a4032e8f88b51fd3078cea7842d205ddc72",
+      "case_index": 376,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|b5c2a683d3f36b215802e8c1df670c9e05c4d8f2179b95127a92c2e2f92f7c7d",
+      "case_index": 377,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|c9bba09771a6886ef19e5386e28af1048db807303663dc9b8befd556e41abf1f",
+      "case_index": 378,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|b297f0af5328d8afd2b956c774c3496e68683b4658b8754e570f7b8733b3854b",
+      "case_index": 379,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|43d87c66a4a16f8f38c2b3ff554d8213453676a364933bfb62e28dd9cb94f588",
+      "case_index": 380,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|231b24dcdc9f9f0984f90a12f23b395042a16fb52bf8c251aeed50c89bef42e7",
+      "case_index": 381,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|56a1a0b10f3f4a2f4021faf10f4d84d37e507715df0248a737af705a60cd01f8",
+      "case_index": 382,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    },
+    {
+      "canonical_case_id": "DDO02B|F4|611e55a4d2b9cb2e1fb273980ab21a394f3baf9f00a295c5672c8c429d08792a",
+      "case_index": 383,
+      "diagnostic_fold": "FOLD_3",
+      "field_lineage_id": "DDO02B|FIELD_LINEAGE|e8cafb78fafa5ec6ef6e8c10e45861a1f5f674443aeb7f4f1b466fe97a87a945",
+      "formal_evidence": true,
+      "macro_family": "F4"
+    }
+  ],
+  "fold_count": 5,
+  "lineage_count": 223,
+  "schema_version": "1.0",
+  "selection_is_target_free": true,
+  "stage": "DDO-02B"
+}

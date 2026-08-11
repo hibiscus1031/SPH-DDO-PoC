@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "project": "SPH-DDO-PoC",
+  "stage": "DDO-01B",
+  "generated_date": "2026-08-10",
+  "terminal_status": "DDO01B_H1_UNRESOLVED_CONTRACT_GAP",
+  "execution_phase_reached": "CONTRACT_BINDING_AND_H1_SEMANTIC_PRECHECK_ONLY",
+  "hash_algorithm": "SHA-256",
+  "manifest_self_hash": null,
+  "manifest_self_hash_policy": "The manifest excludes its own recursively unstable hash.",
+  "frozen_bindings": {
+    "ddo00_contracts": [
+      {
+        "path": "00_project_contract/ddo_project_charter.md",
+        "sha256": "73695788de6a093db17dd016ef67906098a3cef40dc2b8bf96a68058f41c2db6"
+      },
+      {
+        "path": "02_defect_definitions/spatial_defect_definition.md",
+        "sha256": "f986d2e8adbfa5ee65d2c06dff7c3b372f23bcfe075646a009347de07902ab8e"
+      },
+      {
+        "path": "02_defect_definitions/operator_decomposition.md",
+        "sha256": "13c01a36aecfd977fa8d2666db0a1aa57c1bad53b1d1c768752ec207a1f4162b"
+      },
+      {
+        "path": "02_defect_definitions/dimensional_analysis.md",
+        "sha256": "b733fb6bcac458b795a3d30bd3b09ec3fc8cb35bf5e69ac19409e12cf9c10088"
+      },
+      {
+        "path": "03_field_design/analytical_field_family_spec.md",
+        "sha256": "028b6684621d701655cfe3b5d96e7536ec31218f7de6aa2df2129ab49e418165"
+      },
+      {
+        "path": "03_field_design/prospective_parameter_axes.json",
+        "sha256": "d680b1a89d1b5df4c58cff6b2faba2926e0f2f9a615ca9ffede593fa917faf27"
+      },
+      {
+        "path": "04_identifiability_contract/identifiability_metrics.md",
+        "sha256": "eae94ab070824918fed537e330e666645e99d4c35b69bccbd26dd87679e75ccc"
+      },
+      {
+        "path": "04_identifiability_contract/locality_ladder.md",
+        "sha256": "9519fc861f30826da944bdc1567166f60fdb729b3da68029d7962dd38f1aaa61"
+      },
+      {
+        "path": "04_identifiability_contract/prospective_gates.md",
+        "sha256": "cb83636e0595d89b9f87bbb79b55b1042634ab528e499db82784271057e3ca17"
+      },
+      {
+        "path": "05_representation_contract/representation_hypotheses.md",
+        "sha256": "c7a816a8a7375d198852f6a8060dec64ae3ff97fcd45f452afcf8fabffccc046"
+      },
+      {
+        "path": "05_representation_contract/conservation_claim_boundary.md",
+        "sha256": "a5059bf878f777f22b8a3da304133a313b35083ba36f2f278e28f0af879b0564"
+      },
+      {
+        "path": "06_manifests/ddo00_manifest.json",
+        "sha256": "f298c23395047058212914339a0db6c5e5985f180d2c4011c1eeab9ba2b4663f"
+      },
+      {
+        "path": "07_reports/ddo00_final_report.md",
+        "sha256": "2b4235b19118395ef2449261c799b7110b02b04cea70cd4a9f03b7bb93b2d290"
+      },
+      {
+        "path": "07_reports/ddo00_next_stage_decision.md",
+        "sha256": "060ca47f5e73a317d5790936fc716143f3c1f7bbe829bfe4b1848decad1944e0"
+      }
+    ],
+    "ca01": [
+      {
+        "path": "00_project_contract/amendments/ca01_numerical_qualification_contract.md",
+        "sha256": "8029eee814efac3cf8dc82de7e60495ee33352890ca60a0944de50991b3c2a70"
+      },
+      {
+        "path": "00_project_contract/amendments/ca01_change_record.md",
+        "sha256": "4384cb5d67c805e9bd0b7d09bc986f1ae168e333a2cee444f5228f14c463451e"
+      },
+      {
+        "path": "06_manifests/ca01_manifest.json",
+        "sha256": "3e0c0ae43034feed692bd4a371c7698c33c036f27c8bab0747a89ebcd472fb08"
+      },
+      {
+        "path": "07_reports/ca01_final_report.md",
+        "sha256": "28adb2da5f924eed7937b37e8f3bde3353d2215ad52e3446ceb0ef04735921e8"
+      }
+    ],
+    "ddo01ar_terminal_evidence": [
+      {
+        "path": "06_manifests/ddo01ar_case_registry.json",
+        "sha256": "403aedcc4cb9c4ac194d044850e7a698d11ff8331cffa5a9041907e9a60d83e7"
+      },
+      {
+        "path": "06_manifests/ddo01ar_manifest.json",
+        "sha256": "072d79df14381a9b940811b0f61dbb3eaeeb92203c85eb8d7dd7f4a683c7b6f1"
+      },
+      {
+        "path": "07_reports/ddo01ar_preflight_report.md",
+        "sha256": "a2ae88d2331956ff89d0530010c7809ca2c347ab2f070fd6c92cc8f66778d0bf"
+      },
+      {
+        "path": "07_reports/ddo01ar_next_stage_decision.md",
+        "sha256": "274b2440401a3d3b51fb9d21b273586ee04cc85b2dabe1b393f136cf7eb30542"
+      }
+    ],
+    "project_status_ledger": {
+      "path": "06_manifests/project_status_ledger.json",
+      "sha256": "39f97ec55b48b78b6a02d1ceb16469d7c457dcd155dba87848aff1e9276b1d46"
+    },
+    "all_observed_hashes_match": true
+  },
+  "verified_prerequisite_states": {
+    "ddo00": "DDO_SPATIAL_DEFECT_AND_IDENTIFIABILITY_CONTRACT_FROZEN",
+    "original_ddo01a": "DDO01_ANALYTICAL_PREFLIGHT_UNRESOLVED_CONTRACT_GAP",
+    "original_ddo01a_status_permanent": true,
+    "ca01": "DDO_CA01_NUMERICAL_QUALIFICATION_CONTRACT_FROZEN",
+    "ddo01ar": "DDO01_ANALYTICAL_PREFLIGHT_REQUALIFIED"
+  },
+  "h1_contract_precheck": {
+    "frozen_point_threshold": 10.0,
+    "frozen_group_bootstrap_95pct_lower_threshold": 5.0,
+    "case_component_U_num_rule_found": true,
+    "component_U_d_aggregation_rule_found": false,
+    "component_target_rms_aggregation_rule_found": false,
+    "bootstrap_statistic_found": false,
+    "bootstrap_stratification_and_resampling_rule_found": false,
+    "bootstrap_determinism_and_quantile_rule_found": false,
+    "case_component_classification_mapping_found": false,
+    "componentwise_aggregation_rule_complete": false,
+    "classification_unambiguous": false,
+    "stop_rule_triggered": "MANDATORY_H1_CONTRACT_SEMANTICS_INCOMPLETE"
+  },
+  "scientific_artifact_status": {
+    "ddo01b_case_registry_created": false,
+    "ddo01b_case_registry_sha256": null,
+    "ddo01b_excitation_mask_created": false,
+    "ddo01b_excitation_mask_sha256": null,
+    "ddo01b_pilot_dataset_created": false,
+    "ddo01b_target_evaluated": false,
+    "ddo01b_fresh_uncertainty_diagnostics_run": false,
+    "ddo01b_h1_evaluated": false,
+    "ddo01b_outcomes_inspected": false,
+    "historical_cases_used_as_formal_evidence": false
+  },
+  "controls": {
+    "reference_in_model_input": false,
+    "float32_in_primary_uncertainty": false,
+    "h2_h6_evaluated": false,
+    "f2_f3_f4_executed": false,
+    "balanced_atlas_created": false,
+    "identifiability_analysis_performed": false,
+    "locality_analysis_performed": false,
+    "pca_svd_target_geometry_performed": false,
+    "representation_r0_r4_evaluated": false,
+    "regression_performed": false,
+    "neural_training_performed": false,
+    "optimizer_created": false,
+    "time_integration_performed": false,
+    "rollout_performed": false,
+    "solver_in_the_loop_performed": false,
+    "high_resolution_sph_used_as_truth": false
+  },
+  "terminal_outputs": [
+    {
+      "path": "07_reports/ddo01b_signal_report.md",
+      "sha256": "c74226245937e7b39a18e911e09ee2eb59195d321d7622de3d7cc10d0baa62e4"
+    },
+    {
+      "path": "07_reports/ddo01b_component_h1_ledger.csv",
+      "sha256": "0fc6ff1422b1c433a75c44d1ba9428461c508ec82e7b532f7b1d8a4269020e12"
+    },
+    {
+      "path": "07_reports/ddo01b_uncertainty_report.md",
+      "sha256": "26395045f69e15b4e6965be2da940d2c72e240e2797af9983a975f1a6207efd9"
+    },
+    {
+      "path": "07_reports/ddo01b_firewall_audit.md",
+      "sha256": "fe38d6e54cc3568ffd0d5d1d3140d5228ee2a56d9c063709bbccae4eebad4f12"
+    },
+    {
+      "path": "07_reports/ddo01b_next_stage_decision.md",
+      "sha256": "42caefaa6b98eaebcbe87d1f6e9021357197aee6e08bd152784f18d05fa8b8b9"
+    }
+  ],
+  "authorization": {
+    "ddo01b_restart_authorized": false,
+    "ddo01c_authorized": false,
+    "eligible_h1_qualified_components": [],
+    "contract_repair_must_be_prospective": true
+  }
+}

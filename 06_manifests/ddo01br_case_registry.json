@@ -1,0 +1,572 @@
+{
+  "case_count": 24,
+  "cases": [
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,0|probe=density|layout=regular",
+      "case_index": 0,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=density|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 1660396741633795600,
+      "neighbor_permutation_sha256": "170aea0a134c661096edcd8aa5389f5340f48ef1ec895559fda77a7fe3a5a235",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=density|layout=regular|phase",
+      "phase_radians": 1.4536602716499558,
+      "phase_sha256": "3b3a3a042f566d689e3a6be21f236f754ddba9fe3c200c30d664d236d53c210d",
+      "probe": "density",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,0|probe=density|layout=jitter_0.05",
+      "case_index": 1,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 6893226145833880866,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=density|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "dfa9a8a862dd0d220b93a837d5319c6e137513803c183a03b2c35ca169bdc5c0",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=density|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 6262663893264229635,
+      "neighbor_permutation_sha256": "56e973a141ade503d882af8d169cc54a58eaa95a118f5bf2f213bcfd32338096",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=density|layout=jitter_0.05|phase",
+      "phase_radians": 4.401129430761652,
+      "phase_sha256": "b35171f42fa660fc5fe1bbd78c51a9189a88e96482cea30e656562ba55b648b3",
+      "probe": "density",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,0|probe=longitudinal|layout=regular",
+      "case_index": 2,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=longitudinal|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 1566907458623327734,
+      "neighbor_permutation_sha256": "95bec60823274df6364468e3b481db8fdaeee7a2e8088c66109b2a128e1e3702",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=longitudinal|layout=regular|phase",
+      "phase_radians": 5.538316865309515,
+      "phase_sha256": "e1a6bd8643d04e43006e1ba071cdacbc72595a47839f21c5400cac7510eceb85",
+      "probe": "longitudinal",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,0|probe=longitudinal|layout=jitter_0.05",
+      "case_index": 3,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 4439656427110459693,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=longitudinal|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "bd9cd3ff86b2e92daf5f3cad0d04ac44b0ec6f91a9eaa5bd982b50994bc2aa8b",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=longitudinal|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 2601603960271388678,
+      "neighbor_permutation_sha256": "241ac1049a39c006365a197f0e6119926edce07c5f2b52718c94f5c10ef576d4",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=longitudinal|layout=jitter_0.05|phase",
+      "phase_radians": 5.282304121476537,
+      "phase_sha256": "d7386e3879c2dfbe1541575a4bf5fa118a859c204e03f0ff19fb1a847175af45",
+      "probe": "longitudinal",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,0|probe=transverse|layout=regular",
+      "case_index": 4,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=transverse|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 7705758828965875451,
+      "neighbor_permutation_sha256": "6af05ad3fd574efbba35a11baa6d2a7dbe89c7d951132ddd73ccad128a3c80f9",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=transverse|layout=regular|phase",
+      "phase_radians": 3.7398688629800154,
+      "phase_sha256": "98603f49f1518a5a7249ddb69b65dc613f1a5f46d3b494b55b5799e369decab4",
+      "probe": "transverse",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,0|probe=transverse|layout=jitter_0.05",
+      "case_index": 5,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 8587397167186501468,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=transverse|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "f72c9039bf58df5c2691f4fcaccbf35eca49576e3280a034a904218151074c72",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=transverse|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 7428824984773229491,
+      "neighbor_permutation_sha256": "67187cf6cbf47bb3a39bcd9c0aac053c209a698b8f1f5b5bd8b9bb1547ba3909",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,0|probe=transverse|layout=jitter_0.05|phase",
+      "phase_radians": 2.5454780441958014,
+      "phase_sha256": "67b64c90c1243da0a728523e1fac52c1bc205af7f8dd838b6fa29a5a92b91cc4",
+      "probe": "transverse",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,1|probe=density|layout=regular",
+      "case_index": 6,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=density|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 7744210210901703459,
+      "neighbor_permutation_sha256": "eb78f627febfbb23ddc4cda5954588bcf92439bb8c96ff9e79cdbd3b0d39bced",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=density|layout=regular|phase",
+      "phase_radians": 4.588337609449714,
+      "phase_sha256": "baf218e670f26dc90c6c2b97d198f4798c25592e94af52695eb5179e890de67d",
+      "probe": "density",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,1|probe=density|layout=jitter_0.05",
+      "case_index": 7,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 3411089073446000655,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=density|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "af569f7087f7180fb1692c8ac26aad823c9904e836aa7acf887468c0b606d284",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=density|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 6977455761228966839,
+      "neighbor_permutation_sha256": "60d4e70bf40e2bb7b52e2dfa51a60f5e4c1a316e7883678c766314d71202f55f",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=density|layout=jitter_0.05|phase",
+      "phase_radians": 3.229601238732617,
+      "phase_sha256": "8395f67cc19959187997bc39ef3e4f05757aa152fce71aed29bef037d6c04ad4",
+      "probe": "density",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,1|probe=longitudinal|layout=regular",
+      "case_index": 8,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=longitudinal|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 3380796892584052463,
+      "neighbor_permutation_sha256": "2eeb00dc903786efea4d36ed625e1b84fb3f65dd05aa0bfdae4dd6217ebe1f28",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=longitudinal|layout=regular|phase",
+      "phase_radians": 4.5792959255628976,
+      "phase_sha256": "ba93ca014dadc3883b30ac40a3bff44297f33c7bd3597e435aaf92dd9c88af75",
+      "probe": "longitudinal",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,1|probe=longitudinal|layout=jitter_0.05",
+      "case_index": 9,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 5453366676115515677,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=longitudinal|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "4bae401947d1691d54716715ee3370eb805725dcc88e5a956a318e9049327211",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=longitudinal|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 2539237960216730447,
+      "neighbor_permutation_sha256": "a33d2f78aae7db4f9bc3340264fec66f2d213378131670c33fa198ee96ce6b68",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=longitudinal|layout=jitter_0.05|phase",
+      "phase_radians": 3.1351740396796703,
+      "phase_sha256": "7fbd0d2a69e8c8c2b1ee7a1184bdb46f0f9084979af6ebcd772a119399a54813",
+      "probe": "longitudinal",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,1|probe=transverse|layout=regular",
+      "case_index": 10,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=transverse|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 1369738224045214689,
+      "neighbor_permutation_sha256": "930249a8577d4be1fed7cc81d7a33a0f040e57a1d835775977e9ba8b97a77590",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=transverse|layout=regular|phase",
+      "phase_radians": 4.723165814259175,
+      "phase_sha256": "c070680d6ad12ab343b45f13e9b05c22f7d0b5079b52c245c4b3b1f704ac63b6",
+      "probe": "transverse",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=16|h_over_dx=4|mode=1,1|probe=transverse|layout=jitter_0.05",
+      "case_index": 11,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 1875984758551586323,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=transverse|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "9a08d632d183a613bcccad1b7a0019507d6a7d8d9dde54d46a044aa85fb1d226",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=transverse|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 168509991891907789,
+      "neighbor_permutation_sha256": "8256aaf1dfd234cdee23b4f7ae99b953c1507593d8ba553cf382ff98b81c9e58",
+      "phase_hash_input": "DDO01B-R|F1|N=16|h_over_dx=4|mode=1,1|probe=transverse|layout=jitter_0.05|phase",
+      "phase_radians": 1.7637432346308441,
+      "phase_sha256": "47dc825e39fbe360162398d4b24c59278e622b8d1185bfd5c6a96857020241fd",
+      "probe": "transverse",
+      "resolution_per_axis": 16,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,0|probe=density|layout=regular",
+      "case_index": 12,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=density|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 9008928989633688230,
+      "neighbor_permutation_sha256": "7d06252f49d5b2a621b8c4a0ae5af5aee3694a88351394bf45873ea7d15aa3ae",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=density|layout=regular|phase",
+      "phase_radians": 4.290364926831466,
+      "phase_sha256": "aece2123887335a58db77e99140786d3c69a5d8342f6b298df4dd42bca54791a",
+      "probe": "density",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,0|probe=density|layout=jitter_0.05",
+      "case_index": 13,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 4208897313413604469,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=density|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "ba6901ce8e1d24755f64b5c2aaa4b0040443abf2f1220d00d96b58691e6b5d3a",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=density|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 8434236350836140755,
+      "neighbor_permutation_sha256": "f50c6d464b466ad34ecd4c2795bb6a066f1587498bbcace3635615a7a396879e",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=density|layout=jitter_0.05|phase",
+      "phase_radians": 3.9390338634063347,
+      "phase_sha256": "a07d9d10582094012f4b026efc430a7d8439baedf9e85ef9586b01636be8e0f6",
+      "probe": "density",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,0|probe=longitudinal|layout=regular",
+      "case_index": 14,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=longitudinal|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 673702490863632030,
+      "neighbor_permutation_sha256": "095978d89438fe9e08efee875c0e4ef43a40a067d645b6410e359f3230c18832",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=longitudinal|layout=regular|phase",
+      "phase_radians": 1.9437862405419286,
+      "phase_sha256": "4f326d092d7f05d688c1828d2a5fc3e7be122a7e9d38f399d9969b97db7e8924",
+      "probe": "longitudinal",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,0|probe=longitudinal|layout=jitter_0.05",
+      "case_index": 15,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 3600677150436358610,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=longitudinal|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "31f82cca869ff9d270e9b7e4f6d65b809b2f75b2b5855798f42742c2e13ff57f",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=longitudinal|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 5569918992891322133,
+      "neighbor_permutation_sha256": "4d4c53d036fd1f15b71853d016eb2d2a627598af238f91885a63c31c3d4e78f7",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=longitudinal|layout=jitter_0.05|phase",
+      "phase_radians": 3.7298013350295705,
+      "phase_sha256": "97f73d356cc1ba0ead69390b98c7c5cfd38711d9cb5389441e5b23115c31ed4c",
+      "probe": "longitudinal",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,0|probe=transverse|layout=regular",
+      "case_index": 16,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=transverse|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 1117951190177019197,
+      "neighbor_permutation_sha256": "0f83c2af2eb9f53dd00a994e0ebb469d1f1416a0192b6bcad5dbeab7c9256aca",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=transverse|layout=regular|phase",
+      "phase_radians": 3.8350856054791245,
+      "phase_sha256": "9c4164d4c4bf4a9ad99aeeb45e317c5deec5dcd1d6d29f902ed391bc0cfabef1",
+      "probe": "transverse",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,0|probe=transverse|layout=jitter_0.05",
+      "case_index": 17,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 2314559580090403183,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=transverse|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "201ef7accec4096f3a3522e398d313313f78aa7392ef9673b1f1496cc6bc8c22",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        0
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=transverse|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 4534158068948219868,
+      "neighbor_permutation_sha256": "3eec90bd9f2137dcdeadc1b4359f6b5f29ac9c7667c5eaf72d723dec609565d7",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,0|probe=transverse|layout=jitter_0.05|phase",
+      "phase_radians": 4.203157427421958,
+      "phase_sha256": "ab4085b12ab47bc40c3ec09276e8cc7250d6da5b7205270c9c939a54e3df2d60",
+      "probe": "transverse",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,1|probe=density|layout=regular",
+      "case_index": 18,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=density|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 1116551204145193241,
+      "neighbor_permutation_sha256": "0f7ec967889be119635e95d42d5e815a07d0646a9c21cead05261846ef8d09aa",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=density|layout=regular|phase",
+      "phase_radians": 2.0705636698968473,
+      "phase_sha256": "545cc3319c90e99e7759b5aefa1ad84b58ae38057e546bf2e34d05b0f7ca7ad5",
+      "probe": "density",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,1|probe=density|layout=jitter_0.05",
+      "case_index": 19,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 6492518417225543153,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=density|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "5a1a0f1a0468edf11755c06abe50a7f4f52c8b3b3fc4c80858c8b99a82e980c9",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=density|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 3773975199424580856,
+      "neighbor_permutation_sha256": "345fda72d0d60cf8a272828ee8df4a0c88df723098ccd2a3ad1a6eaccf6e1019",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=density|layout=jitter_0.05|phase",
+      "phase_radians": 5.571049018827379,
+      "phase_sha256": "e2fc2629cdf6bd8da78595a2d4bc39673f33a16daea0799d34da208798580c0c",
+      "probe": "density",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,1|probe=longitudinal|layout=regular",
+      "case_index": 20,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=longitudinal|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 1563995354300675408,
+      "neighbor_permutation_sha256": "15b46d7d0373f5502c05fc4e6242ba4a136191252bd0efa94f637aa992ea0da5",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=longitudinal|layout=regular|phase",
+      "phase_radians": 3.506134441259481,
+      "phase_sha256": "8eda4f0b8c2c91614f1c8bc00b67a166488d8a70b22bbc886f61740590abe201",
+      "probe": "longitudinal",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,1|probe=longitudinal|layout=jitter_0.05",
+      "case_index": 21,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 614878871964309409,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=longitudinal|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "88887d13875357a12c4892a0ece8b86d9319ff8b0112879cf02617d041b74483",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=longitudinal|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 68294668596018685,
+      "neighbor_permutation_sha256": "80f2a1a3a5b7fdfdb83ccf61ee46448adfa7746f5c501140ce52edd72029e23d",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=longitudinal|layout=jitter_0.05|phase",
+      "phase_radians": 0.5098053085676507,
+      "phase_sha256": "14c576563dcaae05c0bdc940b6ee2fb3debc9359997bab065f2188fa2cffb785",
+      "probe": "longitudinal",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,1|probe=transverse|layout=regular",
+      "case_index": 22,
+      "jitter_fraction": 0.0,
+      "jitter_seed": null,
+      "jitter_seed_hash_input": null,
+      "jitter_seed_sha256": null,
+      "layout_class": "regular",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=transverse|layout=regular|neighbor_permutation",
+      "neighbor_permutation_seed": 8420314429470090953,
+      "neighbor_permutation_sha256": "f4daf75c61a926c9020db862253816c82d47e1d9c2802f3419c1130cba59d596",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=transverse|layout=regular|phase",
+      "phase_radians": 5.352478136278653,
+      "phase_sha256": "da145f403dfd13a147c60facb50bbe805e263f7054f7017e6e984de9906a9a00",
+      "probe": "transverse",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    },
+    {
+      "canonical_case_id": "F1|N=32|h_over_dx=4|mode=1,1|probe=transverse|layout=jitter_0.05",
+      "case_index": 23,
+      "jitter_fraction": 0.05,
+      "jitter_seed": 8651030686662017291,
+      "jitter_seed_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=transverse|layout=jitter_0.05|jitter_seed",
+      "jitter_seed_sha256": "780ea2930b7e410b423c6aeb545e74813a6229fd5b8650455fbab6280e07bcb5",
+      "layout_class": "jitter_0.05",
+      "mode_index": [
+        1,
+        1
+      ],
+      "neighbor_permutation_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=transverse|layout=jitter_0.05|neighbor_permutation",
+      "neighbor_permutation_seed": 4421943703887873550,
+      "neighbor_permutation_sha256": "3d5de65ec703060ea58319bda9448245e90552a98c79a8f4275e8441e828836a",
+      "phase_hash_input": "DDO01B-R|F1|N=32|h_over_dx=4|mode=1,1|probe=transverse|layout=jitter_0.05|phase",
+      "phase_radians": 1.2017061882295634,
+      "phase_sha256": "30f6400db813525205d7f83cfbcddecd6f1a9f00b276bc1777b903fb00b13939",
+      "probe": "transverse",
+      "resolution_per_axis": 32,
+      "support_over_dx": 4.0
+    }
+  ],
+  "generation_rule": "SHA-256 of DDO01B-R|canonical_case_id|field_name",
+  "historical_ddo01a_cases_used": false,
+  "historical_ddo01ar_cases_used": false,
+  "project": "SPH-DDO-PoC",
+  "registry_status": "FROZEN_BEFORE_TARGET_EVALUATION",
+  "schema_version": "1.0",
+  "scientific_axes": {
+    "density_amplitude": 0.01,
+    "family": "F1",
+    "kinematic_viscosity": 0.01,
+    "layout_classes": [
+      "regular",
+      "jitter_0.05"
+    ],
+    "mode_indices": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "probes": [
+      "density",
+      "longitudinal",
+      "transverse"
+    ],
+    "resolutions_per_axis": [
+      16,
+      32
+    ],
+    "support_over_dx": [
+      4.0
+    ],
+    "velocity_amplitude": 0.1
+  },
+  "stage": "DDO-01B-R"
+}

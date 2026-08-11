@@ -1,0 +1,344 @@
+{
+  "allowed_existing_observable_fields": [
+    "obs__anisotropy",
+    "obs__covariance_eigenvalue_ratio",
+    "obs__covariance_eigenvalues_over_h2",
+    "obs__covariance_over_h2",
+    "obs__delta_rho_over_rho0",
+    "obs__distance_over_h",
+    "obs__eps64",
+    "obs__first_moment_error",
+    "obs__first_moment_error_frobenius",
+    "obs__gradient_constant_times_h",
+    "obs__gradient_constant_times_h_norm",
+    "obs__kernel_volume",
+    "obs__mach",
+    "obs__neighbor_count",
+    "obs__neighbor_count_normalized",
+    "obs__neighbor_distance_cv",
+    "obs__pressure_acceleration_over_A0",
+    "obs__pressure_over_P0",
+    "obs__relative_position_over_h",
+    "obs__reynolds",
+    "obs__rho_over_rho0",
+    "obs__sph_divergence_normalized",
+    "obs__sph_vorticity_normalized",
+    "obs__strain_determinant_normalized",
+    "obs__strain_frobenius_normalized",
+    "obs__strain_trace_normalized",
+    "obs__support_count_completeness",
+    "obs__support_h_over_L0",
+    "obs__support_over_dx",
+    "obs__total_acceleration_over_A0",
+    "obs__velocity_difference_over_U0",
+    "obs__viscosity_acceleration_over_A0",
+    "obs__zeroth_moment_error"
+  ],
+  "content_ladder": {
+    "C0": [
+      "G"
+    ],
+    "C1": [
+      "G",
+      "C"
+    ],
+    "C2": [
+      "G",
+      "C",
+      "P"
+    ],
+    "C3": [
+      "G",
+      "C",
+      "P",
+      "EXPANDED"
+    ]
+  },
+  "descriptor_count": 30,
+  "descriptors": [
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "moment2_lambda_min",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "moment2_lambda_max",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "moment2_trace",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "moment2_det",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "moment2_anisotropy",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "moment3_frobenius",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "moment3_contraction_norm",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "moment4_frobenius",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "moment4_double_trace",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "moment_system_log10_condition",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "angular_harmonic_1",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "angular_harmonic_2",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "angular_harmonic_3",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "angular_harmonic_4",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "pressure_baseline_frame_x",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_FRAME_COMPONENT; reflection parity follows frozen frame rule",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "pressure_baseline_frame_y",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_FRAME_COMPONENT; reflection parity follows frozen frame rule",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "viscosity_baseline_frame_x",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_FRAME_COMPONENT; reflection parity follows frozen frame rule",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "viscosity_baseline_frame_y",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_FRAME_COMPONENT; reflection parity follows frozen frame rule",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "rho_hessian_trace",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "rho_hessian_det",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "rho_hessian_frobenius",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "pressure_hessian_frobenius",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "velocity_hessian_x_frobenius",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "velocity_hessian_y_frobenius",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "velocity_laplacian_frame_x",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_FRAME_COMPONENT; reflection parity follows frozen frame rule",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "velocity_laplacian_frame_y",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_FRAME_COMPONENT; reflection parity follows frozen frame rule",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "rho_quadratic_residual",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "velocity_quadratic_residual",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "quadratic_log10_condition",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    },
+    {
+      "complexity": "O(neighbors) moments plus O(neighbors*5^2+5^3) weighted quadratic solve",
+      "name": "quadratic_failure_flag",
+      "normalization": "dimensionless using h, rho0, U0, A0 already frozen in observable archive",
+      "reference_free": "True",
+      "rotation_behavior": "O2_INVARIANT_SCALAR",
+      "scope": "particle one-hop",
+      "source_fields": "obs__relative_position_over_h;obs__distance_over_h;obs__rho_over_rho0;obs__velocity_difference_over_U0;obs__pressure_acceleration_over_A0;obs__viscosity_acceleration_over_A0"
+    }
+  ],
+  "locality_ladder": {
+    "L0": "particle",
+    "L1": "one-hop",
+    "L2": "unique two-hop",
+    "L3": "case-global observable summary"
+  },
+  "prohibited_design_only_fields": [
+    "obs__jitter_fraction",
+    "obs__kh_max",
+    "obs__kh_rms",
+    "obs__mode_count"
+  ],
+  "schema_version": "1.0",
+  "stage": "CA-06"
+}

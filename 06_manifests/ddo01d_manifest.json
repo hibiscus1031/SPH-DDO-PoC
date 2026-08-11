@@ -1,0 +1,182 @@
+{
+  "authorization": {
+    "ddo01e_authorized": false,
+    "h3_h4_authorized": false,
+    "model_training_authorized": false
+  },
+  "controls": {
+    "conditional_target_variance_performed": false,
+    "empirical_h_power_target_normalization": false,
+    "h3_evaluated": false,
+    "h4_evaluated": false,
+    "h5_evaluated": false,
+    "h6_evaluated": false,
+    "model_fit": false,
+    "neural_training": false,
+    "optimizer_created": false,
+    "predictive_nearest_neighbor_performed": false,
+    "predictive_score_computed": false,
+    "regression_performed": false,
+    "rollout": false,
+    "solver_in_the_loop": false,
+    "target_pca_svd_performed": false,
+    "time_integration": false
+  },
+  "files": [
+    {
+      "path": "00_project_contract/amendments/ca04_atlas_design_and_descriptor_schema.md",
+      "role": "prospective_atlas_contract",
+      "sha256": "e54644782815028308489a77e748b60e40f45a0c4f56e488b7d6f93885d87624"
+    },
+    {
+      "path": "00_project_contract/amendments/ca04_change_record.md",
+      "role": "prospective_change_record",
+      "sha256": "98ba8246ad7f640c7222da1a126294ba0bbb6f6a91186a0327c52c94fdab2930"
+    },
+    {
+      "path": "06_manifests/ca04_manifest.json",
+      "role": "frozen_CA04_manifest",
+      "sha256": "a070527afdf604babf3401f665e9b53faed6f4ce77087583d879afd05e580a0f"
+    },
+    {
+      "path": "06_manifests/ddo01d_case_registry.json",
+      "role": "exact_target_free_registry",
+      "sha256": "b4365cd02cd56d917282a490712247a3a287ce405261c4e80c474cc09739d1df"
+    },
+    {
+      "path": "08_scripts/ddo01d_registry_builder.py",
+      "role": "registry_builder",
+      "sha256": "23b02753c3156b69b530e326b9da7440b50f1bb350c51ff1cd2e2abac5770ed0"
+    },
+    {
+      "path": "08_scripts/test_ddo01d_registry_builder.py",
+      "role": "registry_design_tests",
+      "sha256": "91548430173bc94386a8ea7aabd4ba687f3edb5b1f5987ecd37d565001ce44c1"
+    },
+    {
+      "path": "08_scripts/ddo01d_atlas_builder.py",
+      "role": "atlas_builder",
+      "sha256": "ce523095e21cca07f247ef91efde878c05ea7745a1899c04a6d73fd0e2ffc44a"
+    },
+    {
+      "path": "08_scripts/ddo01d_release_audit.py",
+      "role": "independent_release_audit_and_packager",
+      "sha256": "bb228eaa7977afd1dbf14cd61a69ec4e7156caa56553c484f800fdab5f1e1bd9"
+    },
+    {
+      "path": "data/atlas/ddo01d_observable_atlas.json",
+      "role": "observable_index_transitively_binding_512_archives",
+      "sha256": "99fdf8115e1c2d6280756bcc46edbefc7d52b5f245cc32e308d9100cc4290e53"
+    },
+    {
+      "path": "data/atlas/ddo01d_reference_target_atlas.json",
+      "role": "reference_index_transitively_binding_512_archives",
+      "sha256": "c7e7608b269d6f1c3661e3fffb8c5ced430f2a8dc8b3432666fc745d0de483bc"
+    },
+    {
+      "path": "data/atlas/ddo01d_case_metadata.json",
+      "role": "full_case_metadata",
+      "sha256": "b79a8f157f1094243397bf04a902907fa20d3205531d3034b40daf2ab94b1c6c"
+    },
+    {
+      "path": "data/atlas/ddo01d_case_metadata.csv",
+      "role": "tabular_case_metadata",
+      "sha256": "29f58e66c21466144a9ac428ea7cf712ccb48ddbefe7338d65b2b3ea9d03e4fe"
+    },
+    {
+      "path": "data/atlas/ddo01d_case_checkpoint.jsonl",
+      "role": "canonical_case_execution_ledger",
+      "sha256": "f058dcce8b89b96283f77bbe75c6706484b9c9ef75c9df8f4fbe4ab93ce0a949"
+    },
+    {
+      "path": "data/atlas/ddo01d_release_audit.json",
+      "role": "independent_release_audit",
+      "sha256": "4b53de764fb1151bbbfd483e9353082f425978e2b9c3f209c2960a77e41c7cc8"
+    },
+    {
+      "path": "07_reports/ca04_final_report.md",
+      "role": "CA04_final_report",
+      "sha256": "3c1480bcca3ca9d4677a98339ca74b54ad0b6af4156ba6b7e9e76b79d701b6ca"
+    },
+    {
+      "path": "07_reports/ddo01d_atlas_report.md",
+      "role": "atlas_report",
+      "sha256": "34287fad5e29fec9cafd9f66899a4ba1069095d9b8d19d495aacfd4f1c21fd9c"
+    },
+    {
+      "path": "07_reports/ddo01d_component_role_report.md",
+      "role": "component_role_report",
+      "sha256": "e41a20721070c72080874ce2077b91e15a220789b7ea736dfde883f5dbc107e0"
+    },
+    {
+      "path": "07_reports/ddo01d_balance_and_qc_report.md",
+      "role": "balance_and_QC_report",
+      "sha256": "120309e5d14f446235f0560a38706f430738974e2d68d457ec00c563ee560262"
+    },
+    {
+      "path": "07_reports/ddo01d_firewall_audit.md",
+      "role": "field_by_field_firewall_audit",
+      "sha256": "549b7a7cd9b29c5708dbb5130c23947825ae13f239a81857870e7fd25defde6a"
+    },
+    {
+      "path": "07_reports/ddo01d_next_stage_decision.md",
+      "role": "claim_boundary_and_next_stage_decision",
+      "sha256": "fe40493d4e479d4a8d79b86cb06216c30e3977aeedbbb7b391705eee3f4ffeb4"
+    }
+  ],
+  "float32_non_gating_protocol_counts": {
+    "INDEPENDENT_FLOAT32_REBUILD": 507,
+    "PRIMARY_TOPOLOGY_CAST_FLOAT32": 5
+  },
+  "generated_date": "2026-08-11",
+  "hash_algorithm": "SHA-256",
+  "manifest_self_hash": null,
+  "manifest_self_hash_policy": "The manifest excludes its own recursively unstable hash.",
+  "project": "SPH-DDO-PoC",
+  "release_gates": {
+    "all_archive_hashes_match": true,
+    "all_mandatory_cases_numerically_valid": true,
+    "all_mandatory_cases_valid_or_retained": true,
+    "archive_schemas_exact": true,
+    "component_closure_exact": true,
+    "deterministic_registry_replay": true,
+    "exact_case_count": true,
+    "exact_family_balance": true,
+    "identifier_alignment_exact": true,
+    "matched_disorder_support_blocks": true,
+    "no_missing_frozen_fields": true,
+    "normalization_observable_only_and_not_fitted": true,
+    "observable_descriptors_finite": true,
+    "reference_firewall": true,
+    "source_hash_audit": true,
+    "target_sign_valid": true,
+    "topology_valid": true,
+    "unique_canonical_ids": true,
+    "units_roles_valid": true
+  },
+  "release_summary": {
+    "family_counts": {
+      "F1": 128,
+      "F2": 128,
+      "F3": 128,
+      "F4": 128
+    },
+    "fresh_case_count": 512,
+    "fresh_data_role": "DEVELOPMENT_ATLAS",
+    "historical_h2_anchor_count": 204,
+    "historical_h2_anchors_count_toward_fresh_quota": false,
+    "mandatory_invalid_retained": 0,
+    "mandatory_valid": 512,
+    "observable_archive_count": 512,
+    "reference_archive_count": 512,
+    "reference_in_model_input": false
+  },
+  "schema_version": "1.0",
+  "stage": "DDO-01D",
+  "terminal_status": "DDO01D_MECHANISM_STRATIFIED_ANALYTICAL_ATLAS_QUALIFIED",
+  "upstream_bindings": {
+    "ca04_manifest_sha256": "a070527afdf604babf3401f665e9b53faed6f4ce77087583d879afd05e580a0f",
+    "case_registry_sha256": "b4365cd02cd56d917282a490712247a3a287ce405261c4e80c474cc09739d1df",
+    "ddo01cr_historical_anchor_manifest_sha256": "44bc51a9835be9c3bd9cd2732a9f1b9aee28cbc98cb2ca3931b83ad70f584fef"
+  }
+}

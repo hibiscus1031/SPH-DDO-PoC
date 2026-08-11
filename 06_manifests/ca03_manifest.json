@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "project": "SPH-DDO-PoC",
+  "stage": "CA-03",
+  "generated_date": "2026-08-10",
+  "terminal_status": "DDO_CA03_H2_SCALING_SEMANTICS_AND_DESIGN_FROZEN",
+  "prospective_only": true,
+  "real_ddo01cr_target_observed_before_freeze": false,
+  "ddo01cr_registry_created_before_freeze": false,
+  "original_ddo01c_status": "DDO01C_H2_UNRESOLVED_CONTRACT_GAP",
+  "original_ddo01c_status_preserved": true,
+  "hash_algorithm": "SHA-256",
+  "manifest_self_hash": null,
+  "manifest_self_hash_policy": "The manifest excludes its own recursively unstable hash.",
+  "upstream_bindings": [
+    {
+      "path": "04_identifiability_contract/prospective_gates.md",
+      "sha256": "cb83636e0595d89b9f87bbb79b55b1042634ab528e499db82784271057e3ca17",
+      "role": "unchanged_DDO00_H2_qualitative_thresholds"
+    },
+    {
+      "path": "03_field_design/prospective_parameter_axes.json",
+      "sha256": "d680b1a89d1b5df4c58cff6b2faba2926e0f2f9a615ca9ffede593fa917faf27",
+      "role": "authorized_finite_axis_pools"
+    },
+    {
+      "path": "02_defect_definitions/dimensional_analysis.md",
+      "sha256": "b733fb6bcac458b795a3d30bd3b09ec3fc8cb35bf5e69ac19409e12cf9c10088",
+      "role": "component_scales"
+    },
+    {
+      "path": "00_project_contract/amendments/ca01_numerical_qualification_contract.md",
+      "sha256": "8029eee814efac3cf8dc82de7e60495ee33352890ca60a0944de50991b3c2a70",
+      "role": "unchanged_U_num_and_U_round"
+    },
+    {
+      "path": "00_project_contract/amendments/ca02_h1_signal_semantics_contract.md",
+      "sha256": "284fe579ff8445a9a3efdbd1bcc36060f15071cfd131ec18719e698640f11756",
+      "role": "unchanged_case_RMS"
+    },
+    {
+      "path": "06_manifests/ddo01c_manifest.json",
+      "sha256": "9f98bcea9ef05ae7e52d05edeac2c02be802671555cfd07f4486aaf7c62d8c40",
+      "role": "permanent_stopped_DDO01C_terminal_evidence"
+    }
+  ],
+  "frozen_design": {
+    "formal_families": ["REFINEMENT_H", "SPECTRAL_KH"],
+    "diagnostic_families": ["SUPPORT_RATIO_HDX", "REGULAR_VS_DISORDER"],
+    "formal_support_over_dx": 4.0,
+    "refinement_resolutions": [16, 24, 32, 48, 64],
+    "spectral_modes": [[1, 0], [2, 0], [3, 0]],
+    "support_ratio_values": [2.0, 3.0, 4.0, 5.0],
+    "phase_pool": [0.0, 0.7853981633974483, 1.5707963267948966],
+    "jitter_seed_pool": [20260811, 20260817, 20260823],
+    "jitter_fraction": 0.05,
+    "replicates_per_track_level": 3,
+    "track_templates": ["D005", "D010", "V050", "V100"],
+    "unique_field_numerical_configurations": 34,
+    "expected_unique_registry_cases": 204,
+    "minimum_formal_levels": 3,
+    "minimum_independent_tracks": 2,
+    "monotonicity_threshold": 0.75,
+    "track_weighting": "equal",
+    "dispersion_gate": "D_t < C_t for every mandatory track",
+    "h2_bootstrap_used": false,
+    "support_ratio_has_expected_sign": false,
+    "relative_effect_is_h2_gate": false
+  },
+  "synthetic_qualification": {
+    "command": "python3 08_scripts/test_h2_scaling_semantics.py",
+    "python": "3.13.9",
+    "tests_run": 14,
+    "tests_passed": 14,
+    "tests_failed": 0,
+    "tests_errored": 0,
+    "historical_target_values_used": false,
+    "real_sph_target_values_used": false
+  },
+  "files": [
+    {
+      "path": "00_project_contract/amendments/ca03_h2_scaling_semantics_and_design.md",
+      "sha256": "17afe22369d020041142e8b72a27696fbfcbca7a70bcd30781dcd099277a1355",
+      "role": "prospective_H2_semantics_and_exact_numeric_design"
+    },
+    {
+      "path": "00_project_contract/amendments/ca03_change_record.md",
+      "sha256": "496df85147aea22bb8037e1b638c6d28e408e080a54b153b7f32b090aebe24eb",
+      "role": "prospective_change_record"
+    },
+    {
+      "path": "08_scripts/h2_scaling_semantics.py",
+      "sha256": "c3158b01784ae5ed9ed63633de4790598a04477bab4a7791b6a404d11d2bd1d1",
+      "role": "normative_pure_deterministic_implementation"
+    },
+    {
+      "path": "08_scripts/test_h2_scaling_semantics.py",
+      "sha256": "ec1fcbae6f4eb8ec461c301309c9ed5ee1407001cd817b65fa17f08ad03804e3",
+      "role": "synthetic_only_unit_tests"
+    },
+    {
+      "path": "06_manifests/ca03_synthetic_expected_outputs.json",
+      "sha256": "3e2a05c7e147dc523ef3e1ce314d71c74dd923c8598da65a4afbcdeddc1149c4",
+      "role": "synthetic_expected_outputs"
+    },
+    {
+      "path": "07_reports/ca03_final_report.md",
+      "sha256": "c0b018f86b3731b9146dc178361405764906f6329bc49d425d23bb954afe46f1",
+      "role": "CA03_final_report"
+    }
+  ],
+  "controls": {
+    "ddo01cr_executed_during_ca03": false,
+    "real_h2_result_created": false,
+    "h3_h6_evaluated": false,
+    "model_fit": false,
+    "neural_training": false,
+    "optimizer_created": false,
+    "time_integration": false,
+    "rollout": false,
+    "high_resolution_sph_used_as_truth": false
+  },
+  "authorization": {
+    "ddo01cr_registry_creation_authorized": true,
+    "ddo01cr_target_execution_authorized_only_after_registry_hash_freeze": true,
+    "ddo01d_authorized": false,
+    "h3_h6_authorized": false
+  }
+}

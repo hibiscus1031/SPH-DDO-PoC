@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0",
+  "project": "SPH-DDO-PoC",
+  "stage": "DDO-01A",
+  "generated_date": "2026-08-10",
+  "terminal_status": "DDO01_ANALYTICAL_PREFLIGHT_UNRESOLVED_CONTRACT_GAP",
+  "root": "/Users/xiejinbo/Documents/SPH-DDO-PoC",
+  "hash_algorithm": "SHA-256",
+  "manifest_self_hash": null,
+  "manifest_self_hash_policy": "The manifest excludes its own recursively unstable hash.",
+  "authorization": {
+    "ddo01_analytical_preflight_pass": false,
+    "atlas_expansion_authorized": false,
+    "ddo01b_executed": false,
+    "ddo01c_executed": false,
+    "ddo01d_executed": false,
+    "ddo01e_executed": false,
+    "ddo01f_executed": false,
+    "ddo01z_executed": false
+  },
+  "git_state": {
+    "scientific_root_is_git_worktree": false,
+    "scientific_root_observation": "fatal: not a git repository (or any of the parent directories): .git",
+    "historical_root": "/Users/xiejinbo/Documents/SPH-PIO-PoC",
+    "historical_head_observed": "ff86f5e0b99966ad6fa5896fe3d9a0c3f001cd57",
+    "historical_branch_observed": "main",
+    "historical_worktree_observation": "Previously documented untracked project directories remain present; no historical file was modified by DDO-01A."
+  },
+  "environment": {
+    "python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+    "python_executable": "/opt/miniconda3/bin/python3",
+    "pytorch_version": "2.10.0",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.17.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "device": "cpu",
+    "primary_dtype": "torch.float64",
+    "before_script_configuration": {
+      "torch_num_threads": 4,
+      "torch_num_interop_threads": 8,
+      "torch_deterministic_algorithms": false,
+      "torch_default_dtype": "torch.float32"
+    },
+    "during_preflight": {
+      "torch_num_threads": 1,
+      "torch_num_interop_threads": 1,
+      "torch_deterministic_algorithms": true,
+      "torch_default_dtype": "torch.float64"
+    },
+    "thread_environment": {
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null,
+      "NUMEXPR_NUM_THREADS": null,
+      "PYTHONHASHSEED": null
+    }
+  },
+  "frozen_contract_hashes": {
+    "00_project_contract/ddo_project_charter.md": "73695788de6a093db17dd016ef67906098a3cef40dc2b8bf96a68058f41c2db6",
+    "02_defect_definitions/spatial_defect_definition.md": "f986d2e8adbfa5ee65d2c06dff7c3b372f23bcfe075646a009347de07902ab8e",
+    "02_defect_definitions/operator_decomposition.md": "13c01a36aecfd977fa8d2666db0a1aa57c1bad53b1d1c768752ec207a1f4162b",
+    "02_defect_definitions/dimensional_analysis.md": "b733fb6bcac458b795a3d30bd3b09ec3fc8cb35bf5e69ac19409e12cf9c10088",
+    "03_field_design/analytical_field_family_spec.md": "028b6684621d701655cfe3b5d96e7536ec31218f7de6aa2df2129ab49e418165",
+    "03_field_design/prospective_parameter_axes.json": "d680b1a89d1b5df4c58cff6b2faba2926e0f2f9a615ca9ffede593fa917faf27",
+    "04_identifiability_contract/identifiability_metrics.md": "eae94ab070824918fed537e330e666645e99d4c35b69bccbd26dd87679e75ccc",
+    "04_identifiability_contract/locality_ladder.md": "9519fc861f30826da944bdc1567166f60fdb729b3da68029d7962dd38f1aaa61",
+    "04_identifiability_contract/prospective_gates.md": "cb83636e0595d89b9f87bbb79b55b1042634ab528e499db82784271057e3ca17",
+    "05_representation_contract/representation_hypotheses.md": "c7a816a8a7375d198852f6a8060dec64ae3ff97fcd45f452afcf8fabffccc046",
+    "05_representation_contract/conservation_claim_boundary.md": "a5059bf878f777f22b8a3da304133a313b35083ba36f2f278e28f0af879b0564",
+    "06_manifests/inherited_artifact_manifest.csv": "94e250bd78aa6cb798ce9e8fbe84a80cf546b7f58ad883a53e1307048457dc2a",
+    "06_manifests/ddo00_manifest.json": "f298c23395047058212914339a0db6c5e5985f180d2c4011c1eeab9ba2b4663f",
+    "06_manifests/project_status_ledger.json": "39f97ec55b48b78b6a02d1ceb16469d7c457dcd155dba87848aff1e9276b1d46"
+  },
+  "imported_source_hash_audit": [
+    {
+      "path": "01_imported_baseline/structure_preserving/__init__.py",
+      "expected_sha256": "18afa8e375e06bd03ce68f17528c7a27722e1dbdab17536d1b060994446ad93a",
+      "observed_sha256": "18afa8e375e06bd03ce68f17528c7a27722e1dbdab17536d1b060994446ad93a",
+      "match": true
+    },
+    {
+      "path": "01_imported_baseline/structure_preserving/neighborhood.py",
+      "expected_sha256": "44d61e0abbc9901472dae90f83127f5231fc3f6e8ac92a971228dfdcb230aaa8",
+      "observed_sha256": "44d61e0abbc9901472dae90f83127f5231fc3f6e8ac92a971228dfdcb230aaa8",
+      "match": true
+    },
+    {
+      "path": "01_imported_baseline/structure_preserving/kernels.py",
+      "expected_sha256": "bad08e0f49b308c568cd438c9981abd2c906e16c6570ebc0ca7d19d9847b333b",
+      "observed_sha256": "bad08e0f49b308c568cd438c9981abd2c906e16c6570ebc0ca7d19d9847b333b",
+      "match": true
+    },
+    {
+      "path": "01_imported_baseline/structure_preserving/conservative_pressure.py",
+      "expected_sha256": "b6366666ba89cc1f367a95390a411905eee8b7f55fba28a024f5732860004064",
+      "observed_sha256": "b6366666ba89cc1f367a95390a411905eee8b7f55fba28a024f5732860004064",
+      "match": true
+    },
+    {
+      "path": "01_imported_baseline/structure_preserving/conservative_viscosity.py",
+      "expected_sha256": "bdfbcb457f6973130f0131ec3c0a3fecc7197dd117c8256163cf3a1445307852",
+      "observed_sha256": "bdfbcb457f6973130f0131ec3c0a3fecc7197dd117c8256163cf3a1445307852",
+      "match": true
+    }
+  ],
+  "preflight_matrix": {
+    "case_count": 24,
+    "domain": [[0.0, 1.0], [0.0, 1.0]],
+    "resolutions_per_axis": [16, 32],
+    "support_over_dx": [4.0],
+    "mode_indices": [[1, 0], [1, 1]],
+    "probes": ["density", "longitudinal", "transverse"],
+    "jitter_fractions": [0.0, 0.05],
+    "seeds": [20260811],
+    "primary_dtypes": ["float64"],
+    "diagnostic_dtypes": ["float32"],
+    "rho0": 1.0,
+    "c0": 10.0,
+    "kinematic_viscosity": 0.01,
+    "density_amplitude": 0.01,
+    "velocity_amplitude": 0.1
+  },
+  "evaluators": {
+    "A": "frozen closed-form single-mode derivative expressions",
+    "B": "independent PyTorch automatic differentiation from separately constructed field values",
+    "B_calls_A": false,
+    "B_reuses_A_derivative_expressions": false
+  },
+  "aggregate_diagnostics": {
+    "derivative_a_vs_b_linf_max": 1.7763568394002505e-15,
+    "continuum_a_vs_b_linf_max": 1.7763568394002505e-15,
+    "deterministic_repeat_linf_max": 0.0,
+    "neighbor_order_linf_max": 2.4868995751603507e-14,
+    "float32_vs_float64_operator_linf_max": 0.00010730433520755867,
+    "float32_vs_float64_target_linf_max": 0.00010730433520755867,
+    "component_closure_linf_max": 0.0,
+    "positive_correction_identity_linf_max": 2.220446049250313e-16,
+    "minimum_image_linf_max": 1.1102230246251565e-16,
+    "all_permuted_topology_keys_equal": true,
+    "all_float32_topology_keys_equal": true,
+    "topology_failure_counts_max": {
+      "duplicate_edge_count": 0,
+      "missing_self_edge_count": 0,
+      "nonreciprocal_nonself_edge_count": 0,
+      "out_of_bounds_edge_count": 0,
+      "omitted_strict_support_edge_count": 0,
+      "unexpected_edge_count": 0
+    }
+  },
+  "target_rms_ranges": {
+    "interpolation_density": [0.00041575045503263494, 0.01248832768428499],
+    "density_sum": [0.00041575045503263494, 0.012488327684285006],
+    "density_rate": [0.0, 0.07856793145274531],
+    "pressure": [0.0, 0.5976740286302784],
+    "viscosity": [0.0, 0.0030033631731009713],
+    "total_acceleration": [0.0002007999120178327, 0.5976740286302784]
+  },
+  "gate_assessment": {
+    "source_hashes": "PASS",
+    "environment_bound": "PASS",
+    "git_state_bound": "PASS_WITH_NO_PROJECT_GIT_WORKTREE",
+    "two_independent_derivative_paths_executed": "PASS",
+    "derivative_numeric_gate": "UNRESOLVED_MISSING_FROZEN_TOLERANCE",
+    "topology_audit": "PASS_OBSERVED_ZERO_STRUCTURAL_FAILURES",
+    "sign_identity": "MEASURED_NOT_GATE_QUALIFIED",
+    "dimensions_and_component_pairing": "PASS_BY_FORMULA_AUDIT",
+    "component_closure_numeric_gate": "UNRESOLVED_MISSING_FROZEN_TOLERANCE",
+    "uncertainty_upper_bound": "UNRESOLVED_MISSING_FROZEN_COMBINATION_AND_CONFIDENCE_RULE",
+    "mandatory_preflight": "UNRESOLVED",
+    "atlas_expansion": "STOPPED"
+  },
+  "contract_gaps": [
+    "No numerical absolute/relative or dtype-scaled tolerance is frozen for the A-vs-B derivative cross-check.",
+    "No numerical multiplier or construction rule is frozen for dtype/accumulation-based component closure tolerance.",
+    "No unique procedure is frozen for combining derivative, dtype, accumulation-order, topology, and identity diagnostics into the conservative uncertainty upper confidence bound."
+  ],
+  "controls": {
+    "reference_in_model_input": false,
+    "high_resolution_sph_is_truth": false,
+    "historical_repository_modified": false,
+    "neural_training_performed": false,
+    "optimizer_created": false,
+    "diagnostic_model_fit_performed": false,
+    "time_integration_performed": false,
+    "dynamic_rollout_performed": false,
+    "large_parameter_sweep_performed": false,
+    "pilot_dataset_created": false,
+    "atlas_dataset_created": false,
+    "lcdf_03_accessed": false,
+    "lcdf_10_accessed": false,
+    "stage09_created": false
+  },
+  "outputs": [
+    {
+      "path": "08_scripts/ddo01a_preflight.py",
+      "sha256": "8ea2720fae9277ac6356d166d0443b6f666c6e23534aed37267d06273da7a3c2",
+      "role": "deterministic_static_preflight_implementation"
+    },
+    {
+      "path": "07_reports/ddo01a_preflight_report.md",
+      "sha256": "9514ab7ed7b97e09d4cc4975d9be19e6168180d141206c4558827370279fd2dd",
+      "role": "preflight_report"
+    }
+  ]
+}
