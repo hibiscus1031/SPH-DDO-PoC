@@ -1,8 +1,8 @@
 # 1 Executive status
 
-**GIT_MIGRATION_COMPLETE_LOCAL_ONLY**
+**PRIVATE_REMOTE_CLOSURE_COMPLETE**
 
-The project was initialized as an independent `main` repository after large-file, secret, environment, and historical-source audits. No scientific artifact was deleted, regenerated, or rewritten. The repository remains local because GitHub CLI is not installed.
+The project was initialized as an independent `main` repository after large-file, secret, environment, and historical-source audits. No scientific artifact was deleted, regenerated, or rewritten. The audited `main` branch is published only to a verified private GitHub repository.
 
 # 2 Repository identity
 
@@ -12,8 +12,8 @@ The project was initialized as an independent `main` repository after large-file
 | Repository name | `SPH-DDO-PoC` |
 | Branch | `main` |
 | Audited baseline commit | `2ca6e59fc134b710dd6f61bc882fb57e3c87e5a3` |
-| Remote | none |
-| Visibility | LOCAL ONLY / NOT PUBLISHED |
+| Remote | `https://github.com/hibiscus1031/SPH-DDO-PoC.git` (`origin`) |
+| Visibility | `PRIVATE`, verified through GitHub CLI |
 
 # 3 What is tracked
 
@@ -62,14 +62,14 @@ No pre-migration Git repository or independently verified Stage00–Stage08 hist
 | Code | PARTIAL | Solver import, operators, analysis, qualification, publication, and tests are versioned; historical run commits are unavailable. |
 | Data | PARTIAL | Strong manifests/hashes exist, but the 633 MiB payload is external to Git. |
 | Figures | PARTIAL | Generation script and all audited exports are tracked; external frozen data are required. |
-| Tables | NOT YET CLOSED | Row/claim maps exist; no verified single end-to-end table build command. |
-| Environment | NOT YET CLOSED | No project-scoped dependency definition or lockfile existed at migration time. |
+| Tables | PARTIAL | Per-table sources, hashes, and manual steps are closed; no verified single end-to-end presentation builder exists. |
+| Environment | PARTIAL | The exact current dependency set is specified and tested; the historical run environment remains unknown. |
 
 Validation: 52 tests collected and 52/52 bounded registry/H1–H4 semantic tests passed. No atlas rebuild, formal evaluation, training, optimizer, time integration, or rollout was run.
 
 # 10 GitHub status
 
-Local only. `gh` was not installed and no remote was created. After setting a deliberate Git author identity, installing/authenticating GitHub CLI, and repeating the secret/large-file audit, the intended private-only command is:
+GitHub CLI is authenticated as `hibiscus1031`. The repository was confirmed absent, created with private visibility, and pushed through the ordinary non-force workflow:
 
 ```bash
 gh repo create SPH-DDO-PoC --private --source=. --remote=origin
@@ -80,7 +80,7 @@ Do not use `--public`, force push, or overwrite an existing remote repository.
 
 # 11 Remaining actions
 
-1. Repeat the pre-push audit and create a private remote only if every gate remains satisfied.
+No remaining action is required for the requested private-remote closure. Any future public release or external-data deposit requires a separate authorization and review.
 
 # 12 Remote and reproducibility closure update
 
@@ -90,4 +90,4 @@ Do not use `--public`, force push, or overwrite an existing remote repository.
 
 External-data handling and the read-only checker are documented in `DATA_RETRIEVAL_AND_INTEGRITY.md`. The final checksum ledger passed quick verification for 42/42 entries and the inherited checksum ledger passed full SHA256 verification for 5/5 entries. The intended index has zero secret signatures, zero files over 100 MiB, zero numerical binaries, zero literature PDFs, zero cache paths, and no executable/configuration host-path dependency.
 
-The publishing identity is resolved from authenticated GitHub account `hibiscus1031` and its primary verified email. The pre-closure local HEAD is `56e2a45d81972d1472c0526a15e36213ec072307`; no history was amended. Remote creation, push, and audited-state tag are pending the final commit and pre-push gate. Current status: **REPRODUCIBILITY_CLOSURE_PARTIAL** and **PRIVATE_REMOTE_CLOSURE_IN_PROGRESS**.
+The publishing identity is resolved from authenticated GitHub account `hibiscus1031` and its primary verified email. No history was amended. `origin/main` was created and pushed privately without force; the annotated tag `repo-audited-2026-08-12` identifies the final closure-report state and carries the historical-state disclaimer. Current status: **REPRODUCIBILITY_CLOSURE_PARTIAL** and **PRIVATE_REMOTE_CLOSURE_COMPLETE**.

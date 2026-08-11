@@ -5,22 +5,22 @@ Audit date: 2026-08-12 (Asia/Shanghai)
 ## Executive status
 
 - `REPRODUCIBILITY_CLOSURE_PARTIAL`
-- `PRIVATE_REMOTE_CLOSURE_IN_PROGRESS`
+- `PRIVATE_REMOTE_CLOSURE_COMPLETE`
 
-No scientific recomputation, atlas build, training, formal evaluation, frozen-data change, source refactor, history rewrite, force operation, remote upload, or historical Stage reconstruction was performed.
+No scientific recomputation, atlas build, training, formal evaluation, frozen-data change, source refactor, history rewrite, force operation, external-data upload, or historical Stage reconstruction was performed. Only the audited Git repository was pushed to its private remote.
 
 ## Repository and identity
 
 | Item | Result |
 |---|---|
-| Local HEAD | `56e2a45d81972d1472c0526a15e36213ec072307` on `main` |
-| Closure commit | Pending final local commit |
+| Local branch | `main`; final audited target is resolved by `repo-audited-2026-08-12` |
+| Initial closure commit | `2fc3a51f0d68622416a2b87c1d234579a9b1a457` |
 | Global identity | `user.name` and `user.email` unset |
 | Local identity | `hibiscus1031 <2623839613@qq.com>`; email is primary and verified by authenticated GitHub API |
 | Historical HEAD identity | `谢槿博 <xiejinbo@Jinbo-Mac.local>`; not accepted for future publishing |
-| Remote | None |
-| Private visibility | Not applicable; repository was not created remotely |
-| Tag | None; tag creation requires a successful first private push |
+| Remote | `https://github.com/hibiscus1031/SPH-DDO-PoC.git` (`origin`) |
+| Private visibility | `PRIVATE`, verified through GitHub CLI before and after push |
+| Tag | `repo-audited-2026-08-12`; annotated tag targeting the final closure-report commit |
 
 The identity resolution is recorded in `git_migration/git_identity_action_required.md`. The GitHub profile name is unset, so the authenticated account login is used as the repository-local author name; no email was inferred or guessed.
 
@@ -57,7 +57,7 @@ No `scripts/build_publication_tables.py` was invented because the current reposi
 
 ## Security, size, and portability
 
-The intended index contains 299 files and 28,933,129 apparent bytes.
+The intended index contains 299 files and 28,933,028 apparent bytes.
 
 - Secret/token/private-key signature audit: **PASS**, zero findings.
 - Files over 100 MiB and over 10 MiB: zero.
@@ -65,6 +65,8 @@ The intended index contains 299 files and 28,933,129 apparent bytes.
 - Absolute host-path occurrences in tracked historical/research text: 19, retained without mechanical replacement.
 - Executable/configuration host-path dependencies: zero.
 
-## Remote and tag gate
+## Remote and tag closure
 
-GitHub CLI is authenticated as `hibiscus1031`, the verified identity is configured locally, and `hibiscus1031/SPH-DDO-PoC` was confirmed absent before creation. Remote creation remains gated on the final local commit and repeated pre-push audit. No alternative upload method is authorized.
+GitHub CLI is authenticated as `hibiscus1031`, the verified identity is configured locally, and `hibiscus1031/SPH-DDO-PoC` was confirmed absent before creation. All pre-push gates passed. The repository was created with `--private`, `main` was pushed without force or mirror, and remote visibility was verified as `PRIVATE`.
+
+The annotated tag `repo-audited-2026-08-12` targets the final closure-report commit. Its message states: “This tag identifies the audited repository state after Git migration. It does not reconstruct or assert historical experiment code states.” The tag is not a Stage tag and makes no historical-state claim.
